@@ -1,0 +1,103 @@
+\documentclass{article}
+\usepackage[top=1.2in, bottom=1in, left=1in, right = 1in]{geometry}
+%\usepackage[font=footnotesize,width = 0.8\textwidth]{caption}
+\usepackage{titling}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{indentfirst}
+\usepackage{lastpage}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\hypersetup{
+    pdftitle={CFA II Notes},
+    pdfauthor={Runmin Zhang},
+    %pdfsubject={Your subject here},
+    %pdfkeywords={keyword1, keyword2},
+    bookmarksnumbered=true,     
+    bookmarksopen=true,         
+    bookmarksopenlevel=1,       
+    colorlinks=true,            
+    pdfstartview=Fit,           
+    pdfpagemode=UseOutlines,    % this is the option you were lookin for
+    pdfpagelayout=TwoPageRight
+}
+
+\setlength\parindent{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{CFA II Notes}
+\fancyhead[R]{Runmin Zhang}
+\fancyfoot[R]{\thepage}
+\begin{document}
+\tableofcontents
+
+\section{Reading 9: Correlation and Regressions}
+\subsection{Sample covar and sample correlation coefficients}
+Sample covariance: $cov_{x,y}=\sum_i \frac{(X_i-\bar X)(Y_i-\bar Y)}{n-1}$
+\\Sample correlation coeff: 
+$r_{x,y}=\frac{cov_{x,y}}{s_x s_y}$, where $s_x$ is the sample dev of X.
+\subsection{Limtations to correlations analysis}
+Outliers: The results will be affected by extreme data points.(outliers)\\
+Spurious correlation: There might be some non-zero corrlation coeff, but 
+acutally they have no correlation at all.\\
+Nonlinear relationships: Correlation only describe the linear relastions.
+\subsection{Hypothesis: determine if the population 
+correlation coefficient is zero}
+Two-tailed hypothesis test:
+$$
+H_0: \rho=0, H_a: \rho \neq 0
+$$
+Assume that the two populations are {\bf normally} distrubited, then we 
+can use t-test:
+$$
+t=\frac{r\sqrt{n-2}}{1-r^2}
+$$:
+Reject $H_0$ if  $t>+t_{critical}$ or $t<-t_{critical}$. Here,$r$ is the
+sample correlation. Remember, you need to check t-table to find the t-value.
+\subsection{Determine dependent/indepedent variables in a linear regression}
+{\bf Simple linear regression}: Explain the variation in a dependent variable 
+in terms of the variabltion in a single indepedent variable.
+{\bf Independent variables} are called explanatory variable, the exogenous 
+variable, or the predicting variable. 
+{\bf Dependent variable} is also called the explained variable, the endogenous 
+variable, or the predicted variable.
+\subsection{Assumptions in linear regression and interpret regression coeff.}
+\begin{enumerate}
+    \item Assumptions of linear regression:
+        \begin{enumerate}
+            \item Linear relationship must exist.
+            \item The indepedent variable is uncorrelated with residuals.
+            \item Expected Residual term is value. $E(\epsilon)=0$
+            \item variance of the residual term is const. $E(\epsilon_i^2)=
+                \sigma_\epsilon^2$
+            \item The residual term is independently distributed. 
+                $E(\epsilon_i\epsilon_j)=1$    
+            \item The residual term is normally distributed.
+        \end{enumerate}
+    \item Simple Linear Regression Model
+        \begin{enumerate}
+            \item Model: $Y_i=b_0+b_1X_i+\epsilon_i$, where $i=1...n$, and $Y_i$ is 
+     the actual observed data.
+            \item The fitted line, the line of best fit
+                : $\hat{Y}=\hat{b_0}+\hat{b1}X_i$. Where $\hat{b_0}$
+                is the estimated parameter of the model.
+            \item How to choose the best fitted line? {\bf Sum of squared errors}
+                 is minimum.
+                 $$
+                    \hat{b_1} = \frac{cov_{x,y}}{sigma_x^2}
+                 $$
+                 where $X$ is the indepdent variable. 
+                 $$
+                    \hat{b_0} = \bar Y - \hat{b_1}\bar X
+                 $$
+                 where $\bar X, \bar Y$ are the mean.
+                 
+        \end{enumerate}
+\end{enumerate}
+
+
+\end{document}
