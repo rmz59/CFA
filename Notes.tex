@@ -11,7 +11,9 @@
 \usepackage{amsmath}
 \usepackage{bm}
 \usepackage{wrapfig}
+\usepackage[inline]{enumitem}   % This allows me to enumerate things inline.
 \usepackage{hyperref}
+
 \hypersetup{
     pdftitle={CFA II Notes},
     pdfauthor={Runmin Zhang},
@@ -25,6 +27,7 @@
     pdfpagemode=UseOutlines,    % this is the option you were lookin for
     pdfpagelayout=TwoPageRight
 }
+
 
 \setlength\parindent{0pt}
 \pagestyle{fancy}
@@ -90,14 +93,52 @@ variable, or the predicted variable.
                  $$
                     \hat{b_1} = \frac{cov_{x,y}}{sigma_x^2}
                  $$
-                 where $X$ is the indepdent variable. 
+                 where $X$ is the indepdent variable. $\hat{b_1}$ is 
+                 "regression coeffcient".
                  $$
                     \hat{b_0} = \bar Y - \hat{b_1}\bar X
                  $$
                  where $\bar X, \bar Y$ are the mean.
-                 
+        \end{enumerate}
+    \item Interpreting a regression coefficient: Similar to basic ideas of 
+        "slope". Keep in mind: any conclusion regarding this parameter needs 
+        the statistical significance of the slope coefficient.
+\end{enumerate}
+\subsection{Standard error of estimate, the coeff. of determination and a 
+confidence interval for a regression coefficient.}
+\begin{enumerate}
+    \item Standard error of estimate (SEE): Standard deviation between $Y_{estimate}$
+        and $Y_{actual}$. - Smaller: better
+    \item Coefficient of Determination ($R^2$)
+        The percentage of the total variance in the dependent variable that is 
+        predictable from the indepedent variable. - One indepdent variable: $R^2=r^2$,
+        where $r^2$ is the square of correlation coefficient.
+    \item Regression Coefficient confidence interval
+        \begin{enumerate}
+            \item Hypothesis: $H_0: b_1=0 \Leftrightarrow H_a: b_1\neq 0$ 
+            \item Confidence interval:
+                $\hat{b_1}-(t_c s_{\hat{b_1}})<b_1<\hat{b_1}+(t_c s_{\hat{b_1}})$ 
+            $s_{\hat{b}_1}$ is the standard error of the regression coeffi.  
         \end{enumerate}
 \end{enumerate}
-
-
+\subsection{Hypothesis: Determine if $\hat{b}_1=b_1$}
+\begin{enumerate}
+    \item t-test statistic: $t_{b_1}=\frac{\hat{b}_1 - b_1}{s_{\hat{b}_1}}$
+    \item Reject: if $t>+t_{critical}$ or $t<-t_{critical}$
+\end{enumerate}
+\subsection{Calculate the predicted value for the depedent variable}
+If an estimated regression model is known, $\hat{Y}=\hat{b}_0+\hat{b}_1 X_p$
+\subsection{Calculate and interpret a confidence interval for the predicted 
+value of the depedent variable}
+\begin{enumerate}
+    \item Eq: $\hat{Y}\pm(t_c s_f)$, where $s_f$ is the {\color{red}std error of the forecast.}
+    \item $s_f^2=SEE^2 \left[1+\frac{1}{n}+\frac{(X-\bar X)^2}{(n-1)s_x^2} \right]$
+        \begin{enumerate}
+            \item $SEE^2=$ variance of the residuals
+            \item $s_x^2=$ variance of the indepdent variable
+            \item $X =$ value of the independent variable where the forecast was
+                made.
+        \end{enumerate}
+\end{enumerate}
+\subsection{ANOVA in regression.}
 \end{document}
