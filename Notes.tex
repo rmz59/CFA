@@ -140,5 +140,52 @@ value of the depedent variable}
                 made.
         \end{enumerate}
 \end{enumerate}
-\subsection{ANOVA in regression.}
+\subsection{ANOVA in regression. Interpret results, and calculate F-statistic}
+\begin{enumerate}
+    \item Analysis of variance (ANOVA) is used to analyze the total variability 
+        of the depedent variable. 
+        \begin{enumerate}
+            \item Total sum of squares(SST): $SST=\sum_{i=1}^n(Y_i-\bar Y)^2$
+                \\SST is the total variation in the depedent variable.
+                $Variance=SST/(n-1)$
+            \item Regression sum of squares(RSS): $RSS=\sum_{i=1}^n(\hat{Y}_i-\bar Y)^2$
+                \\RSS is the explained variation.
+            \item Sum of squared errors(SSE): $SSE=\sum_{i=1}^n(Y_i-\hat{Y}_i)^2$
+                \\SSE is the unexplained variation.
+            \item {\color{red}$SST = RSS+SSE$ I cannot get this equation yet}
+                You need to know how to use these squares.
+            \item Degree of freedom: i) Regression(Explained): $k=1$, since we only
+                estimate one parameters.
+                ii) Error(Unexplained) $df=n-k-1=n-2$
+                iii) Total variation $df=n-1$
+        \end{enumerate}
+    \item Calculating $R^2$ and {\bf SEE}
+        \begin{enumerate}
+            \item $R^2=explained variation/total varn=RSS/SST$
+            \item $\bf{SEE}=\sqrt\frac{SSE}{n-2}$ {\bf SEE} is the std deviation of the
+                regression error terms.
+        \end{enumerate}
+    \item The F-Statistic: used to explain whether {\it at least one} indepdent parameter
+        can significanly explain the dependent parameter.  
+        \begin{enumerate}
+            \item F-statistic eq: $F=\frac{MSR}{MSE}=\frac{RSS/k}{SSE/n-k-1}$
+                 where $MSR=$ mean regression sum of squares.
+                       $MSE=$ mean squared errors. 
+                       Note: \color{red}{One tailed test!}
+        \end{enumerate}
+    \item F-statistic with one independent variable.
+        \begin{enumerate}
+            \item Hypothesis: $H_0: b1=0 \Leftrightarrow H_a: b1\ne 0$
+            \item degree of freedom: $df_{rss}=k=1,df_{sse}=n-k-1$
+            \item Decision rule: reject $H_0$ if $F>F_c$
+        \end{enumerate}
+\end{enumerate}
+\subsection{Limitations of regression analysis}
+    \begin{enumerate}
+        \item Parameter instability: the estimation eq may not be useful for other times.
+        \item Limited usefulness: other participants may also use the same eq.
+        \item Assumptions does not hold: i) Heteroskedastic, i.e., non-const
+            variance of the error terms. ii) autocorrelation, i.e., error terms
+            are not independent.
+    \end{enumerate}
 \end{document}
