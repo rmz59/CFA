@@ -29,6 +29,10 @@
 }
 
 
+\newcommand{\be}{\begin{enumerate}}
+\newcommand{\ee}{\end{enumerate}}
+
+
 \setlength\parindent{0pt}
 \pagestyle{fancy}
 \fancyhf{}
@@ -37,7 +41,7 @@
 \fancyfoot[R]{\thepage}
 \begin{document}
 \tableofcontents
-
+\newpage
 \section{Reading 9: Correlation and Regressions}
 \subsection{Sample covar and sample correlation coefficients}
 Sample covariance: $cov_{x,y}=\sum_i \frac{(X_i-\bar X)(Y_i-\bar Y)}{n-1}$
@@ -76,8 +80,8 @@ variable, or the predicted variable.
             \item The indepedent variable is uncorrelated with residuals.
             \item Expected Residual term is value. $E(\epsilon)=0$
             \item variance of the residual term is const. $E(\epsilon_i^2)=
-                \sigma_\epsilon^2$
-            \item The residual term is independently distributed. 
+                \sigma_\epsilon^2$. Otherwise, it will be "heteroskedastic"
+            \item The residual term is independently distributed. otherwise -- "auto correlation"" 
                 $E(\epsilon_i\epsilon_j)=1$    
             \item The residual term is normally distributed.
         \end{enumerate}
@@ -188,4 +192,368 @@ value of the depedent variable}
             variance of the error terms. ii) autocorrelation, i.e., error terms
             are not independent.
     \end{enumerate}
+
+\section{Reading 10: Multiple Regression and Issues in Regression Analysis}
+Some basic ides
+    \begin{enumerate}
+        \item Model: 
+            $Y_i=b_0+b_1 X_{1i}+b_2 X_{2i}+...+b_k X_{ki}+\epsilon_i$
+        \item Multiple regression methodology estimates the intercept and 
+            slope coefficients so that $\sum_i^n \epsilon_i^2$ is minimized.
+    \end{enumerate}
+\subsection{Interpret estimated regression coefficients and their p-values.}
+They are just simple linear functions with multiple parameters. Ignore.
+\subsection{Formulate a null/alternative hypothesis, do correspoding calculations}
+\begin{enumerate}
+    \item Hypothesis Testing of Regression coefficient. (Multi-parameters). \\
+        Use t-statistics to determine if one parameter significantly contribute
+        to the model.
+        $$
+            t=\frac{\hat{b}_j-b_j}{s_{\hat{b}_j}}, df=n-k-1
+        $$
+        where $k$ is the number of regression coefficients, and $1$ corresponds to
+        the intercept term, and $s_{\hat{b}_j}$ is the coefficient standard error
+        of $b_j$
+    \item Determining statistical significance.
+        \\ ``testing statistical significance" $\Rightarrow H_0: b_j=0, H_a: b_j\ne 0$
+    \item Interpreting p-values.
+        \begin{enumerate}
+            \item Def: p-value is {\bf the smallest level of significance for 
+                which the null hypothesis can be rejected.}
+                \ If the p-value is less than significance level, the null 
+        \end{enumerate}
+    \item Other Tests of the Regression Coefficients: $H_0: a=$some value
+\end{enumerate}
+\subsection{Calculate and Interpret a confidence interval for the population 
+value of a regression coefficient or a predicted value for the depedent variable
+if an estimated regression model.}
+\begin{enumerate}
+    \item Confidence intervals for a regress. coeff.: $\hat{b}_j\pm(t_c\times s_{\hat{b}_j})$
+    \item predicting the depedent variable: 
+        $\hat{Y}_i=\hat{b}_0+\hat{b}_1 \hat{X}_{1i}+...+\hat{b}_k \hat{X}_{ki}$
+        \\Even if you may conclude that some $b_i$ are not statistally significantly, you cannot
+        treat them as $0$ and keep other parameters unchanged. You should use the
+        original model, or you can throw $\hat{b}_k$ away and make a new regression model.
+\end{enumerate}
+\subsection{Assumptions of a multiple regresssion model}
+\begin{enumerate}
+    \item Linear relationships exist.
+    \item The independent variables are not random, and there is no exact linear relation
+        between indepdent variables.
+    \item $E[\epsilon|X_1,...,X_k]=0$
+    \item Variance of $\epsilon=0$, i.e. $E[\epsilon_i]=0$
+    \item $E(\epsilon_i\epsilon_j)=0$
+    \item $\epsilon$ is normally distributed.
+\end{enumerate}
+\subsection{Calculate and interpret F-statistic}
+F-test: whether at least {\bf one} of the indepedent variables explains a significant
+portion of the variation of the depedent variable. F test is a one-tail test.
+\begin{enumerate}
+    \item $H_0: b1=b2=b3=0 vs H_a:$ at least one $b_j\ne 0$
+    \item $F=\frac{MSR}{MSE}=\frac{RSS/k}{SSE/n-k-1}$
+    \item Degree of freedom: $df_{numerator}=k, df_{denominator}=n-k-1$
+    \item Rules: reject $H_0$ if $F(test-statistic)>F_c(critical value)$
+\end{enumerate}
+\subsection{Distinguish between $R^2$ and adjusted $R^2$}
+\begin{enumerate}
+    \item coefficient of determination $R^2$: used to test if a group of indepedent
+        variable can explain the depedent variable: 
+        \\$R^2=\frac{total variation - unexplained variation}{total variation}
+        =\frac{SST-SSE}{SST}=\frac{RSS}{SST}$
+        \\{\bf Multiple R} = $\sqrt{R^2}$
+    \item Adjusted $R^2$
+        \begin{enumerate}
+            \item Note: $R^2$: {\color{red}{Overestimating}}: will increase as variables are added to the model.
+        Even the marginal contribution of new variables are not statistically significant.
+            \item Introduce $R_a^2$: $R_a^2=1-\left[\left(\frac{n-1}{n-k-1}\right)\right](1-R^2)$
+        \end{enumerate}
+\end{enumerate}
+\subsection{Evaluate the quality of a regression model by analyzing the ouput of the equation/ANOVA table}
+\begin{enumerate}
+    \item ANOVA Tables, some important quantities
+        \begin{enumerate}
+            \item $R^2=\frac{RSS}{SST}$
+            \item $F=\frac{MSR}{MSE}$ with $k$ and $n-k-1$ df
+            \item Standard error of estimate:$SEE=\sqrt{MSE}$
+        \end{enumerate}
+\end{enumerate}
+\subsection{Formulate a multiple regression with dummpy variables to represent qualitative factors}
+\begin{enumerate}
+    \item Def: Some value is quite qualitative. Using dummy values like 0 or 1 
+        to describe their impacts.
+    \item Note: Pay attention to \# of dummy variables. If $n$ classes, we must use
+        $n-1$ dummy variables.
+    \item Interpreting the coefficients in a dummy variable regression. We can use F-statistics to
+        test a group of parameters, or use t-test to test the individual slope coefficients.
+    \item Example of Regression application with dummy variables. See Notes directly.
+\end{enumerate}
+\subsection{Why multiple regression isn't as easy as it looks?}
+Pay attention to the assumptions that have been used. Violations like::
+\begin{enumerate}
+    \item Heteroskedasticity
+    \item Serial correlation (auto-correlation)
+    \item Multicollinarity
+\end{enumerate}
+Any violations on the assumptions will impact the estimation of SEE, and finaly 
+change the t-statistic and F-statistic, and change the conclustion of the hypotesis
+test.
+\subsection{Types of Heteroskedasticity, how heteroskedasiticity and serial correlation affect inference}
+\begin{enumerate}
+    \item What is Heteroskedasticity?
+        \\ {\bf Corresponding assumptions: Variance of the residuals is constant across observations. -- Homoskedasticity} 
+        Heteroskedasity means the variance of the residuals is not equal.
+        \begin{enumerate}
+            \item Unconditional heter: Not related to the level of the indepedent
+                variables. Will not systematiclly increase with changes in the value
+                of the indepedent variables. {\color{red}Usually will not casue major problems.}
+            \item Conditional heter: Related to the level of the independent variables. Eg:
+                Conditional heter exists if the variance of the residuals increase with 
+                the value of the independent variables increases. {\color{red}Will cause big problems.}
+        \end{enumerate}
+    \item Effect of Heteroskedasiticity on Regression Analysis
+        \begin{enumerate}
+            \item Unreliable standard errors.
+            \item The coefficient estimates aren't affected.
+            \item Will change the t-statistic, and will change the conclusion.
+            \item Unreliable F-test
+        \end{enumerate}
+    \item Detect Heteroskedasicity
+        \begin{enumerate}
+            \item Scatter plot
+            \item Breusch-pagan test: $BP test = n\times R^2_{resid}$ with $df=k$. 
+                where $n=$the number of observations, $R^2_{resid}$=$R^2$ from a second
+                regression of the squared residuals from the first regression. $k=$the number
+                of independent variables. If $R^2$ or BP-test are too large, something is wrong.
+        \end{enumerate}
+    \item Correcting Heteroskedasticity
+        \be
+        \item Calculate robust sndard errors(White corrected std errors.). Use them for t-test.
+            \item Generalized least squares. 
+        \ee
+    \item What is serial correlations?
+        \be
+            \item Def: auto-correlation, in which the residual terms are correlated.
+                Common problem with time series data.
+                \be
+                    \item Positive serial correlation: a postive error in one time period will
+                        increase the posibility to observe a positive one next time.
+                    \item Negative serial correlation: Just opposite.
+                \ee
+            \item Effect: positive serial correlation will get small coefficient std errors. 
+                Thus, too large t-statistics. therefore, too many Type I errors: reject the null
+                hypothesis $H_0$ while it's actually true. 
+            \item Detection:
+                \be
+                    \item Residual plots
+                    \item Durbin-Watson statistics: 
+                        $$
+                        \color{red}DW=\frac{\sum_{t=2}^T (\hat{\varepsilon}_t-\hat{\epsilon}_{t-1})^2}{\sum_{t=1}^T \hat{\epsilon}^2}
+                        $$
+                        For large samples, $DW\approx 2(1-r)$, where $r$ is the 
+                        correlation coefficient between residuals from one period and thoese from the previous period.
+                        \\Results: 
+                        \be
+                            \item $DW=2\Rightarrow$ Homoskedasitic and not serially correlated.
+                            \item $DW<2\Rightarrow$ Postively serially correlated.
+                            \item $DW>2\Rightarrow$ Negatively serially correlated.
+
+                        \ee
+                        Formulated hypothesis with DW-table, upper and lower critical values
+                        \be
+                            \item Hypothesis: $H_0:$ the regression has {\bf no}
+                                positive serial correlation.
+                            \item $DW<d_l$: positive serially correlated. Reject null.
+                            \item $d_l<DW<d_u$: inconclusive results.
+                            \item $DW>d_u$: {\bf There is no evidence that are positive correlated.} 
+                        \ee
+                \ee
+            \item Correcting serial correlation:
+            \be
+                \item Adjust the coefficient std errors. {\bf recommended.} Using Hansen method.
+                    \be
+                        \item Serial correlation only: Hansen method. 
+                        \item Heteroskedasticity only: White-corrected stand errors.
+                        \item Both: Hans methods.
+                    \ee
+                \item Imporoe the specification of the model.
+            \ee
+    \ee
+\end{enumerate}
+\subsection{Multicolinearity and its cause and effects in regression analysis}
+Multicollinearity: Indepedent variables or linear combinations of independent variables are highly
+correlated.
+\begin{enumerate}
+    \item Effect of Multicollinearity on Regression Analysis: Will increase the std errors of 
+        the slope coefficients. {\color{red} Type II Error:
+        A variable is significant, while we conclude it's not.} 
+    \item Detecting: Common situation: $t-statistic$ is not significant while $F-test$ is significant.
+        This tells us the indepedent variables are highly correlated.
+        \\ A simple rule works if there are 2 indepedent variables: when the absolute value of the sample correlation betewen any two 
+        indepedent variables in the regression is greater than 0.7.
+    \item Correcting: omit one or more of the correlated indepedent variables. 
+        THe problame is that it's hard to find the variables that result in the multicolinearity.
+\end{enumerate}
+\subsection{Model misspecification}
+\begin{enumerate}
+    \item Defination of {\bf Regression model of specification}: decide which independent variables
+        to be included in the model.
+    \item Types of misspecification
+        \be
+            \item The functional form can be misspecified:
+                important variables are ommited;variables should be transformed; data is improperly pooled.
+            \item Explanatory variables are correlated with error term in time series model:
+                A lagged dependent variable is used as an independent variable; a function of the dependent
+                variable is used as an independent variable(forecasting the past);
+                independent variables are measured with error.
+            \item Other time-series misspecification.
+        \ee
+\end{enumerate}
+\subsection{Models with qualitive dependent variables}
+Include qualitative dependent variables, like default, bankcrupcy. Cannot use an 
+ordinary regression model. Should use other models like {\bf probit and logit models}
+or {\bf discriminant models}.
+\be
+\item Probit: normal distribution, give probability.
+\item Logistic: logistic distribution. 
+\item Discriminant: result in an overall score or ranking.
+\ee
+% End Reading 10
+
+
+%% Reading 11
+\section{Reading 11: Time-Series Analysis}
+\subsection{Calculate/evaluate the predicted trend value for a time series given 
+the estimated trend coefficients}
+\begin{enumerate}
+    \item Linear Trend Model and Log-linear Trend
+        \be
+            \item Definition: $y_t=b_0+b_1(t)+\epsilon_t$ Note: $t$ is just time.
+            \item Coefficients is determined by OLS. Ordinary least squared regression.
+                \\$\hat{y}=\hat{b}_0+\hat{b}_1$
+            \item Log-linear Trend Models
+            \item Model: $y_t=\exp{b_0+b_1(t)}\Rightarrow \ln{y_t}=b_0+b_1(t)$
+        \ee
+\end{enumerate}
+\subsection{Factors that determine whether a linear or a log-linear model trend 
+should be used}
+\be
+    \item Factors that determine which model is best: plot data.
+    \item Limitaions of trend models: 
+        \be
+            \item residuals are uncorrelated with each other.
+        Otherwise, it will cause auto correlation and we should not use the trend model.
+            \item For log-linear model, it is not suitable for cases with serial correlations (autocorrelation).
+            \item Detect auto correlation: Durbin Watson statistic. $DW=2.0\Rightarrow$ No auto correlation.
+        \ee
+\ee
+\subsection{Autoregressive model, requirements for covariance statinoary}
+\be
+    \item Autoregressive model:
+        \be
+            \item Model: $x_t=b_0+b_1 x_{t-1}+\varepsilon_t$
+            \item Statistical inferences bse on ordinary least squares estimates doesn't
+                apply unless the time series is {\bf covariance stationary}.
+            \item Conditions for covariance stationary
+                \be
+                    \item Constant and finite expected value.
+                    \item Constant and finite variance.
+                    \item Constant and finite covariance between values at any given lag.
+                \ee
+        \ee
+\ee
+\subsection{An autogressive model of order $p$}
+\be
+    \item Model(order $p$): $x_t=b_0+b_1x_{t-1}+b_2x_{t_2}+...+b_px_{t-p}+\varepsilon_t$ 
+    \item Forecasting with an autoregressive model: 
+        \be
+            \item One-period-ahead forecast for $AR(1)$: $\hat{x}_{t+1}=\hat{b}_0+\hat{b}_1 x_t$
+            \item Two-period-ahead forecast for $AR(1)$: $\hat{x}_{t+2}=\hat{b}_0+\hat{b}_1 \hat{x}_{t+1}$
+        \ee
+\ee
+\subsection{How the residuals can be used to test the autogressive model}
+\be
+    \item The residual should have no {\it serial correlation} if an AR model is correct.
+    \item Steps
+        \be
+            \item Estimate: Start with AR(1)
+            \item Calculate: the autocorrelations of he model residuals
+            \item Test: whether the autoccorelations are signficantly different from 0.
+                \\The standard error is $\frac{1}{\sqrt{T}}$ for $T$ observations. The t-test for each
+                observation is $t=\frac{\rho_{\epsilon_t,epsilon_{t-k}}}{1/sqrt{T}}$, with $T-2$ df. 
+        \ee
+\ee
+\subsection{Mean reversion and a mean-reverting level}
+\be
+    \item Mean reversion: The time series tends to move toward its mean.
+    \item Mean-reverting level: $\hat{x}_{t+1}=x_{t}$, where $\hat{x}_t$ is the predicted value. 
+    \item All covariance stationary time series has finite mean-reverting level. 
+\ee
+\subsection{Contrast in-sample and out-of-sample forecasts and the forecasting accuracy of 
+different time-series models based on the root mean squared error criterion.}
+\be
+    \item in-sample, out-of-sample: determined by if the predicted data is in the range of 
+        the observations.
+    \item RMSE, root mean squared error: used to compare the accurancy. If the accurancy of 
+        out-of-sample is better, you should use it for future applications
+\ee
+\subsection{Explain the instability of coefficients of time-series models}
+\be
+    \item Instability or nonstationarity. Due to the dynamic econimic conditions, 
+        model coefficients will change a lot from period to period. 
+    \item Shorter time series are more stable, but longer time series are more reliable.
+\ee
+\subsection{Random walk processes and their comparisons between covariance stationary processes}
+\be
+    \item Random walk: $x_t=x_{t-1}+\varepsilon_t$
+    \be
+        \item $E(\varepsilon_t)=0$: The expected value of each error is zero.
+        \item $E(\varepsilon_t^2)=0$: The variance of the error terms is constant.
+        \item $E(\varepsilon_i,\varepsilon_j)=0$: There is no serial correlation in the error terms.
+    \ee
+    \item Random walk with a Drift: $x_t=b_0+b_1 x_{t-1}+\varepsilon_t$, where $b_1$=0
+    \item A random walk or a random walk with a drift have no finte mean-reverting level.
+        Since $b_1=1,\frac{b_0}{1-b_1}=\frac{b_0}{0}$. Therefore, they are not covariance stationary.
+    \item $b_1=1$, they exhibit a unit root. Thus, {\bf the least square regression that been used in 
+        AR(1) will not work unless we transfrom the data}.
+\ee
+\subsection{Things about unit roots: when they will occur, how to test them, how to transform data to apply AR}
+\be
+    \item Unit root testing for nonstationarity:
+        \be
+            \item run an AR model and check autocorrelations
+            \item perform Dickey Fuller test.
+                \be
+                    \item Transform: $x_t=b_0+b_1x_1+\varepsilon\Rightarrow x_t-x_{t-1}=b_0+(b_1-1)x_{t-1}+\varepsilon$
+                    \item Direct test if $b_1-1=0$ using a modified t-test.    
+                \ee
+        \ee
+    \item First differencing
+        \be
+            \item For a random walk, transform the data $y_t=x_t-x_{t-1}\Rightarrow y_t=\varepsilon_t$
+                then start to use an AR model $y=b_0+b_1 y_{t-1}+\varepsilon$, 
+                where $b_0=b_1=0$
+            \item $y$ is covariance stationary.
+        \ee
+\ee
+\subsection{How to test and correct for seasonality in a time-series model, and 
+calculate and interpret a forecasted value using an AR model with a sesonal lag.}
+\be
+    \item Detect: special autocorrelation exists for some seasonal lags.
+    \item Correction: Add an additional seasonal lag term.
+\ee
+\subsection{Explain autogressive conditional heteroskedasticity (ARCH) and describe
+how ARCH models can be applied to predict the variance of a time series}
+\be
+    \item ARCH: the variance of the residuals in one period is dependent on the variance of
+        the residuals in a previous period.
+    \item Using ARCH models:
+        \\Example $ARCH(1)$: $\hat{\varepsilon}_t^2=a_0+a_1\hat{\varepsilon}_{t-1}+\mu_t$
+        if $a_1$ is significantly different from zero. $\hat{\varepsilon}_t^2$ is the squared residuals.
+        \\Note: Things like generalized least squares should me used to 
+                correct heteroskedasticity. otherwise, the std errors of the 
+                coefficients will be wrong, leading to invalid conclusions.
+    \item Predicting the variance of a time series: using ARCH model to predict the variance of 
+
+        future periods: $\hat{\sigma}^2_{t+1}=\hat{a}_0+\hat{a}_1\hat{\varepsilon}_t^2$
+\ee
 \end{document}
