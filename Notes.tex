@@ -556,4 +556,23 @@ how ARCH models can be applied to predict the variance of a time series}
 
         future periods: $\hat{\sigma}^2_{t+1}=\hat{a}_0+\hat{a}_1\hat{\varepsilon}_t^2$
 \ee
+\subsection{Explain How time-series variables should be analyzed for nonstationarity and/or cointegration before
+use ain a linear regression}
+\be
+    \item Cointegration: 
+        \be
+            \item Two time series are economically linked or follow the 
+        same trend and that relationship is not expected to change. -- Error terms 
+        from regressing one on the other is covariance stationary and the t-test are reliable.
+            \item How to test conintegration: regress $y_t$ on $x_t$ 
+                 $y_t=b_0+b_1x_t+\varepsilon$, $y_t, x_t$ are two different time series.
+                 Then do a unit root test using the Dickey Fuller test with critical t-values
+                 calculated by Engle and Granger. 
+                 \\If "A unit root" is rejected $\Rightarrow$ covariance stationary, cointegrated.
+        \ee
+\ee
+
+
+\section{Reading 12: Probabilistic Approaches: Scenario Analysis, Decision Trees, and Simulations}
+
 \end{document}

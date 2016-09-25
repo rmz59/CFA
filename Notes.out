@@ -37,3 +37,5 @@
 \BOOKMARK [2][-]{subsection.3.10}{3.10\040Things\040about\040unit\040roots:\040when\040they\040will\040occur,\040how\040to\040test\040them,\040how\040to\040transform\040data\040to\040apply\040AR}{section.3}% 37
 \BOOKMARK [2][-]{subsection.3.11}{3.11\040How\040to\040test\040and\040correct\040for\040seasonality\040in\040a\040time-series\040model,\040and\040calculate\040and\040interpret\040a\040forecasted\040value\040using\040an\040AR\040model\040with\040a\040sesonal\040lag.}{section.3}% 38
 \BOOKMARK [2][-]{subsection.3.12}{3.12\040Explain\040autogressive\040conditional\040heteroskedasticity\040\(ARCH\)\040and\040describe\040how\040ARCH\040models\040can\040be\040applied\040to\040predict\040the\040variance\040of\040a\040time\040series}{section.3}% 39
+\BOOKMARK [2][-]{subsection.3.13}{3.13\040Explain\040How\040time-series\040variables\040should\040be\040analyzed\040for\040nonstationarity\040and/or\040cointegration\040before\040use\040ain\040a\040linear\040regression}{section.3}% 40
+\BOOKMARK [1][-]{section.4}{4\040Reading\04012:\040Probabilistic\040Approaches:\040Scenario\040Analysis,\040Decision\040Trees,\040and\040Simulations}{}% 41

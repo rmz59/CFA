@@ -37,3 +37,5 @@
 \contentsline {subsection}{\numberline {3.10}Things about unit roots: when they will occur, how to test them, how to transform data to apply AR}{10}{subsection.3.10}
 \contentsline {subsection}{\numberline {3.11}How to test and correct for seasonality in a time-series model, and calculate and interpret a forecasted value using an AR model with a sesonal lag.}{11}{subsection.3.11}
 \contentsline {subsection}{\numberline {3.12}Explain autogressive conditional heteroskedasticity (ARCH) and describe how ARCH models can be applied to predict the variance of a time series}{11}{subsection.3.12}
+\contentsline {subsection}{\numberline {3.13}Explain How time-series variables should be analyzed for nonstationarity and/or cointegration before use ain a linear regression}{11}{subsection.3.13}
+\contentsline {section}{\numberline {4}Reading 12: Probabilistic Approaches: Scenario Analysis, Decision Trees, and Simulations}{11}{section.4}
