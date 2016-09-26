@@ -1,41 +1,46 @@
-\contentsline {section}{\numberline {1}Reading 9: Correlation and Regressions}{2}{section.1}
-\contentsline {subsection}{\numberline {1.1}Sample covar and sample correlation coefficients}{2}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Limtations to correlations analysis}{2}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Hypothesis: determine if the population correlation coefficient is zero}{2}{subsection.1.3}
-\contentsline {subsection}{\numberline {1.4}Determine dependent/indepedent variables in a linear regression}{2}{subsection.1.4}
-\contentsline {subsection}{\numberline {1.5}Assumptions in linear regression and interpret regression coeff.}{2}{subsection.1.5}
-\contentsline {subsection}{\numberline {1.6}Standard error of estimate, the coeff. of determination and a confidence interval for a regression coefficient.}{3}{subsection.1.6}
-\contentsline {subsection}{\numberline {1.7}Hypothesis: Determine if $\mathaccentV {hat}05E{b}_1=b_1$}{3}{subsection.1.7}
-\contentsline {subsection}{\numberline {1.8}Calculate the predicted value for the depedent variable}{3}{subsection.1.8}
-\contentsline {subsection}{\numberline {1.9}Calculate and interpret a confidence interval for the predicted value of the depedent variable}{3}{subsection.1.9}
-\contentsline {subsection}{\numberline {1.10}ANOVA in regression. Interpret results, and calculate F-statistic}{4}{subsection.1.10}
-\contentsline {subsection}{\numberline {1.11}Limitations of regression analysis}{4}{subsection.1.11}
-\contentsline {section}{\numberline {2}Reading 10: Multiple Regression and Issues in Regression Analysis}{4}{section.2}
-\contentsline {subsection}{\numberline {2.1}Interpret estimated regression coefficients and their p-values.}{4}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Formulate a null/alternative hypothesis, do correspoding calculations}{5}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Calculate and Interpret a confidence interval for the population value of a regression coefficient or a predicted value for the depedent variable if an estimated regression model.}{5}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Assumptions of a multiple regresssion model}{5}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Calculate and interpret F-statistic}{5}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Distinguish between $R^2$ and adjusted $R^2$}{6}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Evaluate the quality of a regression model by analyzing the ouput of the equation/ANOVA table}{6}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}Formulate a multiple regression with dummpy variables to represent qualitative factors}{6}{subsection.2.8}
-\contentsline {subsection}{\numberline {2.9}Why multiple regression isn't as easy as it looks?}{6}{subsection.2.9}
-\contentsline {subsection}{\numberline {2.10}Types of Heteroskedasticity, how heteroskedasiticity and serial correlation affect inference}{6}{subsection.2.10}
-\contentsline {subsection}{\numberline {2.11}Multicolinearity and its cause and effects in regression analysis}{8}{subsection.2.11}
-\contentsline {subsection}{\numberline {2.12}Model misspecification}{8}{subsection.2.12}
-\contentsline {subsection}{\numberline {2.13}Models with qualitive dependent variables}{8}{subsection.2.13}
-\contentsline {section}{\numberline {3}Reading 11: Time-Series Analysis}{8}{section.3}
-\contentsline {subsection}{\numberline {3.1}Calculate/evaluate the predicted trend value for a time series given the estimated trend coefficients}{8}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Factors that determine whether a linear or a log-linear model trend should be used}{9}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Autoregressive model, requirements for covariance statinoary}{9}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}An autogressive model of order $p$}{9}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}How the residuals can be used to test the autogressive model}{9}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Mean reversion and a mean-reverting level}{10}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Contrast in-sample and out-of-sample forecasts and the forecasting accuracy of different time-series models based on the root mean squared error criterion.}{10}{subsection.3.7}
-\contentsline {subsection}{\numberline {3.8}Explain the instability of coefficients of time-series models}{10}{subsection.3.8}
-\contentsline {subsection}{\numberline {3.9}Random walk processes and their comparisons between covariance stationary processes}{10}{subsection.3.9}
-\contentsline {subsection}{\numberline {3.10}Things about unit roots: when they will occur, how to test them, how to transform data to apply AR}{10}{subsection.3.10}
-\contentsline {subsection}{\numberline {3.11}How to test and correct for seasonality in a time-series model, and calculate and interpret a forecasted value using an AR model with a sesonal lag.}{11}{subsection.3.11}
-\contentsline {subsection}{\numberline {3.12}Explain autogressive conditional heteroskedasticity (ARCH) and describe how ARCH models can be applied to predict the variance of a time series}{11}{subsection.3.12}
-\contentsline {subsection}{\numberline {3.13}Explain How time-series variables should be analyzed for nonstationarity and/or cointegration before use ain a linear regression}{11}{subsection.3.13}
-\contentsline {section}{\numberline {4}Reading 12: Probabilistic Approaches: Scenario Analysis, Decision Trees, and Simulations}{11}{section.4}
+\contentsline {section}{\numberline {1}Reading 9: Correlation and Regressions}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Sample covar and sample correlation coefficients}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Limtations to correlations analysis}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Hypothesis: determine if the population correlation coefficient is zero}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Determine dependent/indepedent variables in a linear regression}{3}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Assumptions in linear regression and interpret regression coeff.}{3}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Standard error of estimate, the coeff. of determination and a confidence interval for a regression coefficient.}{4}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}Hypothesis: Determine if $\mathaccentV {hat}05E{b}_1=b_1$}{4}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8}Calculate the predicted value for the depedent variable}{4}{subsection.1.8}
+\contentsline {subsection}{\numberline {1.9}Calculate and interpret a confidence interval for the predicted value of the depedent variable}{4}{subsection.1.9}
+\contentsline {subsection}{\numberline {1.10}ANOVA in regression. Interpret results, and calculate F-statistic}{5}{subsection.1.10}
+\contentsline {subsection}{\numberline {1.11}Limitations of regression analysis}{5}{subsection.1.11}
+\contentsline {section}{\numberline {2}Reading 10: Multiple Regression and Issues in Regression Analysis}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Interpret estimated regression coefficients and their p-values.}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Formulate a null/alternative hypothesis, do correspoding calculations}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Calculate and Interpret a confidence interval for the population value of a regression coefficient or a predicted value for the depedent variable if an estimated regression model.}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Assumptions of a multiple regresssion model}{6}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Calculate and interpret F-statistic}{6}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Distinguish between $R^2$ and adjusted $R^2$}{7}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Evaluate the quality of a regression model by analyzing the ouput of the equation/ANOVA table}{7}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Formulate a multiple regression with dummpy variables to represent qualitative factors}{7}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}Why multiple regression isn't as easy as it looks?}{7}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}Types of Heteroskedasticity, how heteroskedasiticity and serial correlation affect inference}{7}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.11}Multicolinearity and its cause and effects in regression analysis}{9}{subsection.2.11}
+\contentsline {subsection}{\numberline {2.12}Model misspecification}{9}{subsection.2.12}
+\contentsline {subsection}{\numberline {2.13}Models with qualitive dependent variables}{9}{subsection.2.13}
+\contentsline {section}{\numberline {3}Reading 11: Time-Series Analysis}{9}{section.3}
+\contentsline {subsection}{\numberline {3.1}Calculate/evaluate the predicted trend value for a time series given the estimated trend coefficients}{9}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Factors that determine whether a linear or a log-linear model trend should be used}{10}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Autoregressive model, requirements for covariance statinoary}{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}An autogressive model of order $p$}{10}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}How the residuals can be used to test the autogressive model}{10}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Mean reversion and a mean-reverting level}{11}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Contrast in-sample and out-of-sample forecasts and the forecasting accuracy of different time-series models based on the root mean squared error criterion.}{11}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Explain the instability of coefficients of time-series models}{11}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9}Random walk processes and their comparisons between covariance stationary processes}{11}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.10}Things about unit roots: when they will occur, how to test them, how to transform data to apply AR}{11}{subsection.3.10}
+\contentsline {subsection}{\numberline {3.11}How to test and correct for seasonality in a time-series model, and calculate and interpret a forecasted value using an AR model with a sesonal lag.}{12}{subsection.3.11}
+\contentsline {subsection}{\numberline {3.12}Explain autogressive conditional heteroskedasticity (ARCH) and describe how ARCH models can be applied to predict the variance of a time series}{12}{subsection.3.12}
+\contentsline {subsection}{\numberline {3.13}Explain How time-series variables should be analyzed for nonstationarity and/or cointegration before use ain a linear regression}{12}{subsection.3.13}
+\contentsline {section}{\numberline {4}Reading 12: Probabilistic Approaches: Scenario Analysis, Decision Trees, and Simulations}{12}{section.4}
+\contentsline {subsection}{\numberline {4.1}Describe steps in a simulatino, Explain three ways to define the probability distributions for a simulation's variable, and describe how to treat correlation accross variables in a simulation.}{12}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Describe advantages of using simulations in decision making}{13}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Describe some common constraints introduced into simulations}{13}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Describe issues in using simulations in risk assessment}{13}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Compare scenario analysis, decision trees, and simulations}{13}{subsection.4.5}

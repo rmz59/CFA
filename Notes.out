@@ -39,3 +39,8 @@
 \BOOKMARK [2][-]{subsection.3.12}{3.12\040Explain\040autogressive\040conditional\040heteroskedasticity\040\(ARCH\)\040and\040describe\040how\040ARCH\040models\040can\040be\040applied\040to\040predict\040the\040variance\040of\040a\040time\040series}{section.3}% 39
 \BOOKMARK [2][-]{subsection.3.13}{3.13\040Explain\040How\040time-series\040variables\040should\040be\040analyzed\040for\040nonstationarity\040and/or\040cointegration\040before\040use\040ain\040a\040linear\040regression}{section.3}% 40
 \BOOKMARK [1][-]{section.4}{4\040Reading\04012:\040Probabilistic\040Approaches:\040Scenario\040Analysis,\040Decision\040Trees,\040and\040Simulations}{}% 41
+\BOOKMARK [2][-]{subsection.4.1}{4.1\040Describe\040steps\040in\040a\040simulatino,\040Explain\040three\040ways\040to\040define\040the\040probability\040distributions\040for\040a\040simulation's\040variable,\040and\040describe\040how\040to\040treat\040correlation\040accross\040variables\040in\040a\040simulation.}{section.4}% 42
+\BOOKMARK [2][-]{subsection.4.2}{4.2\040Describe\040advantages\040of\040using\040simulations\040in\040decision\040making}{section.4}% 43
+\BOOKMARK [2][-]{subsection.4.3}{4.3\040Describe\040some\040common\040constraints\040introduced\040into\040simulations}{section.4}% 44
+\BOOKMARK [2][-]{subsection.4.4}{4.4\040Describe\040issues\040in\040using\040simulations\040in\040risk\040assessment}{section.4}% 45
+\BOOKMARK [2][-]{subsection.4.5}{4.5\040Compare\040scenario\040analysis,\040decision\040trees,\040and\040simulations}{section.4}% 46

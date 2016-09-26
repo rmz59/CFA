@@ -574,5 +574,63 @@ use ain a linear regression}
 
 
 \section{Reading 12: Probabilistic Approaches: Scenario Analysis, Decision Trees, and Simulations}
+\subsection{Describe steps in a simulatino, Explain three ways to define the probability 
+        distributions for a simulation's variable, and describe how to treat correlation accross
+    variables in a simulation.}
+        \be
+            \item Steps in simulations:
+                \be
+                    \item Determine the probabilistic variables
+                    \item Define probability distributions for these variables
+                        \be
+                            \item Option 1: Historical data
+                            \item Option 2: Cross-sectional data: estimate the variable from similar 
+                                companies.
+                            \item Option 3: Pick a distribution and estimate the parameters.
+                        \ee
+                    \item Checkk for correlations among variables: Use historical data to deterine
+                        whether any ststematically related. Strong relations$\Rightarrow$ 1) Allow only
+                        one of the variables can be removed. Or 2) Build the rules of correlations
+                        into the simulation.
+                    \item Run the simulation.
+                \ee
 
+        \ee
+\subsection{Describe advantages of using simulations in decision making}
+\be
+    \item Advantages: 1) Better input quality   2) Provides a distribution of expected value
+        rather than a point estimate.
+\ee
+\subsection{Describe some common constraints introduced into simulations}
+\be
+    \item Constraints: specific limits imposed by users of simulations.
+    \item Types of constraints
+        \be
+            \item Book value constraints:
+                \be
+                    \item Regulatory capital requirements: minimum capital requirements
+                    \item Negative equity
+                \ee
+            \item Earnings and cash flow constraints: might be imposed to meet analyst expectations
+            \item Market value constraints
+        \ee
+\ee
+\subsection{Describe issues in using simulations in risk assessment}
+\be
+    \item Limitations of using simulations
+        \be
+            \item Input quality: garbage in, garbage out
+            \item Inappropriate statistical distributions
+            \item Non-statinoary distributions: parameters will change
+            \item Dynamic correlations: correlations between input variables will change.
+        \ee
+    \item Risk-adjusted value: cash flows from simulations are not risk-adjusted. 
+        SHOULD NOT be discounted at risk-free rate.
+\ee
+\subsection{Compare scenario analysis, decision trees, and simulations}
+\be
+    \item Scenario analysis: computes the value of an investment under some specific cases.
+        Total probability is less than 1.
+    \item Decision trees: good when risk is discrete and sequential. Sum of probability is 1
+\ee
 \end{document}
