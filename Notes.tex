@@ -32,7 +32,6 @@
 \newcommand{\be}{\begin{enumerate}}
 \newcommand{\ee}{\end{enumerate}}
 
-
 \setlength\parindent{0pt}
 \pagestyle{fancy}
 \fancyhf{}
@@ -659,8 +658,76 @@ use ain a linear regression}
         \ee
     \item For investors,Rule: {\it up-the-bid-and-multiply, down-the-ask-and-divide}
         \be
-            \item Convert USD into AUD: 
+            \item Convert USD into AUD: going down the quote -- from USD on top 
+                to AUD on bottom. Use the ask price for the quote.
+            \item Convert AUD into USD: similar. But from bottom to top.
         \ee
+    \item Cross Rate: The exchange rate between two currencies with the help by 
+        a common third currency.
+    \item Cross Rate with bid-ask spreads.
+        \be
+            \item Rule 1:
+            $$
+            \left(\frac{A}{C}\right)_{bid}=\left(\frac{A}{B}\right)_{bid}
+            \times \left(\frac{B}{C}\right)_{bid};
+            \left(\frac{A}{C}\right)_{offer}=\left(\frac{A}{B}\right)_{offer}
+            \times \left(\frac{B}{C}\right)_{offer}
+            $$
+            \item Rule 2:
+            $$
+            \left(\frac{B}{C}\right)_{bid}=\frac{1}{\left(\frac{C}{B}\right)_{offer}};
+            \left(\frac{B}{C}\right)_{offer}=\frac{1}{\left(\frac{C}{B}\right)_{bid}}
+            $$
+        \ee
+    \item Triangular Arbitrage: If the dealer's quote is different from the cross
+        rate, arbitrage opportunities may exist. Check it with Notes.
 \ee
+\subsection{Distinguish between spot and forward rates and calculate the forward
+premium/discont for a given currency}
+\be
+    \item Forward premium relative to a second currency: 
+        Forward price > Spot price. Forward premium = $F-S_0$
+    \item Calculate the market-to-market value of a forward contract
+            $$
+                V_T=(FP_T-FP)(contract size)
+            $$
+            where:
+            \be
+                \item $V_T$ = value of the forward contract at time $T$, denominated
+                    in price currency
+                \item $T$ = maturity of the forward contract
+                \item $FP$ = forward price locked in at inception to buy base currency
+                \item $FP_T$ = forward price to {\bf sell} the same currency at time $T$
+            \ee
+    \item Value prior to expiration.
+    $$
+    V_t=\frac{(FP_t-FP)contract size}{1+R(\frac{days}{360})}
+    $$
+    where 
+    \be
+        \item $V_t$ is the value of the forward price
+        \item $FP_t$: forward price at time $t$
+        \item $days$ number of days remaining
+        \item $R$ interest rate
+    \ee
+\ee
+\subsection{Explaining international parity relations (covered and uncovered 
+interest rate parity, purchasing power parity, and the international Fisher effect)}
+\be
+    \item Covered interest rate parity: ``Covered" means bound by arbitrage. 
+        Investor should earn the same return using either currency.
+        $$
+            F=\frac{1+R_A(\frac{days}{360})}{1+R_B(\frac{days}{360})}S_0
+        $$
+    \item Uncovered interest rate parity: Forward currency contract is unavailable, 
+        which makes the interest rate not bound by arbitrage.
+        For a quote A/B, the base currency is expected to apprecitate
+        $$
+            E(\%\Delta_S)_(A/B)=R_A-R_B
+        $$
+
+        
+\ee
+
 
 \end{document}
