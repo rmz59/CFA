@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  16 OCT 2016 23:32
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  17 OCT 2016 01:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -490,27 +490,23 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 463.
 
-[10] [11] [12] [13] [14] 
+[10] [11] [12] [13] [14] [15] 
 AED: lastpage setting LastPage
-[15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 733.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 733.
+[16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 797.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 797.
  (./Notes.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 733.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 733.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 733.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 797.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 797.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 797.
  ) 
 Here is how much of TeX's memory you used:
  10864 strings out of 493706
  155802 string characters out of 6145769
- 244066 words of memory out of 5000000
+ 244530 words of memory out of 5000000
  14117 multiletter control sequences out of 15000+600000
  14341 words of font info for 50 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  42i,12n,45p,370b,760s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Notes.pdf (15 pages).
+Output written on Notes.pdf (16 pages).
