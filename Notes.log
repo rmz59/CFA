@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  19 OCT 2016 00:11
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  19 OCT 2016 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -500,12 +500,12 @@ Overfull \hbox (27.77357pt too wide) in paragraph at lines 819--822
 [16] [17] [18] 
 AED: lastpage setting LastPage
 [19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 963.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 963.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 966.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 966.
  (./Notes.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 963.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 963.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 963.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 966.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 966.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 966.
  ) 
 Here is how much of TeX's memory you used:
  10866 strings out of 493706

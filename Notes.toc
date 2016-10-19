@@ -60,3 +60,4 @@
 \contentsline {subsection}{\numberline {5.13}Objectives of central bank intervention and capital controls and describe the effectiveness of intervention and capital controls.}{18}{subsection.5.13}
 \contentsline {subsection}{\numberline {5.14}Describe warning signs of currency crisis.}{19}{subsection.5.14}
 \contentsline {subsection}{\numberline {5.15}Technical analysis}{19}{subsection.5.15}
+\contentsline {section}{\numberline {6}Economic Growth and the Investment Decision}{19}{section.6}
