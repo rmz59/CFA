@@ -57,3 +57,6 @@
 \contentsline {subsection}{\numberline {5.10}Describe the Mundell-Fleming model, the monetary approach and the asset market approach to exchange rate determination.}{18}{subsection.5.10}
 \contentsline {subsection}{\numberline {5.11}Forecast the direction of the expected change in an exchange rate based on balance of payment, Mundell-Fleming, monetary, and asset market approaches to exchange rate determination.}{18}{subsection.5.11}
 \contentsline {subsection}{\numberline {5.12}Explain the potential effects of monetary and fiscal policy on exchange rates.}{18}{subsection.5.12}
+\contentsline {subsection}{\numberline {5.13}Objectives of central bank intervention and capital controls and describe the effectiveness of intervention and capital controls.}{18}{subsection.5.13}
+\contentsline {subsection}{\numberline {5.14}Describe warning signs of currency crisis.}{19}{subsection.5.14}
+\contentsline {subsection}{\numberline {5.15}Technical analysis}{19}{subsection.5.15}
