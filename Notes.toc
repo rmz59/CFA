@@ -52,3 +52,8 @@
 \contentsline {subsection}{\numberline {5.5}Describe the relations among the international parity conditions}{15}{subsection.5.5}
 \contentsline {subsection}{\numberline {5.6}Evaluate the use of the current spot rate, the forward rate, purchasing parity and uncovered interest parity to forecast future spot exchange rates}{15}{subsection.5.6}
 \contentsline {subsection}{\numberline {5.7}Explain how flows in the balance of payment accounts affect currency exchange rates}{16}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}Explain approaches to assessing the long-run fair value of an exchange rate}{17}{subsection.5.8}
+\contentsline {subsection}{\numberline {5.9}Describe the carry trade and its relation to uncovered interest rate parity and calculate the profit from a carry trade.}{17}{subsection.5.9}
+\contentsline {subsection}{\numberline {5.10}Describe the Mundell-Fleming model, the monetary approach and the asset market approach to exchange rate determination.}{18}{subsection.5.10}
+\contentsline {subsection}{\numberline {5.11}Forecast the direction of the expected change in an exchange rate based on balance of payment, Mundell-Fleming, monetary, and asset market approaches to exchange rate determination.}{18}{subsection.5.11}
+\contentsline {subsection}{\numberline {5.12}Explain the potential effects of monetary and fiscal policy on exchange rates.}{18}{subsection.5.12}

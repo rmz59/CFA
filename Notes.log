@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  17 OCT 2016 01:06
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  18 OCT 2016 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -348,22 +348,22 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 29.
 (./Notes.aux)
 \openout1 = `Notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -405,7 +405,7 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 41.
+(lastpage)             ! on input line 42.
 \AtBeginShipoutBox=\box33
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
@@ -415,7 +415,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: xetex.def on input line 142.
 )
-Package hyperref Info: Link coloring ON on input line 41.
+Package hyperref Info: Link coloring ON on input line 42.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -425,9 +425,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count120
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
 
 (./Notes.out) (./Notes.out)
 \@outlinefile=\write3
@@ -442,71 +442,82 @@ LaTeX Info: Redefining \nameref on input line 41.
  [2] [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 127.
+(hyperref)                removing `math shift' on input line 128.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 127.
+(hyperref)                removing `subscript' on input line 128.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 127.
+(hyperref)                removing `subscript' on input line 128.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 127.
+(hyperref)                removing `math shift' on input line 128.
 
 [4] [5]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 256.
+(hyperref)                removing `math shift' on input line 257.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 256.
+(hyperref)                removing `superscript' on input line 257.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 256.
+(hyperref)                removing `math shift' on input line 257.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 256.
+(hyperref)                removing `math shift' on input line 257.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 256.
+(hyperref)                removing `superscript' on input line 257.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 256.
+(hyperref)                removing `math shift' on input line 257.
 
 [6] [7] [8] [9]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 463.
+(hyperref)                removing `math shift' on input line 464.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 463.
+(hyperref)                removing `math shift' on input line 464.
 
-[10] [11] [12] [13] [14] [15] 
+[10] [11] [12] [13] [14] [15]
+Overfull \hbox (27.77357pt too wide) in paragraph at lines 819--822
+[]\OT1/cmr/m/n/10 Capital Ac-count In-flu-ences: Money flow in$\OMS/cmsy/m/n/10
+ )$\OT1/cmr/m/n/10 Demand for my coun-try's cur-rency increases$\OMS/cmsy/m/n/1
+0 )$\OT1/cmr/m/n/10 Appreciation. 
+ []
+
+[16] [17] 
 AED: lastpage setting LastPage
-[16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 797.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 797.
+[18]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 928.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 928.
  (./Notes.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 797.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 797.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 797.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 928.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 928.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 928.
  ) 
 Here is how much of TeX's memory you used:
- 10864 strings out of 493706
- 155802 string characters out of 6145769
- 244530 words of memory out of 5000000
- 14117 multiletter control sequences out of 15000+600000
+ 10866 strings out of 493706
+ 155806 string characters out of 6145769
+ 245786 words of memory out of 5000000
+ 14119 multiletter control sequences out of 15000+600000
  14341 words of font info for 50 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  42i,12n,45p,370b,760s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Notes.pdf (16 pages).
+Output written on Notes.pdf (18 pages).

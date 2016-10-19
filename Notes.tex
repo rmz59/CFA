@@ -31,7 +31,8 @@
 
 \newcommand{\be}{\begin{enumerate}}
 \newcommand{\ee}{\end{enumerate}}
-
+\newcommand{\ra}{$\rightarrow$}
+\newcommand{\Ra}{$\Rightarrow$}
 \setlength\parindent{0pt}
 \pagestyle{fancy}
 \fancyhf{}
@@ -779,8 +780,13 @@ exchange rates}
                 \be
                     \item Current account: Exchanges of goods/services, exchanges of
                         investment income and unilateral transfers like gifts.
+                        \be
+                            \item Surplus: we sell more to other countries, buy less from them
+                            \item Deficit: we buy more from the rest, sell less to them
+                        \ee
                     \item Financial account/Capital account: Flows of funds for debt
-                        and equity investment into/out of a country.
+                        and equity investment into/out of a country. Surplus: Money is
+                        flowing into the country.
                     \item Offcial resreve: thoes made from the reserves held by the government.
                         Normally doesn't change from year to year.
                 \ee
@@ -790,8 +796,133 @@ exchange rates}
             \item Current Account
                 \be
                     \item Flow mechanism
+                        \be
+                            \item Deficit: increase the supply of that currency in the market. 
+                                Because exporters to our countries need to convert
+                                their revenue to their own currency. $\Rightarrow$ Down on the exchange
+                                value.
+                            \item Depreciation of the currency may rebalance the 
+                                current account. Depending on {\bf The initial deficit, the influence
+                                of exchange rates on import/export prices, price elasiticity of traded goods.}
+                                See Notes P265 for details.
+                        \ee
+                    \item Portfolio Composion mechanism. Countries with current account surpluses
+                        usually have capital account deficits, which typically take the form of investments
+                        in countries with current account deficits. As a result of these flows of capital, investor
+                        countries may find their portfolios' composition being dominated by few investee currencies. 
+                        When investor countries decide to rebalance their investment portfolios, it can have a significant negative
+                        impact on the value of those investee country currencies.
+                    \item Debt sustainability mechanism: Current account deficit may be balanced
+                        by borrowing money from other countries. If the debt too high, lenders may question
+                        the security, leading to the deprecitaion of the borrower's currency.
+                \ee
+            \item Capital Account Influences: Money flow in$\Rightarrow$Demand for 
+                my country's currency increases$\Rightarrow$Appreciation. 
+                \be
+                    \item Good: can help to overcome a shortage of internal savings
+                    \item Bad: Too much money can be problematic for emerging markets.
+                        \be
+                            \item Excessive appreciation of the domestic currency
+                            \item Financial asset, real estate bubbles
+                            \item Increase in external debt
+                            \item Excessive consumption in the domestic market funded by credit
+                        \ee
                 \ee
 
         \ee
+    \item real exchange rate (A/B) = equilibrium real exchange rate (A/B) + (real interest rate$_B$ - real interest rate$_A$)
+        -(risk premium$_B$ - risk premium$_A$) \\
+        This eqution is not precise. We cannot use it to calculate the rate.
+    \item Taylor Rule
+        $$
+            R=r_n+\pi+\alpha(\pi-\pi^\ast)+\beta(y-y^\ast)
+        $$
+        \be
+            \item R = Central bank policy rate implied by the Taylor Rule
+            \item $r_n$ = Neutral {\bf real} policy interest rate
+            \item $\pi$ = Current inflation rate
+            \item $\pi^\ast$ = Central bank's target inflation rate
+            \item $y$ = log of current level of output
+            \item $y^\ast$ = log of central bank's target (sustainable) output
+            \item $\alpha, \beta$ = policy response coefficients. (suggested value: 0.5 for both)
+        \ee
+        $$
+        Real interest rate = r = R-\pi=r_n+\alpha(\pi-\pi^\ast)+\beta(y-y^\ast)
+        $$
+        Substitute the real interest rate equation, we have\\
+        Real exchange rate (A/B) = equilibrium real exchange rate(A/B) + differenc
+        in neutral real policy interest rate(B-A)+$\alpha$[difference in inflation gap (B-A)]+
+        $\beta$[difference in output gap(B-A)]-(risk premium$_B$-risk premium$_A$)
+        //Where: Inflation gap = current inflation - target inflation, 
+        Output gap = current output - target output
+\ee
+\subsection{Explain approaches to assessing the long-run fair value of an exchange rate}
+\be
+    \item The ex-ante version of relative PPP holds $\Rightarrow$ The real exchange rates constant. 
+        However, relative PPP does not necessarily hold over the short term. Over long
+        term, PPP holds, and the real rate will be near its equilibrium level.
+    \item IMF asseses long-term equilibrium real exchanges rate based on
+        \be
+            \item Macroeconomic balance approach: if the Ex rates need to be adjusted to 
+                equalize the expected current account imbalance and the sustainable current
+                account imbalance.
+            \item External sustainability approach. How rates need to be adjust to force
+                a country's external debt relative to GDP towards its sustainable level.
+            \item Reduced-form econometric model approach. 
+        \ee
+\ee
+\subsection{Describe the carry trade and its relation to uncovered interest rate
+parity and calculate the profit from a carry trade.}
+\be
+    \item FX carry trade: Invest in a higher yielding funding with the funds borrowed in
+        a lower yielding currency. This is due to the uncovered interest rate parity may not
+        hold.
+    \item Risk of the Carry Trade
+        \be
+            \item The exchange rate may change abruptly.
+            \item The return distribution is not normal. Negative skewness and 
+                excess kurtosis (fat tails). $\Rightarrow$ High probabilithy of large loss
+        \ee
+    \item Risk Management in Carry Trades
+        \be
+            \item Volatility filter: if volatitlity > certain threshold, close the carry trade.
+            \item Valuation filter: valuation band for each currency based on PPP. If the value
+                of a currency falls below the band, we will increase its ratio.
+        \ee
+\ee
+\subsection{Describe the Mundell-Fleming model, the monetary approach and the asset
+market approach to exchange rate determination.}
+\subsection{Forecast the direction of the expected change in an exchange rate based on
+balance of payment, Mundell-Fleming, monetary, and asset market approaches to exchange rate determination.}
+\subsection{Explain the potential effects of monetary and fiscal policy on exchange rates.}
+\be
+    \item Mundell-Fleming Model: evaluate the impact of monetary and fiscal policies on interest rates, 
+        and therefore on exchange rates.
+    \item Flexible Exchange Rate Regimes: rate are determined by markets.
+        \be
+            \item High Capital Mobility: Expansionalry M and F are likely to have
+                opposite effects. Expansionary M will reduce the interest rate, 
+                reduce the inflow of  capital investment, reduce the demand for 
+                domestic money, depprecation.
+            \item Low Capital Mobility: Uncertain
+            \item Summary:\\
+                \begin{tabular}{c c c}
+                \hline
+                Monetary/Fiscal & High Capital Mobility & Low Capital Mobility \\
+                \hline
+                Expan/Expan &   Uncertain   & Depreciation \\
+                Expan/Restr &   Depreciation & Uncertain    \\
+                Restr/Expan &   Appre       & Uncertain     \\
+                Restr/Restr &   Uncertain   & Appreciation  \\
+                \hline
+                \end{tabular}   
+        \ee
+    \item Fixed Ex rate regimes
+        \be
+            \item If monetary expansionary (depreciation), governments need to buy money in the 
+                FX market, therefore will reverse the effect from monetary expansionary.
+            \item Fiscal expansionary \ra
+        \ee
+
 \ee
 \end{document}
