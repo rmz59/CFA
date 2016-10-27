@@ -61,3 +61,12 @@
 \contentsline {subsection}{\numberline {5.14}Describe warning signs of currency crisis.}{19}{subsection.5.14}
 \contentsline {subsection}{\numberline {5.15}Technical analysis}{19}{subsection.5.15}
 \contentsline {section}{\numberline {6}Economic Growth and the Investment Decision}{19}{section.6}
+\contentsline {subsection}{\numberline {6.1}Compare factors favoring and limiting economic growth in developed and developing economies}{19}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Describe the relation between the long-run rate of stock market appreciation and the sustainable groth rate of economy.}{19}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Explain why potential GDP and its growth rate matter for equity and fixed income investors.}{19}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Distinguish between capital deepening investment and technological progress and explain how each affects economic growth and labor productivity}{20}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Forecase potential GDP based on growth accounting relations}{20}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Explain how natural resources affect economic growth and evaluate the arument that limited availability of natural resources constrains economic growth}{20}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Explain how demographics, immigration, and labor force participation affect the rate and sustainability of economic growth}{20}{subsection.6.7}
+\contentsline {subsection}{\numberline {6.8}Explain how investment in physical capital, human capital, and technological development affects economic growth}{20}{subsection.6.8}
+\contentsline {subsection}{\numberline {6.9}Compare classical growth theory, neoclassical growth theory, and endogenous growth theory}{21}{subsection.6.9}
