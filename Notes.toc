@@ -83,3 +83,6 @@
 \contentsline {subsection}{\numberline {7.7}Describe anticompetitive behaviors targeted by antitrust laws globally and evaluate the antitrust risk associated with a given business strategy.}{24}{subsection.7.7}
 \contentsline {subsection}{\numberline {7.8}Benefits and costs of regulation}{24}{subsection.7.8}
 \contentsline {subsection}{\numberline {7.9}Evaluate how a specific regulation affects and industry companly, or security}{24}{subsection.7.9}
+\contentsline {section}{\numberline {8}Reading 16: Intercorporate Investments}{24}{section.8}
+\contentsline {subsection}{\numberline {8.1}Describe the classification, measurement, and disclosure under IFRS for 1) Investments in financial assets, 2) Investments in associates, 3) joint ventures, 4) bussiness combinations, and 5) special purpose and variable interest entities}{24}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Distinguish between IFRS and US GAAP in the classification, measurement, and disclosure of things above.}{24}{subsection.8.2}
