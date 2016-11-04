@@ -86,4 +86,7 @@
 \contentsline {section}{\numberline {8}Reading 16: Intercorporate Investments}{24}{section.8}
 \contentsline {subsection}{\numberline {8.1}Describe the classification, measurement, and disclosure under IFRS for 1) Investments in financial assets, 2) Investments in associates, 3) joint ventures, 4) bussiness combinations, and 5) special purpose and variable interest entities}{24}{subsection.8.1}
 \contentsline {subsection}{\numberline {8.2}Distinguish between IFRS and US GAAP in the classification, measurement, and disclosure of things above.}{24}{subsection.8.2}
-\contentsline {section}{\numberline {9}Reading 17: Employee Compensation: Post-Employment and Share-Based}{28}{section.9}
+\contentsline {section}{\numberline {9}Reading 17: Employee Compensation: Post-Employment and Share-Based}{29}{section.9}
+\contentsline {subsection}{\numberline {9.1}Descreibe the types of post-employment benefit plans and implications for financial reports}{29}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Explain and calculate measures of a defined benefit pension obligation, i.e., PV of the defined benefit obligation and projcted benefit obligation, and net pension liability.}{29}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Describe the components of a company's defined benefit pension costs.}{29}{subsection.9.3}
