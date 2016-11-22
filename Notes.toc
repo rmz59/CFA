@@ -138,3 +138,16 @@
 \contentsline {section}{\numberline {14}Reading 22: Captial Structure}{45}{section.14}
 \contentsline {subsection}{\numberline {14.1}Capital Structure Theory}{45}{subsection.14.1}
 \contentsline {subsection}{\numberline {14.2}Expalin the Modigliani-Miller propositions regarding capital structure, including the effects of levergae, taxes, financial distress, agency costs, and asymmetric information on a company's cost of equity, cost of capital, and optimal capital structure}{45}{subsection.14.2}
+\contentsline {subsection}{\numberline {14.3}Describe target capital structure and explian why a compny's actual captial structure may flucturate around its target.}{46}{subsection.14.3}
+\contentsline {subsection}{\numberline {14.4}Describe the role of debt ratings in captial structure policy}{46}{subsection.14.4}
+\contentsline {subsection}{\numberline {14.5}Explain factors an analysis should consider in evaluating the effect of capital structure policy on valuation.}{47}{subsection.14.5}
+\contentsline {subsection}{\numberline {14.6}Describe internationa differences in the use of financial leverage, factors that expalin these differences and implications of these differences for investment analysis}{47}{subsection.14.6}
+\contentsline {section}{\numberline {15}Dividends and Share Repurchases: Analysiss}{48}{section.15}
+\contentsline {subsection}{\numberline {15.1}Compare theories of dividend policy and explain implications of each for share value given a describption of a corporate dividend action}{48}{subsection.15.1}
+\contentsline {subsection}{\numberline {15.2}Describe types of information (signals) that dividend initiations, increases, decreases, and omissions may convey}{48}{subsection.15.2}
+\contentsline {subsection}{\numberline {15.3}Expain how clientele effects and agency issues may affect a company's payout policy.}{48}{subsection.15.3}
+\contentsline {subsection}{\numberline {15.4}Explain factors that affect dividend policy.}{48}{subsection.15.4}
+\contentsline {subsection}{\numberline {15.5}Calculate and interpret the effective tax rate on a given currency unit of corporate earnings under double taxation, dividend imputation, and split-rate tax systems.}{49}{subsection.15.5}
+\contentsline {subsection}{\numberline {15.6}Compare stable dividend, constant dividend payout ratio, and residual dividend payout policies, and calculate the diviend under each policy.}{49}{subsection.15.6}
+\contentsline {subsection}{\numberline {15.7}Explain the choice between paying cash dividends and repurchasing shares}{49}{subsection.15.7}
+\contentsline {subsection}{\numberline {15.8}Describe broad trends in corporate dividend policies}{50}{subsection.15.8}
