@@ -183,3 +183,11 @@
 \contentsline {subsection}{\numberline {18.13}Describe characteristics of M\&A transactions that creat value}{61}{subsection.18.13}
 \contentsline {subsection}{\numberline {18.14}Distinguish among equity carve-outs, spin-offs, split-offs and liquidation}{62}{subsection.18.14}
 \contentsline {subsection}{\numberline {18.15}Explain common reasons for restructuring}{62}{subsection.18.15}
+\contentsline {section}{\numberline {19}Reading 27: Equity Valuation: Applications and Process}{62}{section.19}
+\contentsline {subsection}{\numberline {19.1}Define valuation and intrinsic value and explain sources of perceived mispricing}{62}{subsection.19.1}
+\contentsline {subsection}{\numberline {19.2}Explain the going concern assumption and contrast a going concern value to liquid value.}{62}{subsection.19.2}
+\contentsline {subsection}{\numberline {19.3}Describe definitions of value and justify which definition of value is most relevant to public company valuation.}{62}{subsection.19.3}
+\contentsline {subsection}{\numberline {19.4}Describe applications of equity valuation}{63}{subsection.19.4}
+\contentsline {subsection}{\numberline {19.5}Describe questions that should be addressed in conducting an industry and competitive analysis}{63}{subsection.19.5}
+\contentsline {subsection}{\numberline {19.6}Contrast absolute and relative valuatin models and describe examples of each type of model}{64}{subsection.19.6}
+\contentsline {subsection}{\numberline {19.7}Describe sum-of-the-parts valuation and conglomerate discounts}{64}{subsection.19.7}
