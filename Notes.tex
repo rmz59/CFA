@@ -3136,8 +3136,99 @@ Three main
         \\GGM equity risk premium = (1-year forecasted dividend yield on mkt index)
         + (consensus long-term earnings growth rate) - (long-term government bond yield))
         =$D_1/P + \hat{g}-r_{LT,0}$
-        \\-Weakness: this estimation will change over time.
+        \\-Weakness:i) this estimation will change over time. ii)Assume stable growth rate
+    \item Supply-Side Estimates(Marcoeconomic Models): based on relations between
+        macroeconomic variabls and financial variables.
+        \\-Strength: proven models and current information
+        \\-Weakness: only good for developed countries
+        \\-Model: ERP=$[1+\hat{i}]\times[1+\hat{rEg}\times[1+\hat{PEg}]]-1+\hat{Y}
+        -\hat{RF}$
+        \\where $\hat{i}$=expectaion inflation, $\hat{rEg}$=expected real growth in EPS,
+        $\hat{PEg}$=expected changes in the P/E ratio, $\hat{Y}$=the expected yield on the index,
+        $\hat{RF}$
+    \item Survey Estimates: easy to obtain, but may has a wide disparity.
 \ee
+\subsection{Estimate the required return on an equity investment using the capital asset
+pricing model, the Fama-French model, the Pator-Stambaugh model, macro-economic multifactor models,
+and the build-up method.}
+\be
+    \item Capital Asset Pricing Model
+        \\Required return on stock j = risk-free rate + equity risk premium $\times$ beta of j
+    \item Multifactor models
+        \\Required return = RF + risk premium$_1$ + risk premium$_2$ + ... + risk premium$_n$
+        \\risk premium$_i$=factor sensitivity$\times$ factor risk premium
+    \item Fama-French Model: accounts for the higher returns associated with small-cap stocks
+        \\required return of stock j=RF + $\beta_{mkt,j}\times(R_{mkt}-RF)+
+        \beta_{SMB,j}\times(R_{small}-R_{big})+\beta_{HML,j}\times(R_{HBM}-R_{LBM})$
+        \\ $(R_mkt-RF)$ = return on a value-weighted market index - risk free rate; 
+        \\$R_{small}-R_{big}$ = a small-cap return premium equal to the average
+        return on small-cap portfolis - the average return on large-cap portfolios;
+        \\ $R_{HBM}-R_{LBM}$=a value return premium equal to the average return on high-book-to-market
+        portolios - the average return on low-book-to-market portfolios
+        \\Expected value for $\beta_{mkt,j}=1$, latter two $\beta$ are 0
+    \item Pastor-Stambaugh Model: adds a liquidity factor to the F-F model.
+        base: 0; less liquid: positive $\beta$
+    \item Macroeconomic Multifactor Models: use multiple factors and correspoding beta. Burmeister, Roll, and Ross Model:
+        \\-Confidence risk
+        \\-Time horizon risk
+        \\-Inflation risk
+        \\-Business cycle risk
+        \\-Market timing risk
+        \\Add RF and beta times these risks.
+    \item Build-up method: good for a company where betas are not readily obtainable
+        \\Required return = RF + equity risk premium + size premium + specific-company premium
+    \item Bond-Yield Plus Risk Premium Method: good for a company with publicly traded debt
+        \\Risk Premium = Risk premium + the YTM of Long-term debt
+\ee
+\subsection{Explain beta estimation for public companies for public companies, thinly
+traded public companies, and nonpublic companies}
+\be
+    \item Beta Estimates for Public Companies
+        \\-Public company: compute by regressing the returns of stock on the returns
+        of the overall mkt.
+        \\-Common Index: SP500, NYSE; Common time scale: 5 years of monthly or 2 years of weekly data.
+    \item Adjusted Beta for Public Companies
+        \\-beta drift: tendency of an estimated beta to revert to 1.0 over time
+        \\-Blume method: adjusted beta = (2/3 regression beta) + (1/3$\times$1.0)
+    \item Best Estimates for Thinly Traded stocks and Nonpublic Companes
+        \\Steps
+        \\-Find a benchmark company XYZ, publicly traded and similar
+        \\-Estimate the benchmark beta
+        \\-Find Unlevered beta: unlevered beta for XYZ = (beta of XYZ) $1/(1+debt of XYP/equity of XYZ)$
+        \\-Estimated beat for ABC = unlevered beta of XYZ $\times (1+debt of ABC/equity of ABC)$ 
+\ee
+\subsection{Describe strengths and weaknesses of methods used to estimate the required
+return on an equity investment}
+\be
+    \item CAPM
+        \\S: simple, one factor
+        \\W: need to choose appropriate factor; low explanatory power
+    \item Multifactor models:
+        \\S: higher explanatory power
+        \\W: Complex, expensive
+    \item Build-up models: 
+        \\S: simple
+        \\W: use historical values that may or may not be relevant to current market conditions
+\ee
+\subsection{Explain international considerations in required return estimation}
+Need to consider the exchange risk. Two models
+\be
+    \item Country Spread Model: Use a developed market as benchmark and add a risk premium
+        (difference between the yield on bonds)
+    \item Country Risk Rating Model: Use a model, and take the risk rating as 
+        independent variable.
+\ee
+\subsection{Explain and calculate the weighted average cost of capital for a company}
+WACC=
+$$
+    \frac{market value of debt}{mkt value of debt and equity}\times r_d \times(1-tax rate)
+    +\frac{mkt value of equity}{mkt value of debt and euqity}\times r_e
+$$
+\subsection{Evaluate the appropriateness of using a particular rate of return as
+a discount rate, given a description of the cash flow to be discounted and other
+relevant facts}
+CF to the entire company: WACC
+\\CF to equity: required return on equity
 \end{document}
 
 
