@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.10.31)  7 DEC 2016 00:28
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.10.31)  8 DEC 2016 00:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -948,11 +948,11 @@ LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 4.98067pt on input line 2.
  [1
 
-] [2] [3] [4] [5])
+] [2] [3] [4] [5] [6])
 \tf@toc=\write4
 \openout4 = `Notes.toc'.
 
- [6] [7]
+ [7] [8]
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 12.00018pt on input line 129.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
@@ -986,7 +986,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 129.
 
-[8] [9]
+[9] [10]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 258.
@@ -1011,7 +1011,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 258.
 
-[10] [11] [12] [13]
+[11] [12] [13] [14]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 465.
@@ -1020,48 +1020,48 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 465.
 
-[14] [15] [16] [17] [18] [19]
+[15] [16] [17] [18] [19] [20]
 Overfull \hbox (27.51003pt too wide) in paragraph at lines 820--823
 []\EU1/lmr/m/n/10 Capital Account Influences: Money flow in$[]$Demand for my co
 untry’s currency increases$[]$Appreciation. 
  []
 
-[20] [21] [22]
+[21] [22] [23]
 Overfull \hbox (4.89299pt too wide) in paragraph at lines 994--994
 []\EU1/lmr/bx/n/12 Distinguish between capital deepening investment and technol
 ogical progress
  []
 
-[23]
+[24]
 Overfull \hbox (9.12074pt too wide) in paragraph at lines 1044--1048
 []\EU1/lmr/m/n/10 Physical capital: infrastructure, computers, telecommunicatio
 ns(ICT) AND non-ICT capital(machineary,
  []
 
-[24] [25] [26] [27]
+[25] [26] [27] [28]
 Overfull \hbox (43.025pt too wide) in paragraph at lines 1250--1263
 [] 
  []
 
-[28] [29] [30] [31] [32] [33] [34] [35] [36] [37]
+[29] [30] [31] [32] [33] [34] [35] [36] [37] [38]
 Overfull \hbox (11.81004pt too wide) in paragraph at lines 1792--1797
 []\EU1/lmr/m/n/10 Warnings signs of misstated profitability: high revenue growt
 h than peers; receivable growth$[]$revenue
  []
 
-[38] [39] [40] [41] [42]
+[39] [40] [41] [42] [43]
 Overfull \hbox (9.22499pt too wide) in paragraph at lines 2065--2065
 []\EU1/lmr/bx/n/12 Calculate the yearly cash flows of expansion and replacement
  capital projects
  []
 
-[43] [44] [45] [46] [47] [48] [49] [50]
+[44] [45] [46] [47] [48] [49] [50] [51]
 Overfull \hbox (4.94002pt too wide) in paragraph at lines 2462--2469
 \EU1/lmr/m/n/10 -Useful ratios: Dividend payout ratio(dividens/net income) and 
 dividend coverage ratio(net income/dividends) 
  []
 
-[51]
+[52]
 Overfull \hbox (4.3639pt too wide) in paragraph at lines 2498--2500
 []\EU1/lmr/m/n/10 Stockholders are special stakeholders. Return on invested cap
 ital(ROIC) and growth in profits$[]$Measure
@@ -1073,46 +1073,42 @@ Overfull \hbox (5.577pt too wide) in paragraph at lines 2533--2533
 s, and Rights
  []
 
-[52] [53] [54] [55]
+[53] [54] [55] [56]
 File: figs/merger.png Graphic file (type QTm)
  <use  "figs/merger.png" >
 Overfull \hbox (271.30513pt too wide) in paragraph at lines 2708--2727
 [][]
  []
 
-[56] [57]
+[57] [58]
 Overfull \hbox (35.38896pt too wide) in paragraph at lines 2778--2780
 []\EU1/lmr/m/n/10 Restrictive takeover laws: some states in US will protect com
 pany against a hostile takeover. Ohio/Pennsylvania 
  []
 
-[58] [59] [60] [61] [62] [63] [64]
+[59] [60] [61] [62] [63] [64] [65]
 Overfull \hbox (7.14897pt too wide) in paragraph at lines 3114--3114
 []\EU1/lmr/bx/n/12 Calculate and interpret an equity risk premium using histori
 cal and forward-
  []
 
-[65] [66] 
+[66] [67] [68] [69] 
 AED: lastpage setting LastPage
-[67]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3232.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3232.
+[70]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3356.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3356.
  (./Notes.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3232.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3232.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3232.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3356.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3356.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3356.
  ) 
 Here is how much of TeX's memory you used:
- 27266 strings out of 493589
- 475784 string characters out of 6143511
- 614925 words of memory out of 5000000
- 30462 multiletter control sequences out of 15000+600000
+ 27267 strings out of 493589
+ 475796 string characters out of 6143511
+ 618111 words of memory out of 5000000
+ 30463 multiletter control sequences out of 15000+600000
  12741 words of font info for 68 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  43i,12n,68p,10371b,772s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Notes.pdf (67 pages).
+Output written on Notes.pdf (70 pages).
