@@ -215,3 +215,4 @@
 \contentsline {subsection}{\numberline {21.11}Explain considerations in the choice of an explicit forecast horizon}{70}{subsection.21.11}
 \contentsline {subsection}{\numberline {21.12}Explain an analyst's choices in developing projections beyond the short-term forecast horizon}{70}{subsection.21.12}
 \contentsline {subsection}{\numberline {21.13}Demonstrate the developent of a sales-based pro forma company model}{70}{subsection.21.13}
+\contentsline {section}{\numberline {22}Reading 30:Discounted Dividend Valuation}{71}{section.22}
