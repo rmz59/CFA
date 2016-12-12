@@ -222,3 +222,12 @@
 \contentsline {subsection}{\numberline {22.4}Calculate and interpret the implied growth rate of dividends using the Gordon growth model and current stock price}{72}{subsection.22.4}
 \contentsline {subsection}{\numberline {22.5}Calculate and interpret the present value of growth opportunities (PVGO) and the component of the leading price-to-earnings ratio(P/E) related to PVGO}{72}{subsection.22.5}
 \contentsline {subsection}{\numberline {22.6}Calculate and interpret the justified leading and trailing P/Es using the Gordon growth model}{72}{subsection.22.6}
+\contentsline {subsection}{\numberline {22.7}Calculate the value of noncallable fixed-rate perpetual preferred stock}{72}{subsection.22.7}
+\contentsline {subsection}{\numberline {22.8}Describe strengths and limitations of the Gordon growth model and justify its selection to value a company's common shares}{72}{subsection.22.8}
+\contentsline {subsection}{\numberline {22.9}Explain the assumptions and justify the selection of the two-stage DDM, the H-model, the three-stage DDM, or spreadsheet modeling to value a company's common shares}{73}{subsection.22.9}
+\contentsline {subsection}{\numberline {22.10}Explain the growth phase, transitional phase, and matruity phase of a business}{73}{subsection.22.10}
+\contentsline {subsection}{\numberline {22.11}Describe terminal value and explain alternative approaches to determining the terminal value in a DDM}{73}{subsection.22.11}
+\contentsline {subsection}{\numberline {22.12}Calculate and interpret the value of common shares using the two-stage of DDM, the H-model, and the three-stage DDM.}{73}{subsection.22.12}
+\contentsline {subsection}{\numberline {22.13}Estimate a required return based on any DDM, including the Gordon growth model and the H-model}{74}{subsection.22.13}
+\contentsline {subsection}{\numberline {22.14}Explain the use of spreadsheet modeling to forecsh dividends and to value common shares}{74}{subsection.22.14}
+\contentsline {subsection}{\numberline {22.15}Calculate and interpret the sustainable growth rate of a compnay and demonstrate the use of DuPont analysis to estimate a company's sustainable growth rate.}{74}{subsection.22.15}
