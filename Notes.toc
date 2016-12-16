@@ -236,3 +236,12 @@
 \contentsline {subsection}{\numberline {23.1}Compare the FCFF and FCFE approaches to valuation.}{75}{subsection.23.1}
 \contentsline {subsection}{\numberline {23.2}Explain the ownership perspective implicit in the FCFE approach}{76}{subsection.23.2}
 \contentsline {subsection}{\numberline {23.3}Explain the appropriate adjustments to net income, EBIT, EBITDA, CFO to calculate FCFF and FCFE}{76}{subsection.23.3}
+\contentsline {subsection}{\numberline {23.4}Calculate FCFF and FCFE}{77}{subsection.23.4}
+\contentsline {subsection}{\numberline {23.5}Describe approaches for forecasting FCFF and FCFE}{77}{subsection.23.5}
+\contentsline {subsection}{\numberline {23.6}Compare the FCFE model and dividend discount models}{77}{subsection.23.6}
+\contentsline {subsection}{\numberline {23.7}Explain how dividends, share repurchases, share issues, and changes in leverge may affect future FCFF and FCFE}{77}{subsection.23.7}
+\contentsline {subsection}{\numberline {23.8}Evaluate the use of net income and EBITDA as proxies for cash flow in valuation}{78}{subsection.23.8}
+\contentsline {subsection}{\numberline {23.9}Explain the single-stage, two-stage, and three-stage FCFF nd FCFE models and select and justify the appropriate model given a company's characteristics}{78}{subsection.23.9}
+\contentsline {subsection}{\numberline {23.10}Estimate a company's value using the appropriate free cash flow models}{78}{subsection.23.10}
+\contentsline {subsection}{\numberline {23.11}Explain the use of lsensitivity analysis in FCFF and FCFE Valuations}{78}{subsection.23.11}
+\contentsline {subsection}{\numberline {23.12}Describe approaches for calculating the terminal value in multistage valuation model}{79}{subsection.23.12}
