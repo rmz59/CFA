@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.10.31)  15 DEC 2016 23:12
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.10.31)  17 DEC 2016 10:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1097,21 +1097,17 @@ cal and forward-
 
 AED: lastpage setting LastPage
 [79]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3694.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3694.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3715.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3715.
  (./Notes.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3694.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3694.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3694.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3715.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3715.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3715.
  ) 
 Here is how much of TeX's memory you used:
  27269 strings out of 493589
  475820 string characters out of 6143511
- 624081 words of memory out of 5000000
+ 624429 words of memory out of 5000000
  30465 multiletter control sequences out of 15000+600000
  12741 words of font info for 68 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
