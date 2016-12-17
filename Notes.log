@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.10.31)  17 DEC 2016 10:41
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.10.31)  17 DEC 2016 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1093,16 +1093,16 @@ Overfull \hbox (7.14897pt too wide) in paragraph at lines 3114--3114
 cal and forward-
  []
 
-[67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78]
+[67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
 
 AED: lastpage setting LastPage
-[79]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3725.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3725.
+[80]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3745.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3745.
  (./Notes.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3725.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3725.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3725.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3745.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3745.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3745.
  ) 
 Here is how much of TeX's memory you used:
  27270 strings out of 493589
@@ -1113,4 +1113,4 @@ Here is how much of TeX's memory you used:
  1347 hyphenation exceptions out of 8191
  43i,12n,68p,10371b,772s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Notes.pdf (79 pages).
+Output written on Notes.pdf (80 pages).
