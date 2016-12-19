@@ -250,3 +250,4 @@
 \contentsline {subsection}{\numberline {24.2}Calculate and interpret a justified price multiple}{79}{subsection.24.2}
 \contentsline {subsection}{\numberline {24.3}Describe rationales for and possible drawbacks to using alternative price multiples and dividend yield in valuation}{79}{subsection.24.3}
 \contentsline {subsection}{\numberline {24.4}Calculate and interpret alternative price multiples and dividend yield}{79}{subsection.24.4}
+\contentsline {subsection}{\numberline {24.5}Calculate and interpret underlying earnings, explain methods of normalizing earnings per share(EPS), and calculate normalized EPS}{80}{subsection.24.5}
