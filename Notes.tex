@@ -34,6 +34,7 @@
 \newcommand{\ee}{\end{enumerate}}
 \newcommand{\ra}{$\rightarrow$}
 \newcommand{\Ra}{$\Rightarrow$}
+\newcommand{\eq}[1]{\begin{align*}\begin{split}#1\end{split}\end{align*}}
 \setlength\parindent{0pt}
 \pagestyle{fancy}
 \fancyhf{}
@@ -3772,7 +3773,35 @@ sales, asset write-downs, provisions for future losses, and changes in accountin
 Normalized Earnings: use estimate of EPS in the middle of business cycle
 \be
     \item Method of historical average EPS: average EPS over some recent period
-    \item Method of average return on equity: 
+    \item Method of average return on equity: average return on equity times the 
+        current book value per share = average ROE$\times$BVPS. --Preferred.
+\ee
+\subsection{Explain and justify the use of earnings yield(E/P)}
+When earnings$<$0, $P/E$ ratios are meaningless. we can use $E/P$:
+\\ High E/P\ra cheap security; Low E/P\ra Expensive security.
+\subsection{Describe fundamental factors that influence alternative price multiples and dividend yield}
+\subsection{Calculate and interpret the justified P/E,P/B,P/S ratios for a stock, based on forecasted
+fundamentals}
+Justified P/E Multiple
+\be
+    \item Equations:
+        $$
+        P_0=V_0=\frac{D_0\times (1+g)}{r-g}=\frac{D_1}{r-g}
+        $$
+        
+        Trailing P/E=$$\frac{P_0}{E_0}=\frac{D_0\times(1+g)/E_0}{r-g}=\frac{(1-b)(1+g)}{r-g}
+        $$
+        Leading P/E=$$
+        \frac{P_0}{E_1}=\frac{D_1/(r-g)}{E_1}=\frac{1-b}{r-g}
+        $$
+        Here, $b$ is the retention rate.
+\ee
+Justified P/B Multiple
+\be
+    \item Equation and derivation
+        \eq{
+            g=ROE\times b, E_1=B_0\times ROE
+        }
 \ee
 \end{document}
 
