@@ -3697,7 +3697,7 @@ Two way
 \ee
 
 
-\section{Market-Based Valutation: Price and Enterprise Value Multiples}
+\section{Reading 32:Market-Based Valutation: Price and Enterprise Value Multiples}
 \subsection{Distinguish between the method of comparables and the method based on
 forecasted fundamentals as approaches to using price multiples in valuation, and
 explain economic rationales for each approach.}
@@ -3854,7 +3854,9 @@ methodology}
 in using method of comparables}
 \subsection{Evaluate whether a stock is overvalued, fairly valued, or undervalued based on comparisons
 of multiples}
-P/E
+Use multiples to value stocks
+\be
+\item P/E
 \be
     \item P/E Multiples$<$the benchmark\ra Undervalued
     \item Usual P/E multiples
@@ -3863,6 +3865,151 @@ P/E
         \\-P/E of an index
         \\-average historical P/E for the stock.
 \ee
+\item P/B
+\be
+    \item Similar to P/E
+    \item Difference:
+        \\-Use trailing book values in calculating P/Bs
+\ee
+\item P/S
+\be
+    \item Similar to P/E
+    \item Differnce
+        \\-Use trailing sales
+\ee
+\item EV/EBITDA
+\be
+    \item $<$ benchmark\ra undervalue
+\ee
+\item Dvidend yield
+\be
+    \item high dividend yield\ra undervalue
+\ee
+\ee
+The Fed and Yardeni models
+\be
+    \item Fed model: the overall mkt overvalued when the earnings yield(E/P) on
+        the SP500 $<$ the yield on 10-year US Treasury bonds.
+    \item Yardeni model
+        \\-CEY=CBY-k$\times$LTEG+$\varepsilon_i$
+        \\CEY=Current earnings yield of the market; CBY=current Moody's A-rated
+        corporate bond yield
+        \\LTEG=five-year consensus earnings growth rate; k=constant, $\approx$0.20
+\ee
+\subsection{Calculate and interpret the P/E-to-growth ratio(PEG) and explain its use
+in relative valuation}
+$$
+PEG ratio = \frac{P/E ratio}{g}
+$$
+PEG ratio ``standardizes'' the P/E ratio for stocks with different growth rates.
+Small PEG ratio\ra better.
+\\Drawbacks:
+\be
+    \item P/E and g is not linear.
+    \item PEG ratio doesn't account for risk.
+    \item PEG ratio doesn't reflect the duration of the high-growth period
+        for a multistage valuation model.
+\ee
+\subsection{Calculate and explain the use of price multiples in determining terminal
+value in a multistage discounted cash flow model.}
+Two methods:
+\\1. based on fundamentals
+\be
+    \item Terminal value in year n = justified leading P/E $\times$ forecasted earnings
+        in year n+1
+    \item Terminal value in year n = justified trailing P/E $\times$ forecasted earnings
+        in year n
+\ee
+2. based on comparables
+\be
+    \item Terminal value in year n = benchmark leading P/E $\times$ forecasted earnings
+        in year n+1
+    \item Terminal value in year n = benchmark trailing P/E $\times$ forecasted earnings
+        in year n
+\ee
+\subsection{Explain alternative definitions of cash flow used in price and enterprise value(EV)
+multiples and describe limitations of each definition}
+Definitions of cash flow available for use in calculating the P/CF
+\be
+    \item Earnings-plus-noncash charges(CF)
+    \item Adjusted cash flow (adjusted CFO)
+    \item Free cash flow to equity(FCFE)
+    \item Earnings before interest, taxes, depreciation and amortization(EBITDA)
+\ee
+Earnings-plus-noncash-charges(CF)
+\be
+    \item Definition: CF=net income + depreciation + amortization
+    \item Limitation: it ignores items that affect cash flow, like noncash revenue 
+        and changes in net working captial.
+\ee
+Cash Flow from Operations or Adjusted CFO
+\be
+    \item How to adjust for nonrecurring cash flows: 
+        \\-GAAP: interest paid/received, dividends received to be classified
+        as operating cash flows
+        \\-IFRS: interest paid in Operating/Financing, interest and dividends
+        received in Operating/Investing
+\ee
+FCFE/EBITDA:
+\be
+    \item FCFE=CFO-FCInv+net borrowing, where FCInv = fixed capital investing,
+        net borrowing = (long- and short-term debt issues)-(long- and short-term
+        debt repayments)
+    \item EBITDA
+\ee
+P/CF ratio=markt value of equity/cash flow = mkt price per share/cash flow per share
+\subsection{Calculate and interpret EV multiples and evaluate the use EV/EBITDA}
+\be
+    \item Enterprise value(EV) = market value of common stock + mkt value of preferred equity
++ mkt value of debt + minoirty interest - cash and investments
+    \item EV/EBITDA ratio = Enterprise value/EBITDA
+    \item EBITDA = recurring earnings from continuing operations + interest
+        + taxes + depreciation + amortization
+        \\=EBIT + deprecitation + amortization
+\ee
+EV/EBITDA good/bad
+\be
+    \item Good
+        \\-good when comparing firms with different degrees of financial leverages
+        \\-EBITDA is useful for valuing capital-intensive businesses with high levels of depreciation and amortization
+        \\-EBITDA is usually positive
+    \item Bad
+        \\-EBITDA might overstate CFO
+        \\-FCFF has the amount of capital expenditures, it's more related
+        with valuation theory.
+\ee
+Alternative to EV: Total invested capital(TIC)=mkt value of invested capital=mkt value of 
+companies equity and debt.
+\subsection{Explain sources of differences in cross-border valuation comparisons}
+\be
+    \item Differences in accounting methods, cultures, risk, and growth opportunities.
+    \item Other differences: accounting treatement for goodwill, deferred income taxes, foreign
+        exchange adjustments, R\&D, pension expense, and tangible asset revaluations
+\ee
+\subsection{Describe momentum indicators and their use in valuation.}
+\be
+    \item Momentum indicators: mkt price/fundamental variable to the time seris of historical/expected
+    value. 
+    \\-Example: earning surprise, stdized unexpected earnings, relative strengh.
+\ee
+Common momentum indicators
+\be
+    \item Unexpected earnings/earnings surprise=reported EPS-expected EPS
+    \item Standardized unexpected earnings(SUE):
+        SUE=earnings surprise/standard deviation of earnings surprise
+    \\Std comes from historical data.
+    \item Relative strength indicators: compare a stock's price or return performance
+        with is own historical performance.
+\ee
+\subsection{Explain the use of the arithmetic mean, the weighted harmonic mean,
+and the meian to describe the central tendency of a group of multiples}
+Use Weighted harmonic mean to calculate Portfolio or index P/E:
+$$
+WHM = \frac{1}{\sum_i=1^n \frac{w_i}{X_i}}
+$$
+where $X_i$ is the P/Es, $w$ is the weights.
+
+
 \end{document}
 
 
