@@ -268,3 +268,4 @@
 \contentsline {subsection}{\numberline {25.1}Calculate and interpret residual income, economic value added, and market value added.}{85}{subsection.25.1}
 \contentsline {subsection}{\numberline {25.2}Describe the use of residual income models}{86}{subsection.25.2}
 \contentsline {subsection}{\numberline {25.3}Calcualte the intrinsic value of a common stock using the residual income model and compare value recognition in residual income and other present value models}{86}{subsection.25.3}
+\contentsline {subsection}{\numberline {25.4}Explain fundamental determinants of residual income}{86}{subsection.25.4}
