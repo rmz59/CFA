@@ -1,279 +1,292 @@
-\contentsline {section}{\numberline {1}Reading 9: Correlation and Regressions}{10}{section.1}
-\contentsline {subsection}{\numberline {1.1}Sample covar and sample correlation coefficients}{10}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Limtations to correlations analysis}{10}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Hypothesis: determine if the population correlation coefficient is zero}{10}{subsection.1.3}
-\contentsline {subsection}{\numberline {1.4}Determine dependent/indepedent variables in a linear regression}{10}{subsection.1.4}
-\contentsline {subsection}{\numberline {1.5}Assumptions in linear regression and interpret regression coeff.}{10}{subsection.1.5}
-\contentsline {subsection}{\numberline {1.6}Standard error of estimate, the coeff. of determination and a confidence interval for a regression coefficient.}{11}{subsection.1.6}
-\contentsline {subsection}{\numberline {1.7}Hypothesis: Determine if $\hat {b}_1=b_1$}{11}{subsection.1.7}
-\contentsline {subsection}{\numberline {1.8}Calculate the predicted value for the depedent variable}{11}{subsection.1.8}
-\contentsline {subsection}{\numberline {1.9}Calculate and interpret a confidence interval for the predicted value of the depedent variable}{11}{subsection.1.9}
-\contentsline {subsection}{\numberline {1.10}ANOVA in regression. Interpret results, and calculate F-statistic}{12}{subsection.1.10}
-\contentsline {subsection}{\numberline {1.11}Limitations of regression analysis}{12}{subsection.1.11}
-\contentsline {section}{\numberline {2}Reading 10: Multiple Regression and Issues in Regression Analysis}{12}{section.2}
-\contentsline {subsection}{\numberline {2.1}Interpret estimated regression coefficients and their p-values.}{12}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Formulate a null/alternative hypothesis, do correspoding calculations}{13}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Calculate and Interpret a confidence interval for the population value of a regression coefficient or a predicted value for the depedent variable if an estimated regression model.}{13}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Assumptions of a multiple regresssion model}{13}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Calculate and interpret F-statistic}{13}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Distinguish between $R^2$ and adjusted $R^2$}{14}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Evaluate the quality of a regression model by analyzing the ouput of the equation/ANOVA table}{14}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}Formulate a multiple regression with dummpy variables to represent qualitative factors}{14}{subsection.2.8}
-\contentsline {subsection}{\numberline {2.9}Why multiple regression isn't as easy as it looks?}{14}{subsection.2.9}
-\contentsline {subsection}{\numberline {2.10}Types of Heteroskedasticity, how heteroskedasiticity and serial correlation affect inference}{14}{subsection.2.10}
-\contentsline {subsection}{\numberline {2.11}Multicolinearity and its cause and effects in regression analysis}{16}{subsection.2.11}
-\contentsline {subsection}{\numberline {2.12}Model misspecification}{16}{subsection.2.12}
-\contentsline {subsection}{\numberline {2.13}Models with qualitive dependent variables}{16}{subsection.2.13}
-\contentsline {section}{\numberline {3}Reading 11: Time-Series Analysis}{16}{section.3}
-\contentsline {subsection}{\numberline {3.1}Calculate/evaluate the predicted trend value for a time series given the estimated trend coefficients}{16}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Factors that determine whether a linear or a log-linear model trend should be used}{17}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Autoregressive model, requirements for covariance statinoary}{17}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}An autogressive model of order $p$}{17}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}How the residuals can be used to test the autogressive model}{17}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Mean reversion and a mean-reverting level}{17}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Contrast in-sample and out-of-sample forecasts and the forecasting accuracy of different time-series models based on the root mean squared error criterion.}{18}{subsection.3.7}
-\contentsline {subsection}{\numberline {3.8}Explain the instability of coefficients of time-series models}{18}{subsection.3.8}
-\contentsline {subsection}{\numberline {3.9}Random walk processes and their comparisons between covariance stationary processes}{18}{subsection.3.9}
-\contentsline {subsection}{\numberline {3.10}Things about unit roots: when they will occur, how to test them, how to transform data to apply AR}{18}{subsection.3.10}
-\contentsline {subsection}{\numberline {3.11}How to test and correct for seasonality in a time-series model, and calculate and interpret a forecasted value using an AR model with a sesonal lag.}{18}{subsection.3.11}
-\contentsline {subsection}{\numberline {3.12}Explain autogressive conditional heteroskedasticity (ARCH) and describe how ARCH models can be applied to predict the variance of a time series}{19}{subsection.3.12}
-\contentsline {subsection}{\numberline {3.13}Explain How time-series variables should be analyzed for nonstationarity and/or cointegration before use ain a linear regression}{19}{subsection.3.13}
-\contentsline {section}{\numberline {4}Reading 12: Probabilistic Approaches: Scenario Analysis, Decision Trees, and Simulations}{19}{section.4}
-\contentsline {subsection}{\numberline {4.1}Describe steps in a simulatino, Explain three ways to define the probability distributions for a simulation's variable, and describe how to treat correlation accross variables in a simulation.}{19}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Describe advantages of using simulations in decision making}{19}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Describe some common constraints introduced into simulations}{20}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Describe issues in using simulations in risk assessment}{20}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Compare scenario analysis, decision trees, and simulations}{20}{subsection.4.5}
-\contentsline {section}{\numberline {5}Reading 13: Currency Exchange Rates: Determination and Forecasting}{20}{section.5}
-\contentsline {subsection}{\numberline {5.1}Calculate and interpret the bid-ask spread}{20}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Identify a triangular arbitrage opportunity and calculate its profit}{21}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Distinguish between spot and forward rates and calculate the forward premium/discont for a given currency}{21}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Explaining international parity relations (covered and uncovered interest rate parity, purchasing power parity, and the international Fisher effect)}{22}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Describe the relations among the international parity conditions}{22}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Evaluate the use of the current spot rate, the forward rate, purchasing parity and uncovered interest parity to forecast future spot exchange rates}{22}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}Explain how flows in the balance of payment accounts affect currency exchange rates}{23}{subsection.5.7}
-\contentsline {subsection}{\numberline {5.8}Explain approaches to assessing the long-run fair value of an exchange rate}{24}{subsection.5.8}
-\contentsline {subsection}{\numberline {5.9}Describe the carry trade and its relation to uncovered interest rate parity and calculate the profit from a carry trade.}{24}{subsection.5.9}
-\contentsline {subsection}{\numberline {5.10}Describe the Mundell-Fleming model, the monetary approach and the asset market approach to exchange rate determination.}{25}{subsection.5.10}
-\contentsline {subsection}{\numberline {5.11}Forecast the direction of the expected change in an exchange rate based on balance of payment, Mundell-Fleming, monetary, and asset market approaches to exchange rate determination.}{25}{subsection.5.11}
-\contentsline {subsection}{\numberline {5.12}Explain the potential effects of monetary and fiscal policy on exchange rates.}{25}{subsection.5.12}
-\contentsline {subsection}{\numberline {5.13}Objectives of central bank intervention and capital controls and describe the effectiveness of intervention and capital controls.}{25}{subsection.5.13}
-\contentsline {subsection}{\numberline {5.14}Describe warning signs of currency crisis.}{26}{subsection.5.14}
-\contentsline {subsection}{\numberline {5.15}Technical analysis}{26}{subsection.5.15}
-\contentsline {section}{\numberline {6}Economic Growth and the Investment Decision}{26}{section.6}
-\contentsline {subsection}{\numberline {6.1}Compare factors favoring and limiting economic growth in developed and developing economies}{26}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Describe the relation between the long-run rate of stock market appreciation and the sustainable groth rate of economy.}{26}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Explain why potential GDP and its growth rate matter for equity and fixed income investors.}{26}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Distinguish between capital deepening investment and technological progress and explain how each affects economic growth and labor productivity}{27}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Forecase potential GDP based on growth accounting relations}{27}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Explain how natural resources affect economic growth and evaluate the arument that limited availability of natural resources constrains economic growth}{27}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}Explain how demographics, immigration, and labor force participation affect the rate and sustainability of economic growth}{27}{subsection.6.7}
-\contentsline {subsection}{\numberline {6.8}Explain how investment in physical capital, human capital, and technological development affects economic growth}{27}{subsection.6.8}
-\contentsline {subsection}{\numberline {6.9}Compare classical growth theory, neoclassical growth theory, and endogenous growth theory}{28}{subsection.6.9}
-\contentsline {subsection}{\numberline {6.10}Explain and evaluate convergence hypoteses}{28}{subsection.6.10}
-\contentsline {subsection}{\numberline {6.11}Describe the economic rationale for governments to provide incentives to private investments in technology and knowledge.}{28}{subsection.6.11}
-\contentsline {subsection}{\numberline {6.12}Describe the expected impact of removing trade barriers on capital investment and profits, employment and wages, and growth in the economies involved.}{28}{subsection.6.12}
-\contentsline {section}{\numberline {7}Reading 15:Economics of Regulation}{29}{section.7}
-\contentsline {subsection}{\numberline {7.1}Describe classifications of regulations and regulators}{29}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Describe uses of self-regulation in financial markets}{29}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Describe the economic rationale for regulatory intervention}{29}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Describe regulatory interdependencies and their effects.}{29}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Describe the tools of regulatory intervention in markets}{29}{subsection.7.5}
-\contentsline {subsection}{\numberline {7.6}Explain purposes in regulating commerce and financial markets}{30}{subsection.7.6}
-\contentsline {subsection}{\numberline {7.7}Describe anticompetitive behaviors targeted by antitrust laws globally and evaluate the antitrust risk associated with a given business strategy.}{30}{subsection.7.7}
-\contentsline {subsection}{\numberline {7.8}Benefits and costs of regulation}{30}{subsection.7.8}
-\contentsline {subsection}{\numberline {7.9}Evaluate how a specific regulation affects and industry companly, or security}{30}{subsection.7.9}
-\contentsline {section}{\numberline {8}Reading 16: Intercorporate Investments}{30}{section.8}
-\contentsline {subsection}{\numberline {8.1}Describe the classification, measurement, and disclosure under IFRS for 1) Investments in financial assets, 2) Investments in associates, 3) joint ventures, 4) bussiness combinations, and 5) special purpose and variable interest entities}{30}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Distinguish between IFRS and US GAAP in the classification, measurement, and disclosure of things above.}{30}{subsection.8.2}
-\contentsline {section}{\numberline {9}Reading 17: Employee Compensation: Post-Employment and Share-Based}{35}{section.9}
-\contentsline {subsection}{\numberline {9.1}Descreibe the types of post-employment benefit plans and implications for financial reports}{35}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Explain and calculate measures of a defined benefit pension obligation, i.e., PV of the defined benefit obligation and projcted benefit obligation, and net pension liability.}{35}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Describe the components of a company's defined benefit pension costs.}{35}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Explain and calculate the effect of a defined benefit plan's assumptions on the defined benefit obligation and periodic pension cost.}{36}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}Explain and calculate how adjusting for items of pension and other post-employment benefits affect financial stmts and ratios.}{36}{subsection.9.5}
-\contentsline {subsection}{\numberline {9.6}Interpret pension plan note disclosures including cash flow related information.}{37}{subsection.9.6}
-\contentsline {subsection}{\numberline {9.7}Explain issues associated with accounting for share-based compensation}{37}{subsection.9.7}
-\contentsline {subsection}{\numberline {9.8}Explain how accounting for stock grants and stock options affects financial stmts, and the importance of companies assumptions in valuing these grants and options.}{37}{subsection.9.8}
-\contentsline {section}{\numberline {10}Reading 18: Multinational Operations}{37}{section.10}
-\contentsline {subsection}{\numberline {10.1}Distinguish among presentation currency, functional currency and local currency.}{37}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Describe foreign currency transaction exposure, including accounting for and disclosures about foreign currency transaction gains and losses}{37}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}Analyze how changes in exchange rates affect the translated sales of the subsidiary and parent company}{38}{subsection.10.3}
-\contentsline {subsection}{\numberline {10.4}Compare the current rate method and the temporal method, evaluate how each affects the parent company's balance sheet and income stmt, and determine which method is appropriate in variuos scenarios.}{38}{subsection.10.4}
-\contentsline {subsection}{\numberline {10.5}Calculate the translation effects and evaluate the translation of a subsidiary's balance sheet and income }{39}{subsection.10.5}
-\contentsline {subsection}{\numberline {10.6}Analyze how the current rate method and the temporal method affect financial statements and ratios.}{39}{subsection.10.6}
-\contentsline {subsection}{\numberline {10.7}Analyze how alternative translation methods for subsidiaries operating in hyperinflationary economies affect financial stmts\& ratios}{39}{subsection.10.7}
-\contentsline {subsection}{\numberline {10.8}Describe how multinational operations affect a company's effective tax rate}{40}{subsection.10.8}
-\contentsline {subsection}{\numberline {10.9}Explain how changes in the components of sales affect the sustainability of sales growth}{40}{subsection.10.9}
-\contentsline {subsection}{\numberline {10.10}Analyze how currency fluctuations potentially affect financial results, given a company's countries of operation}{40}{subsection.10.10}
-\contentsline {section}{\numberline {11}Evaluating Quality of Financial Reports}{40}{section.11}
-\contentsline {subsection}{\numberline {11.1}Demonstrate the use of a conceptual framework for assesing the quality of a company's financial reports}{40}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Explain potential problems that affect the quality of financial reports}{41}{subsection.11.2}
-\contentsline {subsection}{\numberline {11.3}Describe how to evaluate the quality of a company's financial reports}{41}{subsection.11.3}
-\contentsline {subsection}{\numberline {11.4}Evaluate the quality of a company's financial reports}{41}{subsection.11.4}
-\contentsline {subsection}{\numberline {11.5}Describe indicators of earnings quality}{42}{subsection.11.5}
-\contentsline {subsection}{\numberline {11.6}Describe the concept of sustainable earnings}{42}{subsection.11.6}
-\contentsline {subsection}{\numberline {11.7}Explain mean reversion in earnings and how the accruals component of earnings affects the speed of mean reversion}{42}{subsection.11.7}
-\contentsline {subsection}{\numberline {11.8}Evaluate the earnings quality of a company}{42}{subsection.11.8}
-\contentsline {subsection}{\numberline {11.9}Describe indicators of cash flow quality}{43}{subsection.11.9}
-\contentsline {subsection}{\numberline {11.10}Evaluate the cash flow quality of a company}{43}{subsection.11.10}
-\contentsline {subsection}{\numberline {11.11}Describe indicators of balance sheet quality}{43}{subsection.11.11}
-\contentsline {subsection}{\numberline {11.12}Evaluate the balance sheet quality of a company}{43}{subsection.11.12}
-\contentsline {subsection}{\numberline {11.13}Describe sources of information about risk}{44}{subsection.11.13}
-\contentsline {section}{\numberline {12}Reading 20: Integration of Financial Statement Analysis Techniques}{44}{section.12}
-\contentsline {subsection}{\numberline {12.1}Demonstrate the use of a framework for the analysis of financial statements, given a particular problem, question, or purpose. (e.g., valuing equity based on comparables, critiquing a credit rating, obtaining a comprehensive picture of financial leverage, evaluting the perspectives given in management's discussion of financial results)}{44}{subsection.12.1}
-\contentsline {subsection}{\numberline {12.2}Identify financial reporting choices and biases that affect the quality and comparability of companies' financial statements and explain how such biases may affect financial decisions}{44}{subsection.12.2}
-\contentsline {subsection}{\numberline {12.3}Analyze and interpret how balance sheet modifications, earnings normalization, and cash flow statement related modifications affect a company's financial statements, financial ratios, and overall financial condition}{45}{subsection.12.3}
-\contentsline {subsection}{\numberline {12.4}Evaluate the quality of a company's financial data and recommend appropriate adjustments to improve quality and comparability with similar companies, including adjustments for differences in accounting standards, methods, and assumptions.}{45}{subsection.12.4}
-\contentsline {section}{\numberline {13}Reading 21: Capital Budgeting}{45}{section.13}
-\contentsline {subsection}{\numberline {13.1}Calculate the yearly cash flows of expansion and replacement capital projects and evaluate how the choice of depreciation method affects those cash flows}{46}{subsection.13.1}
-\contentsline {subsection}{\numberline {13.2}Expain how inflation affects capital budgeting analysis}{47}{subsection.13.2}
-\contentsline {subsection}{\numberline {13.3}Evaluate cpaital projects and determine the optimal capital project in situation of 1)Mutally exclusive projects with unequal lives, using either the least common multiple of lives approach or the equivalent annual annuity approach, and 2) capital rationing.}{47}{subsection.13.3}
-\contentsline {subsection}{\numberline {13.4}Explain how sensitivity analysis, scenario analysis, and Monte Carlo simulation can be used to asses the stand-alone risk of a capital project.}{47}{subsection.13.4}
-\contentsline {subsection}{\numberline {13.5}Explain and calculate the discount rate, based on market risk methods, to use in valuing a capital project}{47}{subsection.13.5}
-\contentsline {subsection}{\numberline {13.6}Describe types of real options and evaluate a capital project using real options}{47}{subsection.13.6}
-\contentsline {subsection}{\numberline {13.7}Describe common capital budgeting pmistaks}{48}{subsection.13.7}
-\contentsline {subsection}{\numberline {13.8}Calculate and interpreat accounting income and economic income in the context of capital budgeting.}{48}{subsection.13.8}
-\contentsline {subsection}{\numberline {13.9}Distinguish among the economic profic, residual income, and claims valuation models for capital budgeting and evaluate a capital project using each}{49}{subsection.13.9}
-\contentsline {section}{\numberline {14}Reading 22: Captial Structure}{49}{section.14}
-\contentsline {subsection}{\numberline {14.1}Capital Structure Theory}{49}{subsection.14.1}
-\contentsline {subsection}{\numberline {14.2}Expalin the Modigliani-Miller propositions regarding capital structure, including the effects of levergae, taxes, financial distress, agency costs, and asymmetric information on a company's cost of equity, cost of capital, and optimal capital structure}{49}{subsection.14.2}
-\contentsline {subsection}{\numberline {14.3}Describe target capital structure and explian why a compny's actual captial structure may flucturate around its target.}{50}{subsection.14.3}
-\contentsline {subsection}{\numberline {14.4}Describe the role of debt ratings in captial structure policy}{50}{subsection.14.4}
-\contentsline {subsection}{\numberline {14.5}Explain factors an analysis should consider in evaluating the effect of capital structure policy on valuation.}{51}{subsection.14.5}
-\contentsline {subsection}{\numberline {14.6}Describe internationa differences in the use of financial leverage, factors that expalin these differences and implications of these differences for investment analysis}{51}{subsection.14.6}
-\contentsline {section}{\numberline {15}Dividends and Share Repurchases: Analysiss}{52}{section.15}
-\contentsline {subsection}{\numberline {15.1}Compare theories of dividend policy and explain implications of each for share value given a describption of a corporate dividend action}{52}{subsection.15.1}
-\contentsline {subsection}{\numberline {15.2}Describe types of information (signals) that dividend initiations, increases, decreases, and omissions may convey}{52}{subsection.15.2}
-\contentsline {subsection}{\numberline {15.3}Expain how clientele effects and agency issues may affect a company's payout policy.}{52}{subsection.15.3}
-\contentsline {subsection}{\numberline {15.4}Explain factors that affect dividend policy.}{52}{subsection.15.4}
-\contentsline {subsection}{\numberline {15.5}Calculate and interpret the effective tax rate on a given currency unit of corporate earnings under double taxation, dividend imputation, and split-rate tax systems.}{53}{subsection.15.5}
-\contentsline {subsection}{\numberline {15.6}Compare stable dividend, constant dividend payout ratio, and residual dividend payout policies, and calculate the diviend under each policy.}{53}{subsection.15.6}
-\contentsline {subsection}{\numberline {15.7}Explain the choice between paying cash dividends and repurchasing shares}{53}{subsection.15.7}
-\contentsline {subsection}{\numberline {15.8}Describe broad trends in corporate dividend policies}{54}{subsection.15.8}
-\contentsline {subsection}{\numberline {15.9}Calculate and interpret dividend coverage ratios based on 1) net income and 2) free cash flow.}{54}{subsection.15.9}
-\contentsline {subsection}{\numberline {15.10}Identify characteristics of companies that may not be able to sustain their cash dividend.}{54}{subsection.15.10}
-\contentsline {section}{\numberline {16}Reading 24: Corporate Performance, Governance, and Business Ethics}{54}{section.16}
-\contentsline {subsection}{\numberline {16.1}Compare interest of key stakeholders gropus and explain the purpose of a stakeholder impact analysis}{54}{subsection.16.1}
-\contentsline {subsection}{\numberline {16.2}Discuss problems that can arise in principal-agent relationships and mechanism that may mitigate such problems.}{55}{subsection.16.2}
-\contentsline {subsection}{\numberline {16.3}Discuss roots of unethical behavior and how managers might ensure that ethical issues are considered in business decision making}{55}{subsection.16.3}
-\contentsline {subsection}{\numberline {16.4}Compare the Friedman doctrine, Utilitarianism, Kantian Ethics, and Rights and Justicee Theories as approches to ethical decision making}{55}{subsection.16.4}
-\contentsline {section}{\numberline {17}Reading 25: Corporate Governance}{56}{section.17}
-\contentsline {subsection}{\numberline {17.1}Describe objectives and core attributes of an effective corporate governance system and evaluate whether a company's corporate goverence has those attributes}{56}{subsection.17.1}
-\contentsline {subsection}{\numberline {17.2}Compare major business forms and describe the confilicts of interests associated with each}{56}{subsection.17.2}
-\contentsline {subsection}{\numberline {17.3}Explain confilicts that arise in agency relationships, including manager-shareholder conflicts and director-shareholder conflicts}{56}{subsection.17.3}
-\contentsline {subsection}{\numberline {17.4}Describe the responsibilities of the board of directors and explain quaifications and core competencies that an investment analyst should look for in the board of directors}{57}{subsection.17.4}
-\contentsline {subsection}{\numberline {17.5}Explain effective corporate governance practice as it relates to the board of directors and evaluate strengths and weaknesses of a company's corporate governance practice}{57}{subsection.17.5}
-\contentsline {subsection}{\numberline {17.6}Describe elements of a company's statement of corporate governance policies that investment analysts should assess.}{57}{subsection.17.6}
-\contentsline {subsection}{\numberline {17.7}Describe environmental, social, and governance risk exposures}{57}{subsection.17.7}
-\contentsline {subsection}{\numberline {17.8}Explain the valueation implications of corporate governance}{58}{subsection.17.8}
-\contentsline {section}{\numberline {18}Mergers and Acquisitions}{58}{section.18}
-\contentsline {subsection}{\numberline {18.1}Classify merger and acquisition activities on forms of integration and relatedness of business activities}{58}{subsection.18.1}
-\contentsline {subsection}{\numberline {18.2}Explain common motivations behind MA activity.}{58}{subsection.18.2}
-\contentsline {subsection}{\numberline {18.3}Explain bootstrapping of earnings per share and calculate a company's postmerger EPs}{59}{subsection.18.3}
-\contentsline {subsection}{\numberline {18.4}Explain, based on industry life cycles, the relation between merger motivations and types of mergers.}{59}{subsection.18.4}
-\contentsline {subsection}{\numberline {18.5}Contrast merger transaction characteristics by form of acquisition, method of payment, and attitude of target management}{59}{subsection.18.5}
-\contentsline {subsection}{\numberline {18.6}Distinguish among pre-offer and post-offer takeover defense mechanims}{61}{subsection.18.6}
-\contentsline {subsection}{\numberline {18.7}Calculate and interpret the Herfindahl-Hirschman Index, and evaluate the likelihood of an antitrust challenge for a given business combination.}{62}{subsection.18.7}
-\contentsline {subsection}{\numberline {18.8}Calculate free cash flows for a target company, and estimate the company's intrinsic value based on discount}{62}{subsection.18.8}
-\contentsline {subsection}{\numberline {18.9}Estimat the value of a target company using comparable company and comparable transaction analyses}{63}{subsection.18.9}
-\contentsline {subsection}{\numberline {18.10}Compare the discoutned cash flow, comparable company, and comparable transaction analyses for valuing a target company, including the advantages and disadvantages of each.}{63}{subsection.18.10}
-\contentsline {subsection}{\numberline {18.11}Evaluate a takeover bid, and calculate the estimated post-acquisition value of an acquirer and the gains accrued to the target shareholders versus the acquirer shareholders.}{64}{subsection.18.11}
-\contentsline {subsection}{\numberline {18.12}Explain how price and payment method affect the distribution of risks and benefits in M\&A transactions}{64}{subsection.18.12}
-\contentsline {subsection}{\numberline {18.13}Describe characteristics of M\&A transactions that creat value}{64}{subsection.18.13}
-\contentsline {subsection}{\numberline {18.14}Distinguish among equity carve-outs, spin-offs, split-offs and liquidation}{65}{subsection.18.14}
-\contentsline {subsection}{\numberline {18.15}Explain common reasons for restructuring}{65}{subsection.18.15}
-\contentsline {section}{\numberline {19}Reading 27: Equity Valuation: Applications and Process}{65}{section.19}
-\contentsline {subsection}{\numberline {19.1}Define valuation and intrinsic value and explain sources of perceived mispricing}{65}{subsection.19.1}
-\contentsline {subsection}{\numberline {19.2}Explain the going concern assumption and contrast a going concern value to liquid value.}{65}{subsection.19.2}
-\contentsline {subsection}{\numberline {19.3}Describe definitions of value and justify which definition of value is most relevant to public company valuation.}{65}{subsection.19.3}
-\contentsline {subsection}{\numberline {19.4}Describe applications of equity valuation}{66}{subsection.19.4}
-\contentsline {subsection}{\numberline {19.5}Describe questions that should be addressed in conducting an industry and competitive analysis}{66}{subsection.19.5}
-\contentsline {subsection}{\numberline {19.6}Contrast absolute and relative valuatin models and describe examples of each type of model}{67}{subsection.19.6}
-\contentsline {subsection}{\numberline {19.7}Describe sum-of-the-parts valuation and conglomerate discounts}{67}{subsection.19.7}
-\contentsline {subsection}{\numberline {19.8}Explain broad criteria for choosing an appropriate approach for valuing a given company}{67}{subsection.19.8}
-\contentsline {section}{\numberline {20}Reading 28: Return Concepts}{67}{section.20}
-\contentsline {subsection}{\numberline {20.1}Distinguish among realized holding period return, expected holding period return, required return , return from convergence of price to intrinsic value, discount rate and internal rate of return.}{67}{subsection.20.1}
-\contentsline {subsection}{\numberline {20.2}Calculate and interpret an equity risk premium using historical and forward-looking estimation approaches}{68}{subsection.20.2}
-\contentsline {subsection}{\numberline {20.3}Estimate the required return on an equity investment using the capital asset pricing model, the Fama-French model, the Pator-Stambaugh model, macro-economic multifactor models, and the build-up method.}{68}{subsection.20.3}
-\contentsline {subsection}{\numberline {20.4}Explain beta estimation for public companies for public companies, thinly traded public companies, and nonpublic companies}{69}{subsection.20.4}
-\contentsline {subsection}{\numberline {20.5}Describe strengths and weaknesses of methods used to estimate the required return on an equity investment}{69}{subsection.20.5}
-\contentsline {subsection}{\numberline {20.6}Explain international considerations in required return estimation}{70}{subsection.20.6}
-\contentsline {subsection}{\numberline {20.7}Explain and calculate the weighted average cost of capital for a company}{70}{subsection.20.7}
-\contentsline {subsection}{\numberline {20.8}Evaluate the appropriateness of using a particular rate of return as a discount rate, given a description of the cash flow to be discounted and other relevant facts}{70}{subsection.20.8}
-\contentsline {section}{\numberline {21}Reading 29: Industry and Company Analysis}{70}{section.21}
-\contentsline {subsection}{\numberline {21.1}Compare top-down, bottom-up, and hydrid approaches for developing inputs to equity valuation models }{70}{subsection.21.1}
-\contentsline {subsection}{\numberline {21.2}Compare growth relative to GDP growth and mkt growth and mkt share approaches to forecasting revenue}{70}{subsection.21.2}
-\contentsline {subsection}{\numberline {21.3}Evaluate whether economies of scale are present in an industry by analyzing operating margins and sales levels}{70}{subsection.21.3}
-\contentsline {subsection}{\numberline {21.4}Forecast the following cost: COGS, SGA, financing cost and income taxes}{70}{subsection.21.4}
-\contentsline {subsection}{\numberline {21.5}Describe approaches to balance sheet modeling}{71}{subsection.21.5}
-\contentsline {subsection}{\numberline {21.6}Describe the relationship between return on invested capital and competitive advantage}{71}{subsection.21.6}
-\contentsline {subsection}{\numberline {21.7}Explain how competitive factors affect prices and costs}{71}{subsection.21.7}
-\contentsline {subsection}{\numberline {21.8}Judge the competitive position of a company based on a Porter's five forces analysis}{71}{subsection.21.8}
-\contentsline {subsection}{\numberline {21.9}Explain how to forecast industry and company sales and costs when they are subject to price inflation or deflation}{71}{subsection.21.9}
-\contentsline {subsection}{\numberline {21.10}Evaluate the effects of technological development on demand, selling prices, costs, and margins}{72}{subsection.21.10}
-\contentsline {subsection}{\numberline {21.11}Explain considerations in the choice of an explicit forecast horizon}{72}{subsection.21.11}
-\contentsline {subsection}{\numberline {21.12}Explain an analyst's choices in developing projections beyond the short-term forecast horizon}{72}{subsection.21.12}
-\contentsline {subsection}{\numberline {21.13}Demonstrate the developent of a sales-based pro forma company model}{72}{subsection.21.13}
-\contentsline {section}{\numberline {22}Reading 30:Discounted Dividend Valuation}{73}{section.22}
-\contentsline {subsection}{\numberline {22.1}Compare dividends, free cash flow, and residual income as inputs to discounted cash flow models and identify investment situations for which each measure is suitable}{73}{subsection.22.1}
-\contentsline {subsection}{\numberline {22.2}Calculate and interpret the value of a common stock using the dividend discount model for single and multiple holding periods}{73}{subsection.22.2}
-\contentsline {subsection}{\numberline {22.3}Calculate the value of a common stock using the Gordon growth model and explain the model's underlying assumptinos}{74}{subsection.22.3}
-\contentsline {subsection}{\numberline {22.4}Calculate and interpret the implied growth rate of dividends using the Gordon growth model and current stock price}{74}{subsection.22.4}
-\contentsline {subsection}{\numberline {22.5}Calculate and interpret the present value of growth opportunities (PVGO) and the component of the leading price-to-earnings ratio(P/E) related to PVGO}{74}{subsection.22.5}
-\contentsline {subsection}{\numberline {22.6}Calculate and interpret the justified leading and trailing P/Es using the Gordon growth model}{74}{subsection.22.6}
-\contentsline {subsection}{\numberline {22.7}Calculate the value of noncallable fixed-rate perpetual preferred stock}{74}{subsection.22.7}
-\contentsline {subsection}{\numberline {22.8}Describe strengths and limitations of the Gordon growth model and justify its selection to value a company's common shares}{74}{subsection.22.8}
-\contentsline {subsection}{\numberline {22.9}Explain the assumptions and justify the selection of the two-stage DDM, the H-model, the three-stage DDM, or spreadsheet modeling to value a company's common shares}{75}{subsection.22.9}
-\contentsline {subsection}{\numberline {22.10}Explain the growth phase, transitional phase, and matruity phase of a business}{75}{subsection.22.10}
-\contentsline {subsection}{\numberline {22.11}Describe terminal value and explain alternative approaches to determining the terminal value in a DDM}{75}{subsection.22.11}
-\contentsline {subsection}{\numberline {22.12}Calculate and interpret the value of common shares using the two-stage of DDM, the H-model, and the three-stage DDM.}{75}{subsection.22.12}
-\contentsline {subsection}{\numberline {22.13}Estimate a required return based on any DDM, including the Gordon growth model and the H-model}{76}{subsection.22.13}
-\contentsline {subsection}{\numberline {22.14}Explain the use of spreadsheet modeling to forecsh dividends and to value common shares}{76}{subsection.22.14}
-\contentsline {subsection}{\numberline {22.15}Calculate and interpret the sustainable growth rate of a compnay and demonstrate the use of DuPont analysis to estimate a company's sustainable growth rate.}{76}{subsection.22.15}
-\contentsline {subsection}{\numberline {22.16}Evaluate whether a stock is overvalued, fairly valued, or undervalued by the market based on a DDM estimate of value.}{76}{subsection.22.16}
-\contentsline {section}{\numberline {23}Reading 31: Free Cash Flow Valuation}{76}{section.23}
-\contentsline {subsection}{\numberline {23.1}Compare the FCFF and FCFE approaches to valuation.}{76}{subsection.23.1}
-\contentsline {subsection}{\numberline {23.2}Explain the ownership perspective implicit in the FCFE approach}{77}{subsection.23.2}
-\contentsline {subsection}{\numberline {23.3}Explain the appropriate adjustments to net income, EBIT, EBITDA, CFO to calculate FCFF and FCFE}{77}{subsection.23.3}
-\contentsline {subsection}{\numberline {23.4}Calculate FCFF and FCFE}{78}{subsection.23.4}
-\contentsline {subsection}{\numberline {23.5}Describe approaches for forecasting FCFF and FCFE}{78}{subsection.23.5}
-\contentsline {subsection}{\numberline {23.6}Compare the FCFE model and dividend discount models}{78}{subsection.23.6}
-\contentsline {subsection}{\numberline {23.7}Explain how dividends, share repurchases, share issues, and changes in leverge may affect future FCFF and FCFE}{78}{subsection.23.7}
-\contentsline {subsection}{\numberline {23.8}Evaluate the use of net income and EBITDA as proxies for cash flow in valuation}{79}{subsection.23.8}
-\contentsline {subsection}{\numberline {23.9}Explain the single-stage, two-stage, and three-stage FCFF nd FCFE models and select and justify the appropriate model given a company's characteristics}{79}{subsection.23.9}
-\contentsline {subsection}{\numberline {23.10}Estimate a company's value using the appropriate free cash flow models}{79}{subsection.23.10}
-\contentsline {subsection}{\numberline {23.11}Explain the use of lsensitivity analysis in FCFF and FCFE Valuations}{79}{subsection.23.11}
-\contentsline {subsection}{\numberline {23.12}Describe approaches for calculating the terminal value in multistage valuation model}{80}{subsection.23.12}
-\contentsline {section}{\numberline {24}Reading 32:Market-Based Valutation: Price and Enterprise Value Multiples}{80}{section.24}
-\contentsline {subsection}{\numberline {24.1}Distinguish between the method of comparables and the method based on forecasted fundamentals as approaches to using price multiples in valuation, and explain economic rationales for each approach.}{80}{subsection.24.1}
-\contentsline {subsection}{\numberline {24.2}Calculate and interpret a justified price multiple}{80}{subsection.24.2}
-\contentsline {subsection}{\numberline {24.3}Describe rationales for and possible drawbacks to using alternative price multiples and dividend yield in valuation}{80}{subsection.24.3}
-\contentsline {subsection}{\numberline {24.4}Calculate and interpret alternative price multiples and dividend yield}{80}{subsection.24.4}
-\contentsline {subsection}{\numberline {24.5}Calculate and interpret underlying earnings, explain methods of normalizing earnings per share(EPS), and calculate normalized EPS}{81}{subsection.24.5}
-\contentsline {subsection}{\numberline {24.6}Explain and justify the use of earnings yield(E/P)}{81}{subsection.24.6}
-\contentsline {subsection}{\numberline {24.7}Describe fundamental factors that influence alternative price multiples and dividend yield}{82}{subsection.24.7}
-\contentsline {subsection}{\numberline {24.8}Calculate and interpret the justified P/E,P/B,P/S ratios for a stock, based on forecasted fundamentals}{82}{subsection.24.8}
-\contentsline {subsection}{\numberline {24.9}Calculate and interpret a predicted P/E, given a cross-sectional regression on fundamental, and explain limitations to the cross-sectional regression methodology}{83}{subsection.24.9}
-\contentsline {subsection}{\numberline {24.10}Evaluate a stock by the method of comparables and explain the importance of fundamentals in using method of comparables}{83}{subsection.24.10}
-\contentsline {subsection}{\numberline {24.11}Evaluate whether a stock is overvalued, fairly valued, or undervalued based on comparisons of multiples}{83}{subsection.24.11}
-\contentsline {subsection}{\numberline {24.12}Calculate and interpret the P/E-to-growth ratio(PEG) and explain its use in relative valuation}{84}{subsection.24.12}
-\contentsline {subsection}{\numberline {24.13}Calculate and explain the use of price multiples in determining terminal value in a multistage discounted cash flow model.}{84}{subsection.24.13}
-\contentsline {subsection}{\numberline {24.14}Explain alternative definitions of cash flow used in price and enterprise value(EV) multiples and describe limitations of each definition}{84}{subsection.24.14}
-\contentsline {subsection}{\numberline {24.15}Calculate and interpret EV multiples and evaluate the use EV/EBITDA}{85}{subsection.24.15}
-\contentsline {subsection}{\numberline {24.16}Explain sources of differences in cross-border valuation comparisons}{85}{subsection.24.16}
-\contentsline {subsection}{\numberline {24.17}Describe momentum indicators and their use in valuation.}{85}{subsection.24.17}
-\contentsline {subsection}{\numberline {24.18}Explain the use of the arithmetic mean, the weighted harmonic mean, and the meian to describe the central tendency of a group of multiples}{86}{subsection.24.18}
-\contentsline {section}{\numberline {25}Reading 33: Residual Income Valuation}{86}{section.25}
-\contentsline {subsection}{\numberline {25.1}Calculate and interpret residual income, economic value added, and market value added.}{86}{subsection.25.1}
-\contentsline {subsection}{\numberline {25.2}Describe the use of residual income models}{87}{subsection.25.2}
-\contentsline {subsection}{\numberline {25.3}Calcualte the intrinsic value of a common stock using the residual income model and compare value recognition in residual income and other present value models}{87}{subsection.25.3}
-\contentsline {subsection}{\numberline {25.4}Explain fundamental determinants of residual income}{87}{subsection.25.4}
-\contentsline {subsection}{\numberline {25.5}Explain the relation between residual income valuation and the justified price-to-book ratio based on forecasted fundamentals.}{87}{subsection.25.5}
-\contentsline {subsection}{\numberline {25.6}Calculate and interpret the intrinsic value of a common stock using single-stage(constant-growth) and multistage residual income models.}{87}{subsection.25.6}
-\contentsline {subsection}{\numberline {25.7}Calculate the implied growth rate in residual income, given the market price-to-book ratio and an estimate of the required rate of return on euqity.}{88}{subsection.25.7}
-\contentsline {subsection}{\numberline {25.8}Explain continuing residual income and justify an estimate of continuing residual income at the forecast horizaon, given company and industry prospects}{88}{subsection.25.8}
-\contentsline {subsection}{\numberline {25.9}Comapre residual income models to dividend discount and free cash flow models}{88}{subsection.25.9}
-\contentsline {subsection}{\numberline {25.10}Explain strengths and weaknesses of residual income models and justify the selection of a residual income model to value a company's common stock.}{88}{subsection.25.10}
-\contentsline {subsection}{\numberline {25.11}Describe accounting issues in applying residual income models.}{89}{subsection.25.11}
-\contentsline {subsection}{\numberline {25.12}Evaluate whether a stock is overvalued, fairly valued or undervalued based on a residual income model.}{89}{subsection.25.12}
+\contentsline {section}{\numberline {1}Reading 9: Correlation and Regressions}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Sample covar and sample correlation coefficients}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Limtations to correlations analysis}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Hypothesis: determine if the population correlation coefficient is zero}{2}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Determine dependent/indepedent variables in a linear regression}{2}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Assumptions in linear regression and interpret regression coeff.}{2}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Standard error of estimate, the coeff. of determination and a confidence interval for a regression coefficient.}{3}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}Hypothesis: Determine if $\hat {b}_1=b_1$}{3}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8}Calculate the predicted value for the depedent variable}{3}{subsection.1.8}
+\contentsline {subsection}{\numberline {1.9}Calculate and interpret a confidence interval for the predicted value of the depedent variable}{3}{subsection.1.9}
+\contentsline {subsection}{\numberline {1.10}ANOVA in regression. Interpret results, and calculate F-statistic}{4}{subsection.1.10}
+\contentsline {subsection}{\numberline {1.11}Limitations of regression analysis}{4}{subsection.1.11}
+\contentsline {section}{\numberline {2}Reading 10: Multiple Regression and Issues in Regression Analysis}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Interpret estimated regression coefficients and their p-values.}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Formulate a null/alternative hypothesis, do correspoding calculations}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Calculate and Interpret a confidence interval for the population value of a regression coefficient or a predicted value for the depedent variable if an estimated regression model.}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Assumptions of a multiple regresssion model}{5}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Calculate and interpret F-statistic}{5}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Distinguish between $R^2$ and adjusted $R^2$}{6}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Evaluate the quality of a regression model by analyzing the ouput of the equation/ANOVA table}{6}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Formulate a multiple regression with dummpy variables to represent qualitative factors}{6}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}Why multiple regression isn't as easy as it looks?}{6}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}Types of Heteroskedasticity, how heteroskedasiticity and serial correlation affect inference}{6}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.11}Multicolinearity and its cause and effects in regression analysis}{8}{subsection.2.11}
+\contentsline {subsection}{\numberline {2.12}Model misspecification}{8}{subsection.2.12}
+\contentsline {subsection}{\numberline {2.13}Models with qualitive dependent variables}{8}{subsection.2.13}
+\contentsline {section}{\numberline {3}Reading 11: Time-Series Analysis}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Calculate/evaluate the predicted trend value for a time series given the estimated trend coefficients}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Factors that determine whether a linear or a log-linear model trend should be used}{9}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Autoregressive model, requirements for covariance statinoary}{9}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}An autogressive model of order $p$}{9}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}How the residuals can be used to test the autogressive model}{9}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Mean reversion and a mean-reverting level}{9}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Contrast in-sample and out-of-sample forecasts and the forecasting accuracy of different time-series models based on the root mean squared error criterion.}{10}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Explain the instability of coefficients of time-series models}{10}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9}Random walk processes and their comparisons between covariance stationary processes}{10}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.10}Things about unit roots: when they will occur, how to test them, how to transform data to apply AR}{10}{subsection.3.10}
+\contentsline {subsection}{\numberline {3.11}How to test and correct for seasonality in a time-series model, and calculate and interpret a forecasted value using an AR model with a sesonal lag.}{10}{subsection.3.11}
+\contentsline {subsection}{\numberline {3.12}Explain autogressive conditional heteroskedasticity (ARCH) and describe how ARCH models can be applied to predict the variance of a time series}{11}{subsection.3.12}
+\contentsline {subsection}{\numberline {3.13}Explain How time-series variables should be analyzed for nonstationarity and/or cointegration before use ain a linear regression}{11}{subsection.3.13}
+\contentsline {section}{\numberline {4}Reading 12: Probabilistic Approaches: Scenario Analysis, Decision Trees, and Simulations}{11}{section.4}
+\contentsline {subsection}{\numberline {4.1}Describe steps in a simulatino, Explain three ways to define the probability distributions for a simulation's variable, and describe how to treat correlation accross variables in a simulation.}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Describe advantages of using simulations in decision making}{11}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Describe some common constraints introduced into simulations}{12}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Describe issues in using simulations in risk assessment}{12}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Compare scenario analysis, decision trees, and simulations}{12}{subsection.4.5}
+\contentsline {section}{\numberline {5}Reading 13: Currency Exchange Rates: Determination and Forecasting}{12}{section.5}
+\contentsline {subsection}{\numberline {5.1}Calculate and interpret the bid-ask spread}{12}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Identify a triangular arbitrage opportunity and calculate its profit}{13}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Distinguish between spot and forward rates and calculate the forward premium/discont for a given currency}{13}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Explaining international parity relations (covered and uncovered interest rate parity, purchasing power parity, and the international Fisher effect)}{14}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Describe the relations among the international parity conditions}{14}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Evaluate the use of the current spot rate, the forward rate, purchasing parity and uncovered interest parity to forecast future spot exchange rates}{14}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}Explain how flows in the balance of payment accounts affect currency exchange rates}{15}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}Explain approaches to assessing the long-run fair value of an exchange rate}{16}{subsection.5.8}
+\contentsline {subsection}{\numberline {5.9}Describe the carry trade and its relation to uncovered interest rate parity and calculate the profit from a carry trade.}{16}{subsection.5.9}
+\contentsline {subsection}{\numberline {5.10}Describe the Mundell-Fleming model, the monetary approach and the asset market approach to exchange rate determination.}{17}{subsection.5.10}
+\contentsline {subsection}{\numberline {5.11}Forecast the direction of the expected change in an exchange rate based on balance of payment, Mundell-Fleming, monetary, and asset market approaches to exchange rate determination.}{17}{subsection.5.11}
+\contentsline {subsection}{\numberline {5.12}Explain the potential effects of monetary and fiscal policy on exchange rates.}{17}{subsection.5.12}
+\contentsline {subsection}{\numberline {5.13}Objectives of central bank intervention and capital controls and describe the effectiveness of intervention and capital controls.}{17}{subsection.5.13}
+\contentsline {subsection}{\numberline {5.14}Describe warning signs of currency crisis.}{18}{subsection.5.14}
+\contentsline {subsection}{\numberline {5.15}Technical analysis}{18}{subsection.5.15}
+\contentsline {section}{\numberline {6}Economic Growth and the Investment Decision}{18}{section.6}
+\contentsline {subsection}{\numberline {6.1}Compare factors favoring and limiting economic growth in developed and developing economies}{18}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Describe the relation between the long-run rate of stock market appreciation and the sustainable groth rate of economy.}{18}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Explain why potential GDP and its growth rate matter for equity and fixed income investors.}{18}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Distinguish between capital deepening investment and technological progress and explain how each affects economic growth and labor productivity}{19}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Forecase potential GDP based on growth accounting relations}{19}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Explain how natural resources affect economic growth and evaluate the arument that limited availability of natural resources constrains economic growth}{19}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Explain how demographics, immigration, and labor force participation affect the rate and sustainability of economic growth}{19}{subsection.6.7}
+\contentsline {subsection}{\numberline {6.8}Explain how investment in physical capital, human capital, and technological development affects economic growth}{19}{subsection.6.8}
+\contentsline {subsection}{\numberline {6.9}Compare classical growth theory, neoclassical growth theory, and endogenous growth theory}{20}{subsection.6.9}
+\contentsline {subsection}{\numberline {6.10}Explain and evaluate convergence hypoteses}{20}{subsection.6.10}
+\contentsline {subsection}{\numberline {6.11}Describe the economic rationale for governments to provide incentives to private investments in technology and knowledge.}{20}{subsection.6.11}
+\contentsline {subsection}{\numberline {6.12}Describe the expected impact of removing trade barriers on capital investment and profits, employment and wages, and growth in the economies involved.}{20}{subsection.6.12}
+\contentsline {section}{\numberline {7}Reading 15:Economics of Regulation}{21}{section.7}
+\contentsline {subsection}{\numberline {7.1}Describe classifications of regulations and regulators}{21}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Describe uses of self-regulation in financial markets}{21}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Describe the economic rationale for regulatory intervention}{21}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Describe regulatory interdependencies and their effects.}{21}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Describe the tools of regulatory intervention in markets}{21}{subsection.7.5}
+\contentsline {subsection}{\numberline {7.6}Explain purposes in regulating commerce and financial markets}{22}{subsection.7.6}
+\contentsline {subsection}{\numberline {7.7}Describe anticompetitive behaviors targeted by antitrust laws globally and evaluate the antitrust risk associated with a given business strategy.}{22}{subsection.7.7}
+\contentsline {subsection}{\numberline {7.8}Benefits and costs of regulation}{22}{subsection.7.8}
+\contentsline {subsection}{\numberline {7.9}Evaluate how a specific regulation affects and industry companly, or security}{22}{subsection.7.9}
+\contentsline {section}{\numberline {8}Reading 16: Intercorporate Investments}{22}{section.8}
+\contentsline {subsection}{\numberline {8.1}Describe the classification, measurement, and disclosure under IFRS for 1) Investments in financial assets, 2) Investments in associates, 3) joint ventures, 4) bussiness combinations, and 5) special purpose and variable interest entities}{22}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Distinguish between IFRS and US GAAP in the classification, measurement, and disclosure of things above.}{22}{subsection.8.2}
+\contentsline {section}{\numberline {9}Reading 17: Employee Compensation: Post-Employment and Share-Based}{27}{section.9}
+\contentsline {subsection}{\numberline {9.1}Descreibe the types of post-employment benefit plans and implications for financial reports}{27}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Explain and calculate measures of a defined benefit pension obligation, i.e., PV of the defined benefit obligation and projcted benefit obligation, and net pension liability.}{27}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Describe the components of a company's defined benefit pension costs.}{27}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Explain and calculate the effect of a defined benefit plan's assumptions on the defined benefit obligation and periodic pension cost.}{28}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}Explain and calculate how adjusting for items of pension and other post-employment benefits affect financial stmts and ratios.}{28}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.6}Interpret pension plan note disclosures including cash flow related information.}{29}{subsection.9.6}
+\contentsline {subsection}{\numberline {9.7}Explain issues associated with accounting for share-based compensation}{29}{subsection.9.7}
+\contentsline {subsection}{\numberline {9.8}Explain how accounting for stock grants and stock options affects financial stmts, and the importance of companies assumptions in valuing these grants and options.}{29}{subsection.9.8}
+\contentsline {section}{\numberline {10}Reading 18: Multinational Operations}{29}{section.10}
+\contentsline {subsection}{\numberline {10.1}Distinguish among presentation currency, functional currency and local currency.}{29}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Describe foreign currency transaction exposure, including accounting for and disclosures about foreign currency transaction gains and losses}{29}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}Analyze how changes in exchange rates affect the translated sales of the subsidiary and parent company}{30}{subsection.10.3}
+\contentsline {subsection}{\numberline {10.4}Compare the current rate method and the temporal method, evaluate how each affects the parent company's balance sheet and income stmt, and determine which method is appropriate in variuos scenarios.}{30}{subsection.10.4}
+\contentsline {subsection}{\numberline {10.5}Calculate the translation effects and evaluate the translation of a subsidiary's balance sheet and income }{31}{subsection.10.5}
+\contentsline {subsection}{\numberline {10.6}Analyze how the current rate method and the temporal method affect financial statements and ratios.}{31}{subsection.10.6}
+\contentsline {subsection}{\numberline {10.7}Analyze how alternative translation methods for subsidiaries operating in hyperinflationary economies affect financial stmts\& ratios}{31}{subsection.10.7}
+\contentsline {subsection}{\numberline {10.8}Describe how multinational operations affect a company's effective tax rate}{32}{subsection.10.8}
+\contentsline {subsection}{\numberline {10.9}Explain how changes in the components of sales affect the sustainability of sales growth}{32}{subsection.10.9}
+\contentsline {subsection}{\numberline {10.10}Analyze how currency fluctuations potentially affect financial results, given a company's countries of operation}{32}{subsection.10.10}
+\contentsline {section}{\numberline {11}Evaluating Quality of Financial Reports}{32}{section.11}
+\contentsline {subsection}{\numberline {11.1}Demonstrate the use of a conceptual framework for assesing the quality of a company's financial reports}{32}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Explain potential problems that affect the quality of financial reports}{33}{subsection.11.2}
+\contentsline {subsection}{\numberline {11.3}Describe how to evaluate the quality of a company's financial reports}{33}{subsection.11.3}
+\contentsline {subsection}{\numberline {11.4}Evaluate the quality of a company's financial reports}{33}{subsection.11.4}
+\contentsline {subsection}{\numberline {11.5}Describe indicators of earnings quality}{34}{subsection.11.5}
+\contentsline {subsection}{\numberline {11.6}Describe the concept of sustainable earnings}{34}{subsection.11.6}
+\contentsline {subsection}{\numberline {11.7}Explain mean reversion in earnings and how the accruals component of earnings affects the speed of mean reversion}{34}{subsection.11.7}
+\contentsline {subsection}{\numberline {11.8}Evaluate the earnings quality of a company}{34}{subsection.11.8}
+\contentsline {subsection}{\numberline {11.9}Describe indicators of cash flow quality}{35}{subsection.11.9}
+\contentsline {subsection}{\numberline {11.10}Evaluate the cash flow quality of a company}{35}{subsection.11.10}
+\contentsline {subsection}{\numberline {11.11}Describe indicators of balance sheet quality}{35}{subsection.11.11}
+\contentsline {subsection}{\numberline {11.12}Evaluate the balance sheet quality of a company}{35}{subsection.11.12}
+\contentsline {subsection}{\numberline {11.13}Describe sources of information about risk}{36}{subsection.11.13}
+\contentsline {section}{\numberline {12}Reading 20: Integration of Financial Statement Analysis Techniques}{36}{section.12}
+\contentsline {subsection}{\numberline {12.1}Demonstrate the use of a framework for the analysis of financial statements, given a particular problem, question, or purpose. (e.g., valuing equity based on comparables, critiquing a credit rating, obtaining a comprehensive picture of financial leverage, evaluting the perspectives given in management's discussion of financial results)}{36}{subsection.12.1}
+\contentsline {subsection}{\numberline {12.2}Identify financial reporting choices and biases that affect the quality and comparability of companies' financial statements and explain how such biases may affect financial decisions}{36}{subsection.12.2}
+\contentsline {subsection}{\numberline {12.3}Analyze and interpret how balance sheet modifications, earnings normalization, and cash flow statement related modifications affect a company's financial statements, financial ratios, and overall financial condition}{37}{subsection.12.3}
+\contentsline {subsection}{\numberline {12.4}Evaluate the quality of a company's financial data and recommend appropriate adjustments to improve quality and comparability with similar companies, including adjustments for differences in accounting standards, methods, and assumptions.}{37}{subsection.12.4}
+\contentsline {section}{\numberline {13}Reading 21: Capital Budgeting}{37}{section.13}
+\contentsline {subsection}{\numberline {13.1}Calculate the yearly cash flows of expansion and replacement capital projects and evaluate how the choice of depreciation method affects those cash flows}{38}{subsection.13.1}
+\contentsline {subsection}{\numberline {13.2}Expain how inflation affects capital budgeting analysis}{39}{subsection.13.2}
+\contentsline {subsection}{\numberline {13.3}Evaluate cpaital projects and determine the optimal capital project in situation of 1)Mutally exclusive projects with unequal lives, using either the least common multiple of lives approach or the equivalent annual annuity approach, and 2) capital rationing.}{39}{subsection.13.3}
+\contentsline {subsection}{\numberline {13.4}Explain how sensitivity analysis, scenario analysis, and Monte Carlo simulation can be used to asses the stand-alone risk of a capital project.}{39}{subsection.13.4}
+\contentsline {subsection}{\numberline {13.5}Explain and calculate the discount rate, based on market risk methods, to use in valuing a capital project}{39}{subsection.13.5}
+\contentsline {subsection}{\numberline {13.6}Describe types of real options and evaluate a capital project using real options}{39}{subsection.13.6}
+\contentsline {subsection}{\numberline {13.7}Describe common capital budgeting pmistaks}{40}{subsection.13.7}
+\contentsline {subsection}{\numberline {13.8}Calculate and interpreat accounting income and economic income in the context of capital budgeting.}{40}{subsection.13.8}
+\contentsline {subsection}{\numberline {13.9}Distinguish among the economic profic, residual income, and claims valuation models for capital budgeting and evaluate a capital project using each}{41}{subsection.13.9}
+\contentsline {section}{\numberline {14}Reading 22: Captial Structure}{41}{section.14}
+\contentsline {subsection}{\numberline {14.1}Capital Structure Theory}{41}{subsection.14.1}
+\contentsline {subsection}{\numberline {14.2}Expalin the Modigliani-Miller propositions regarding capital structure, including the effects of levergae, taxes, financial distress, agency costs, and asymmetric information on a company's cost of equity, cost of capital, and optimal capital structure}{41}{subsection.14.2}
+\contentsline {subsection}{\numberline {14.3}Describe target capital structure and explian why a compny's actual captial structure may flucturate around its target.}{42}{subsection.14.3}
+\contentsline {subsection}{\numberline {14.4}Describe the role of debt ratings in captial structure policy}{42}{subsection.14.4}
+\contentsline {subsection}{\numberline {14.5}Explain factors an analysis should consider in evaluating the effect of capital structure policy on valuation.}{43}{subsection.14.5}
+\contentsline {subsection}{\numberline {14.6}Describe internationa differences in the use of financial leverage, factors that expalin these differences and implications of these differences for investment analysis}{43}{subsection.14.6}
+\contentsline {section}{\numberline {15}Dividends and Share Repurchases: Analysiss}{44}{section.15}
+\contentsline {subsection}{\numberline {15.1}Compare theories of dividend policy and explain implications of each for share value given a describption of a corporate dividend action}{44}{subsection.15.1}
+\contentsline {subsection}{\numberline {15.2}Describe types of information (signals) that dividend initiations, increases, decreases, and omissions may convey}{44}{subsection.15.2}
+\contentsline {subsection}{\numberline {15.3}Expain how clientele effects and agency issues may affect a company's payout policy.}{44}{subsection.15.3}
+\contentsline {subsection}{\numberline {15.4}Explain factors that affect dividend policy.}{44}{subsection.15.4}
+\contentsline {subsection}{\numberline {15.5}Calculate and interpret the effective tax rate on a given currency unit of corporate earnings under double taxation, dividend imputation, and split-rate tax systems.}{45}{subsection.15.5}
+\contentsline {subsection}{\numberline {15.6}Compare stable dividend, constant dividend payout ratio, and residual dividend payout policies, and calculate the diviend under each policy.}{45}{subsection.15.6}
+\contentsline {subsection}{\numberline {15.7}Explain the choice between paying cash dividends and repurchasing shares}{45}{subsection.15.7}
+\contentsline {subsection}{\numberline {15.8}Describe broad trends in corporate dividend policies}{46}{subsection.15.8}
+\contentsline {subsection}{\numberline {15.9}Calculate and interpret dividend coverage ratios based on 1) net income and 2) free cash flow.}{46}{subsection.15.9}
+\contentsline {subsection}{\numberline {15.10}Identify characteristics of companies that may not be able to sustain their cash dividend.}{46}{subsection.15.10}
+\contentsline {section}{\numberline {16}Reading 24: Corporate Performance, Governance, and Business Ethics}{46}{section.16}
+\contentsline {subsection}{\numberline {16.1}Compare interest of key stakeholders gropus and explain the purpose of a stakeholder impact analysis}{46}{subsection.16.1}
+\contentsline {subsection}{\numberline {16.2}Discuss problems that can arise in principal-agent relationships and mechanism that may mitigate such problems.}{47}{subsection.16.2}
+\contentsline {subsection}{\numberline {16.3}Discuss roots of unethical behavior and how managers might ensure that ethical issues are considered in business decision making}{47}{subsection.16.3}
+\contentsline {subsection}{\numberline {16.4}Compare the Friedman doctrine, Utilitarianism, Kantian Ethics, and Rights and Justicee Theories as approches to ethical decision making}{47}{subsection.16.4}
+\contentsline {section}{\numberline {17}Reading 25: Corporate Governance}{48}{section.17}
+\contentsline {subsection}{\numberline {17.1}Describe objectives and core attributes of an effective corporate governance system and evaluate whether a company's corporate goverence has those attributes}{48}{subsection.17.1}
+\contentsline {subsection}{\numberline {17.2}Compare major business forms and describe the confilicts of interests associated with each}{48}{subsection.17.2}
+\contentsline {subsection}{\numberline {17.3}Explain confilicts that arise in agency relationships, including manager-shareholder conflicts and director-shareholder conflicts}{48}{subsection.17.3}
+\contentsline {subsection}{\numberline {17.4}Describe the responsibilities of the board of directors and explain quaifications and core competencies that an investment analyst should look for in the board of directors}{49}{subsection.17.4}
+\contentsline {subsection}{\numberline {17.5}Explain effective corporate governance practice as it relates to the board of directors and evaluate strengths and weaknesses of a company's corporate governance practice}{49}{subsection.17.5}
+\contentsline {subsection}{\numberline {17.6}Describe elements of a company's statement of corporate governance policies that investment analysts should assess.}{49}{subsection.17.6}
+\contentsline {subsection}{\numberline {17.7}Describe environmental, social, and governance risk exposures}{49}{subsection.17.7}
+\contentsline {subsection}{\numberline {17.8}Explain the valueation implications of corporate governance}{50}{subsection.17.8}
+\contentsline {section}{\numberline {18}Mergers and Acquisitions}{50}{section.18}
+\contentsline {subsection}{\numberline {18.1}Classify merger and acquisition activities on forms of integration and relatedness of business activities}{50}{subsection.18.1}
+\contentsline {subsection}{\numberline {18.2}Explain common motivations behind MA activity.}{50}{subsection.18.2}
+\contentsline {subsection}{\numberline {18.3}Explain bootstrapping of earnings per share and calculate a company's postmerger EPs}{51}{subsection.18.3}
+\contentsline {subsection}{\numberline {18.4}Explain, based on industry life cycles, the relation between merger motivations and types of mergers.}{51}{subsection.18.4}
+\contentsline {subsection}{\numberline {18.5}Contrast merger transaction characteristics by form of acquisition, method of payment, and attitude of target management}{51}{subsection.18.5}
+\contentsline {subsection}{\numberline {18.6}Distinguish among pre-offer and post-offer takeover defense mechanims}{53}{subsection.18.6}
+\contentsline {subsection}{\numberline {18.7}Calculate and interpret the Herfindahl-Hirschman Index, and evaluate the likelihood of an antitrust challenge for a given business combination.}{54}{subsection.18.7}
+\contentsline {subsection}{\numberline {18.8}Calculate free cash flows for a target company, and estimate the company's intrinsic value based on discount}{54}{subsection.18.8}
+\contentsline {subsection}{\numberline {18.9}Estimat the value of a target company using comparable company and comparable transaction analyses}{55}{subsection.18.9}
+\contentsline {subsection}{\numberline {18.10}Compare the discoutned cash flow, comparable company, and comparable transaction analyses for valuing a target company, including the advantages and disadvantages of each.}{55}{subsection.18.10}
+\contentsline {subsection}{\numberline {18.11}Evaluate a takeover bid, and calculate the estimated post-acquisition value of an acquirer and the gains accrued to the target shareholders versus the acquirer shareholders.}{56}{subsection.18.11}
+\contentsline {subsection}{\numberline {18.12}Explain how price and payment method affect the distribution of risks and benefits in M\&A transactions}{56}{subsection.18.12}
+\contentsline {subsection}{\numberline {18.13}Describe characteristics of M\&A transactions that creat value}{56}{subsection.18.13}
+\contentsline {subsection}{\numberline {18.14}Distinguish among equity carve-outs, spin-offs, split-offs and liquidation}{57}{subsection.18.14}
+\contentsline {subsection}{\numberline {18.15}Explain common reasons for restructuring}{57}{subsection.18.15}
+\contentsline {section}{\numberline {19}Reading 27: Equity Valuation: Applications and Process}{57}{section.19}
+\contentsline {subsection}{\numberline {19.1}Define valuation and intrinsic value and explain sources of perceived mispricing}{57}{subsection.19.1}
+\contentsline {subsection}{\numberline {19.2}Explain the going concern assumption and contrast a going concern value to liquid value.}{57}{subsection.19.2}
+\contentsline {subsection}{\numberline {19.3}Describe definitions of value and justify which definition of value is most relevant to public company valuation.}{57}{subsection.19.3}
+\contentsline {subsection}{\numberline {19.4}Describe applications of equity valuation}{58}{subsection.19.4}
+\contentsline {subsection}{\numberline {19.5}Describe questions that should be addressed in conducting an industry and competitive analysis}{58}{subsection.19.5}
+\contentsline {subsection}{\numberline {19.6}Contrast absolute and relative valuatin models and describe examples of each type of model}{59}{subsection.19.6}
+\contentsline {subsection}{\numberline {19.7}Describe sum-of-the-parts valuation and conglomerate discounts}{59}{subsection.19.7}
+\contentsline {subsection}{\numberline {19.8}Explain broad criteria for choosing an appropriate approach for valuing a given company}{59}{subsection.19.8}
+\contentsline {section}{\numberline {20}Reading 28: Return Concepts}{59}{section.20}
+\contentsline {subsection}{\numberline {20.1}Distinguish among realized holding period return, expected holding period return, required return , return from convergence of price to intrinsic value, discount rate and internal rate of return.}{59}{subsection.20.1}
+\contentsline {subsection}{\numberline {20.2}Calculate and interpret an equity risk premium using historical and forward-looking estimation approaches}{60}{subsection.20.2}
+\contentsline {subsection}{\numberline {20.3}Estimate the required return on an equity investment using the capital asset pricing model, the Fama-French model, the Pator-Stambaugh model, macro-economic multifactor models, and the build-up method.}{60}{subsection.20.3}
+\contentsline {subsection}{\numberline {20.4}Explain beta estimation for public companies for public companies, thinly traded public companies, and nonpublic companies}{61}{subsection.20.4}
+\contentsline {subsection}{\numberline {20.5}Describe strengths and weaknesses of methods used to estimate the required return on an equity investment}{61}{subsection.20.5}
+\contentsline {subsection}{\numberline {20.6}Explain international considerations in required return estimation}{62}{subsection.20.6}
+\contentsline {subsection}{\numberline {20.7}Explain and calculate the weighted average cost of capital for a company}{62}{subsection.20.7}
+\contentsline {subsection}{\numberline {20.8}Evaluate the appropriateness of using a particular rate of return as a discount rate, given a description of the cash flow to be discounted and other relevant facts}{62}{subsection.20.8}
+\contentsline {section}{\numberline {21}Reading 29: Industry and Company Analysis}{62}{section.21}
+\contentsline {subsection}{\numberline {21.1}Compare top-down, bottom-up, and hydrid approaches for developing inputs to equity valuation models }{62}{subsection.21.1}
+\contentsline {subsection}{\numberline {21.2}Compare growth relative to GDP growth and mkt growth and mkt share approaches to forecasting revenue}{62}{subsection.21.2}
+\contentsline {subsection}{\numberline {21.3}Evaluate whether economies of scale are present in an industry by analyzing operating margins and sales levels}{62}{subsection.21.3}
+\contentsline {subsection}{\numberline {21.4}Forecast the following cost: COGS, SGA, financing cost and income taxes}{62}{subsection.21.4}
+\contentsline {subsection}{\numberline {21.5}Describe approaches to balance sheet modeling}{63}{subsection.21.5}
+\contentsline {subsection}{\numberline {21.6}Describe the relationship between return on invested capital and competitive advantage}{63}{subsection.21.6}
+\contentsline {subsection}{\numberline {21.7}Explain how competitive factors affect prices and costs}{63}{subsection.21.7}
+\contentsline {subsection}{\numberline {21.8}Judge the competitive position of a company based on a Porter's five forces analysis}{63}{subsection.21.8}
+\contentsline {subsection}{\numberline {21.9}Explain how to forecast industry and company sales and costs when they are subject to price inflation or deflation}{63}{subsection.21.9}
+\contentsline {subsection}{\numberline {21.10}Evaluate the effects of technological development on demand, selling prices, costs, and margins}{64}{subsection.21.10}
+\contentsline {subsection}{\numberline {21.11}Explain considerations in the choice of an explicit forecast horizon}{64}{subsection.21.11}
+\contentsline {subsection}{\numberline {21.12}Explain an analyst's choices in developing projections beyond the short-term forecast horizon}{64}{subsection.21.12}
+\contentsline {subsection}{\numberline {21.13}Demonstrate the developent of a sales-based pro forma company model}{64}{subsection.21.13}
+\contentsline {section}{\numberline {22}Reading 30:Discounted Dividend Valuation}{65}{section.22}
+\contentsline {subsection}{\numberline {22.1}Compare dividends, free cash flow, and residual income as inputs to discounted cash flow models and identify investment situations for which each measure is suitable}{65}{subsection.22.1}
+\contentsline {subsection}{\numberline {22.2}Calculate and interpret the value of a common stock using the dividend discount model for single and multiple holding periods}{65}{subsection.22.2}
+\contentsline {subsection}{\numberline {22.3}Calculate the value of a common stock using the Gordon growth model and explain the model's underlying assumptinos}{66}{subsection.22.3}
+\contentsline {subsection}{\numberline {22.4}Calculate and interpret the implied growth rate of dividends using the Gordon growth model and current stock price}{66}{subsection.22.4}
+\contentsline {subsection}{\numberline {22.5}Calculate and interpret the present value of growth opportunities (PVGO) and the component of the leading price-to-earnings ratio(P/E) related to PVGO}{66}{subsection.22.5}
+\contentsline {subsection}{\numberline {22.6}Calculate and interpret the justified leading and trailing P/Es using the Gordon growth model}{66}{subsection.22.6}
+\contentsline {subsection}{\numberline {22.7}Calculate the value of noncallable fixed-rate perpetual preferred stock}{66}{subsection.22.7}
+\contentsline {subsection}{\numberline {22.8}Describe strengths and limitations of the Gordon growth model and justify its selection to value a company's common shares}{66}{subsection.22.8}
+\contentsline {subsection}{\numberline {22.9}Explain the assumptions and justify the selection of the two-stage DDM, the H-model, the three-stage DDM, or spreadsheet modeling to value a company's common shares}{67}{subsection.22.9}
+\contentsline {subsection}{\numberline {22.10}Explain the growth phase, transitional phase, and matruity phase of a business}{67}{subsection.22.10}
+\contentsline {subsection}{\numberline {22.11}Describe terminal value and explain alternative approaches to determining the terminal value in a DDM}{67}{subsection.22.11}
+\contentsline {subsection}{\numberline {22.12}Calculate and interpret the value of common shares using the two-stage of DDM, the H-model, and the three-stage DDM.}{67}{subsection.22.12}
+\contentsline {subsection}{\numberline {22.13}Estimate a required return based on any DDM, including the Gordon growth model and the H-model}{68}{subsection.22.13}
+\contentsline {subsection}{\numberline {22.14}Explain the use of spreadsheet modeling to forecsh dividends and to value common shares}{68}{subsection.22.14}
+\contentsline {subsection}{\numberline {22.15}Calculate and interpret the sustainable growth rate of a compnay and demonstrate the use of DuPont analysis to estimate a company's sustainable growth rate.}{68}{subsection.22.15}
+\contentsline {subsection}{\numberline {22.16}Evaluate whether a stock is overvalued, fairly valued, or undervalued by the market based on a DDM estimate of value.}{68}{subsection.22.16}
+\contentsline {section}{\numberline {23}Reading 31: Free Cash Flow Valuation}{68}{section.23}
+\contentsline {subsection}{\numberline {23.1}Compare the FCFF and FCFE approaches to valuation.}{68}{subsection.23.1}
+\contentsline {subsection}{\numberline {23.2}Explain the ownership perspective implicit in the FCFE approach}{69}{subsection.23.2}
+\contentsline {subsection}{\numberline {23.3}Explain the appropriate adjustments to net income, EBIT, EBITDA, CFO to calculate FCFF and FCFE}{69}{subsection.23.3}
+\contentsline {subsection}{\numberline {23.4}Calculate FCFF and FCFE}{70}{subsection.23.4}
+\contentsline {subsection}{\numberline {23.5}Describe approaches for forecasting FCFF and FCFE}{70}{subsection.23.5}
+\contentsline {subsection}{\numberline {23.6}Compare the FCFE model and dividend discount models}{70}{subsection.23.6}
+\contentsline {subsection}{\numberline {23.7}Explain how dividends, share repurchases, share issues, and changes in leverge may affect future FCFF and FCFE}{70}{subsection.23.7}
+\contentsline {subsection}{\numberline {23.8}Evaluate the use of net income and EBITDA as proxies for cash flow in valuation}{71}{subsection.23.8}
+\contentsline {subsection}{\numberline {23.9}Explain the single-stage, two-stage, and three-stage FCFF nd FCFE models and select and justify the appropriate model given a company's characteristics}{71}{subsection.23.9}
+\contentsline {subsection}{\numberline {23.10}Estimate a company's value using the appropriate free cash flow models}{71}{subsection.23.10}
+\contentsline {subsection}{\numberline {23.11}Explain the use of lsensitivity analysis in FCFF and FCFE Valuations}{71}{subsection.23.11}
+\contentsline {subsection}{\numberline {23.12}Describe approaches for calculating the terminal value in multistage valuation model}{72}{subsection.23.12}
+\contentsline {section}{\numberline {24}Reading 32:Market-Based Valutation: Price and Enterprise Value Multiples}{72}{section.24}
+\contentsline {subsection}{\numberline {24.1}Distinguish between the method of comparables and the method based on forecasted fundamentals as approaches to using price multiples in valuation, and explain economic rationales for each approach.}{72}{subsection.24.1}
+\contentsline {subsection}{\numberline {24.2}Calculate and interpret a justified price multiple}{72}{subsection.24.2}
+\contentsline {subsection}{\numberline {24.3}Describe rationales for and possible drawbacks to using alternative price multiples and dividend yield in valuation}{72}{subsection.24.3}
+\contentsline {subsection}{\numberline {24.4}Calculate and interpret alternative price multiples and dividend yield}{72}{subsection.24.4}
+\contentsline {subsection}{\numberline {24.5}Calculate and interpret underlying earnings, explain methods of normalizing earnings per share(EPS), and calculate normalized EPS}{73}{subsection.24.5}
+\contentsline {subsection}{\numberline {24.6}Explain and justify the use of earnings yield(E/P)}{73}{subsection.24.6}
+\contentsline {subsection}{\numberline {24.7}Describe fundamental factors that influence alternative price multiples and dividend yield}{74}{subsection.24.7}
+\contentsline {subsection}{\numberline {24.8}Calculate and interpret the justified P/E,P/B,P/S ratios for a stock, based on forecasted fundamentals}{74}{subsection.24.8}
+\contentsline {subsection}{\numberline {24.9}Calculate and interpret a predicted P/E, given a cross-sectional regression on fundamental, and explain limitations to the cross-sectional regression methodology}{75}{subsection.24.9}
+\contentsline {subsection}{\numberline {24.10}Evaluate a stock by the method of comparables and explain the importance of fundamentals in using method of comparables}{75}{subsection.24.10}
+\contentsline {subsection}{\numberline {24.11}Evaluate whether a stock is overvalued, fairly valued, or undervalued based on comparisons of multiples}{75}{subsection.24.11}
+\contentsline {subsection}{\numberline {24.12}Calculate and interpret the P/E-to-growth ratio(PEG) and explain its use in relative valuation}{76}{subsection.24.12}
+\contentsline {subsection}{\numberline {24.13}Calculate and explain the use of price multiples in determining terminal value in a multistage discounted cash flow model.}{76}{subsection.24.13}
+\contentsline {subsection}{\numberline {24.14}Explain alternative definitions of cash flow used in price and enterprise value(EV) multiples and describe limitations of each definition}{76}{subsection.24.14}
+\contentsline {subsection}{\numberline {24.15}Calculate and interpret EV multiples and evaluate the use EV/EBITDA}{77}{subsection.24.15}
+\contentsline {subsection}{\numberline {24.16}Explain sources of differences in cross-border valuation comparisons}{77}{subsection.24.16}
+\contentsline {subsection}{\numberline {24.17}Describe momentum indicators and their use in valuation.}{77}{subsection.24.17}
+\contentsline {subsection}{\numberline {24.18}Explain the use of the arithmetic mean, the weighted harmonic mean, and the meian to describe the central tendency of a group of multiples}{78}{subsection.24.18}
+\contentsline {section}{\numberline {25}Reading 33: Residual Income Valuation}{78}{section.25}
+\contentsline {subsection}{\numberline {25.1}Calculate and interpret residual income, economic value added, and market value added.}{78}{subsection.25.1}
+\contentsline {subsection}{\numberline {25.2}Describe the use of residual income models}{79}{subsection.25.2}
+\contentsline {subsection}{\numberline {25.3}Calcualte the intrinsic value of a common stock using the residual income model and compare value recognition in residual income and other present value models}{79}{subsection.25.3}
+\contentsline {subsection}{\numberline {25.4}Explain fundamental determinants of residual income}{79}{subsection.25.4}
+\contentsline {subsection}{\numberline {25.5}Explain the relation between residual income valuation and the justified price-to-book ratio based on forecasted fundamentals.}{79}{subsection.25.5}
+\contentsline {subsection}{\numberline {25.6}Calculate and interpret the intrinsic value of a common stock using single-stage(constant-growth) and multistage residual income models.}{79}{subsection.25.6}
+\contentsline {subsection}{\numberline {25.7}Calculate the implied growth rate in residual income, given the market price-to-book ratio and an estimate of the required rate of return on euqity.}{80}{subsection.25.7}
+\contentsline {subsection}{\numberline {25.8}Explain continuing residual income and justify an estimate of continuing residual income at the forecast horizaon, given company and industry prospects}{80}{subsection.25.8}
+\contentsline {subsection}{\numberline {25.9}Comapre residual income models to dividend discount and free cash flow models}{80}{subsection.25.9}
+\contentsline {subsection}{\numberline {25.10}Explain strengths and weaknesses of residual income models and justify the selection of a residual income model to value a company's common stock.}{80}{subsection.25.10}
+\contentsline {subsection}{\numberline {25.11}Describe accounting issues in applying residual income models.}{81}{subsection.25.11}
+\contentsline {subsection}{\numberline {25.12}Evaluate whether a stock is overvalued, fairly valued or undervalued based on a residual income model.}{82}{subsection.25.12}
+\contentsline {section}{\numberline {26}Reading 34: Private Company Valuation}{82}{section.26}
+\contentsline {subsection}{\numberline {26.1}Compare public and private company valuation}{82}{subsection.26.1}
+\contentsline {subsection}{\numberline {26.2}Describe uses of private business valuation and explain applications of greatest concern to financial analyst}{82}{subsection.26.2}
+\contentsline {subsection}{\numberline {26.3}Explain various definitions of value and demontrate how different definitions can lead to different estimates of value}{82}{subsection.26.3}
+\contentsline {subsection}{\numberline {26.4}Explain the income, market, and asset-based approaches to private company valuation and factors relevant to the selection of each approach.}{83}{subsection.26.4}
+\contentsline {subsection}{\numberline {26.5}Explain cash flow estimation issues related to private companies and adjustments required to etimate normalized earnings}{83}{subsection.26.5}
+\contentsline {subsection}{\numberline {26.6}Calculate the value of a private company using free cash flow, capitalized cash flow, and/or excess earnings methods}{84}{subsection.26.6}
+\contentsline {subsection}{\numberline {26.7}Explain factors that require adjustment when estimating the discount rate for private companies}{84}{subsection.26.7}
+\contentsline {subsection}{\numberline {26.8}Compare models used to estimate the required rate of return to private company, (for example, the CAPM, the expanded CAPM, and the build-up approach}{84}{subsection.26.8}
+\contentsline {subsection}{\numberline {26.9}Calculate the value of a private company based on market approach methods and describe advantages and disadvantages of each method}{84}{subsection.26.9}
+\contentsline {subsection}{\numberline {26.10}Describe the assetbased approach to private company valuation}{86}{subsection.26.10}
+\contentsline {subsection}{\numberline {26.11}Explain and evaluate the effects on private company valuations of discounts }{86}{subsection.26.11}
+\contentsline {subsection}{\numberline {26.12}Describe the rold of valuation standards in valuing private companies}{86}{subsection.26.12}
