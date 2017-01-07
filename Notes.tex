@@ -4612,6 +4612,58 @@ Term structure of interest rate volatility: Yield volatility versus maturity.
 \\Long-maturity volatility $<$ Short-term volatility
 \\Long-maturity volatility\ra uncertainty regarding real economy and inflation. 
 \\Short-maturity volatility\ra risks regarding monetary policy.
+
+\section{Reading 36The Arbitrage-Free Valuation Framework}
+\subsection{Explain what is meant by arbitrage-free valuation of a fixed-income instrument.}
+Arbitrage-free valuation: no one can earn arbitrage profit.
+Arbitrage opportunities
+\be
+    \item Value additivity: value of whole differs from the sum of the values of parts
+    \item Dominance: one asset trades at a lower price than another asset with identical characteristics
+\ee
+\subsection{Calculate the arbitrage-free value of an option-free, fixed-rate coupon bond.}
+Method: Discount cash flows using the corresponding spot rate.
+\subsection{Describe a binomial interest rate tree framework}
+Binomial interest rate tree: interest rates have an equal probability of taking one of
+possible values in the next period.
+\\ Model: Lognormal random walk.
+\eq{
+    r_1& = r_0 \exp{m_1 h\pm\sigma\sqrt{h}}\\
+    r_2& = r_0 \exp{m_1 h+\pm\sigma\sqrt{h}+m_2 h\pm\sigma\sqrt{h}}
+}
+\subsection{Describe the backward induction valuation methodology and calculate the value of a 
+fixed income}
+Valuing an Option-Free Bond with the Binomial Model
+\be
+    \item Backward induction: just binomial tree calculations. See examples in LOS 36d.
+\ee
+\subsection{Describe the process of calibrating a binomial interest rate tree to spcific
+term structure.}
+3 Rules needed
+\be
+    \item Tree should generate arbitrage-free values for the benchmark security.
+    Value generated = the actual market value of benchmark security to make sure the model works.
+    \item Adjacent forward rates are $e^{2\sigma}$
+    \item Middle forward rate in a period $\approx$ the implied one-period forward rate for that period.
+    Because there might be some drifting terms, we can use this method to calibrate interest rate.
+\ee
+\subsection{Compare pricing using the zero-coupon yield curve with pricing using an
+arbitrage-free binomial lattice.}
+zero-coupon yield curve = spot rate curve. Discount all future cash flows based on 
+the interest rate. Only good for option free options.
+\\Binomial tree can valuate bonds with options.
+\subsection{Describe pathwise valuation in a binomial interest rate framework and 
+calculate the value of a fixed-income instrument given its cash flows along each path.}
+Pathwise Valuation: calculate bond's value based on each possible path, and then average
+all possible values.
+\subsection{Describe a Monte Carlo forward-rate simulation and its application.}
+Path Dependency:
+\be
+    \item Typical problem: Prepayments on underlying residential mortgages. This risk
+    is affected by interest level AND interest path.
+    \item Monte Carlo forward-rate simulation: good for path-dependent problems. Note, 
+    rates should be calibrated to get a arbitrage-free valuation.
+\ee
 \end{document}
 
 

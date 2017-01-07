@@ -302,3 +302,12 @@
 \contentsline {subsection}{\numberline {27.9}Explain traditional theories of the term structure of interest rates and describe the implications of each theory for forward rates and the shape of the yield curve}{98}{subsection.27.9}
 \contentsline {subsection}{\numberline {27.10}Describe modern term structure models and how they are used.}{98}{subsection.27.10}
 \contentsline {subsection}{\numberline {27.11}Explain how a bond's exposure to each of the factors driving the yield curve can be measured and how these exposures can be used to manage yield curve}{99}{subsection.27.11}
+\contentsline {subsection}{\numberline {27.12}Explain the maturity structure of yield volatilities and their effect on price volatility}{99}{subsection.27.12}
+\contentsline {section}{\numberline {28}Reading 36The Arbitrage-Free Valuation Framework}{99}{section.28}
+\contentsline {subsection}{\numberline {28.1}Explain what is meant by arbitrage-free valuation of a fixed-income instrument.}{99}{subsection.28.1}
+\contentsline {subsection}{\numberline {28.2}Calculate the arbitrage-free value of an option-free, fixed-rate coupon bond.}{99}{subsection.28.2}
+\contentsline {subsection}{\numberline {28.3}Describe a binomial interest rate tree framework}{99}{subsection.28.3}
+\contentsline {subsection}{\numberline {28.4}Describe the backward induction valuation methodology and calculate the value of a fixed income}{100}{subsection.28.4}
+\contentsline {subsection}{\numberline {28.5}Describe the process of calibrating a binomial interest rate tree to spcific term structure.}{100}{subsection.28.5}
+\contentsline {subsection}{\numberline {28.6}Compare pricing using the zero-coupon yield curve with pricing using an arbitrage-free binomial lattice.}{100}{subsection.28.6}
+\contentsline {subsection}{\numberline {28.7}Describe pathwise valuation in a binomial interest rate framework and calculate the value of a fixed-income instrument given its cash flows along each path.}{100}{subsection.28.7}

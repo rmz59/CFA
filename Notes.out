@@ -302,3 +302,12 @@
 \BOOKMARK [2][-]{subsection.27.9}{27.9\040Explain\040traditional\040theories\040of\040the\040term\040structure\040of\040interest\040rates\040and\040describe\040the\040implications\040of\040each\040theory\040for\040forward\040rates\040and\040the\040shape\040of\040the\040yield\040curve}{section.27}% 302
 \BOOKMARK [2][-]{subsection.27.10}{27.10\040Describe\040modern\040term\040structure\040models\040and\040how\040they\040are\040used.}{section.27}% 303
 \BOOKMARK [2][-]{subsection.27.11}{27.11\040Explain\040how\040a\040bond's\040exposure\040to\040each\040of\040the\040factors\040driving\040the\040yield\040curve\040can\040be\040measured\040and\040how\040these\040exposures\040can\040be\040used\040to\040manage\040yield\040curve}{section.27}% 304
+\BOOKMARK [2][-]{subsection.27.12}{27.12\040Explain\040the\040maturity\040structure\040of\040yield\040volatilities\040and\040their\040effect\040on\040price\040volatility}{section.27}% 305
+\BOOKMARK [1][-]{section.28}{28\040Reading\04036The\040Arbitrage-Free\040Valuation\040Framework}{}% 306
+\BOOKMARK [2][-]{subsection.28.1}{28.1\040Explain\040what\040is\040meant\040by\040arbitrage-free\040valuation\040of\040a\040fixed-income\040instrument.}{section.28}% 307
+\BOOKMARK [2][-]{subsection.28.2}{28.2\040Calculate\040the\040arbitrage-free\040value\040of\040an\040option-free,\040fixed-rate\040coupon\040bond.}{section.28}% 308
+\BOOKMARK [2][-]{subsection.28.3}{28.3\040Describe\040a\040binomial\040interest\040rate\040tree\040framework}{section.28}% 309
+\BOOKMARK [2][-]{subsection.28.4}{28.4\040Describe\040the\040backward\040induction\040valuation\040methodology\040and\040calculate\040the\040value\040of\040a\040fixed\040income}{section.28}% 310
+\BOOKMARK [2][-]{subsection.28.5}{28.5\040Describe\040the\040process\040of\040calibrating\040a\040binomial\040interest\040rate\040tree\040to\040spcific\040term\040structure.}{section.28}% 311
+\BOOKMARK [2][-]{subsection.28.6}{28.6\040Compare\040pricing\040using\040the\040zero-coupon\040yield\040curve\040with\040pricing\040using\040an\040arbitrage-free\040binomial\040lattice.}{section.28}% 312
+\BOOKMARK [2][-]{subsection.28.7}{28.7\040Describe\040pathwise\040valuation\040in\040a\040binomial\040interest\040rate\040framework\040and\040calculate\040the\040value\040of\040a\040fixed-income\040instrument\040given\040its\040cash\040flows\040along\040each\040path.}{section.28}% 313
