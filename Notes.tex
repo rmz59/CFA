@@ -4432,6 +4432,186 @@ Challenges
 \section{Reading 35: The Term Structure and Interest Rate Dynamics}
 \subsection{Describe relationships among spot rates, forward rates, yield to maturity,
 expected and realized returns on bonds, and the shape of the yield curve}
+\be
+    \item Spot Rates: P$_T$=1/(1+S$_T$)$^T$
+    \item Forward Rates: annualized interest rate on a loan to be initiated
+        at a future period is the forward rate.
+    \item Yield to Maturity: included coupon payments, and the spot rate of each
+        coupn might be different. YTM is a summary parameter.
+    \item Expected and Realized Returns on Bonds: ex-ante holding period return that a 
+        bond investor expects to earn.
+        \\When: 1. The bond is held to maturity, all payments are mad on time and full, 
+        and all coupons are reinvested at the original YTM, the expected return =
+        YTM
+\ee
+\subsection{Describe the forward pricing and forward rate models and calculate forward
+and spot prices and rates using those models.}
+\be
+    \item The Forward Pricing Model: arbitrage-free pricing 
+    \item The Forward Rate Model: $[1+S_{j+k}]^{j+k}=(1+S_j)^j[1+f(j,k)]^k$, 
+        where $f$ is the forward rate.
+\ee
+\subsection{Describe how zero-coupon rates (spot rates) may be obtained from the par
+curve by bootstrapping.}
+Par rate: YTM of a bond trading at par.
+\\ Par rate curve: par rates for bonds with different maturities.
+\\ Par rate = the coupon rate on the bond.
+\subsection{Describe the assumptions concerning the evolution of spot rates in relation 
+to forward rates impolicit in active bond portfolio management.}
+Relationships between Spot and Forward Rates
+\be
+    \item Upward-sloping spot curve\ra Forward rate rises as $j$ increases
+    \item Upward-sloping spot curve\ra Forward curve will be above the spot curve
+\ee
+Forward Price Evolution
+\be
+    \item If future spot rates evolves as forecasted by the forward curve, the forward
+        price will remain unchanged.
+    \item Spot rate lower than the forward curve\ra forward price up
+\ee
+\subsection{Describe the strategy of riding the yield curvea}
+``Riding the Yield Curve''
+\be
+    \item Maturity matching: purchasing bonds that have a maturity = investment horizon
+    \item "Rolling down the yield curve": If the yield curve remains unchanged, you can buy
+        a long-maturity bond, and sell it before its maturity. 
+\ee
+\subsection{Explain the swap rate curve and why and how market participants use it in
+valuation}
+The Swap Rate Curve
+\be
+    \item plain vanilla interest swap: A pays on a fixed rate, B pays on a floating rate.
+        \\- the fixed rate\ra swap fixed rate OR swap rate
+    \item swap rte curve is preferred as a benchmark interest rate curve.
+        \\- reflects the credit risk of commercial banks
+        \\- swap mkt is not regulated by government, therefore comparable across
+        different countries.
+        \\- Has yield quotes at many maturities.
+    \item Wholesale banking uses Swap rate; Retail banking uses government bond yield curve
+    \item Calculating SFR
+        $$
+            \sum_{t=1}^T \frac{SFR_T}{(1+S_t)^t}+\frac{100}{(1+S_T)^T}=100
+        $$
+\ee
+\subsection{Calculate and interpret the swap spread for a given maturity}
+Swap spread:
+\be
+    \item Definition: the swap rate exceeds the yield of government bond with the 
+        save maturity
+    \item swap spread$_t$ = swap rate$_t$ - Treasury yield$_t$
+\ee
+I-spread:
+\be
+    \item The amount by which the risky bond exceeds the swap rate for the same 
+        maturity. Linear interpolation for missing swap rates.
+    \item I-spread reflects compensation for risk.
+\ee
+Describe the Z-spread
+\be
+    \item Definition: the spread that, when added to each spot rate on the default-free
+        spot curve, makes the present value of a bond's cash flows equal to the bond's
+        market price.
+    \item zero-volatility: assumption of zero interest rate volatility.
+\ee
+\subsection{Describe the TED and Libor-OIS spreads}
+TED Spread
+\be
+    \item Definition: T: T-bill, ED: Eurodollar futures contract
+        \\The amount by which the interest rate on loans between banks (3-mon LIBOR)
+        exceeds the interest rate on short-term US government debt(3-mon T-bills)
+    \item Indication of the risk of interbank loans. Captures the risk in the banking system.
+\ee
+LIBOR-OIS Spread
+\be
+    \item OIS: Overnight Indexed Swap. Reflects the federal funds rate. Includes minimal credit risk.
+    \item LIBOR-OiS spread: LIBOR rate - OIS rate
+\ee
+\subsection{Explain traditional theories of the term structure of interest rates
+and describe the implications of each theory for forward rates and the shape of the
+yield curve}
+Unbiased Expectation Theory/Pure expectation theory:
+\be
+    \item Main point: Investor's expectations determine the shape of interest rate
+        term structure. 
+    \item Example: 
+        \\A. Investor hsould earn the same return by investing in a 5-yr bond, or by
+        investing in a 3-yr bond and then a 2-yr band.
+        \\B. with 3-yr horizon, investors will be indifferent between 3-yr bond or 5-yr bond.
+    \item Behind point is: risk neutrality. Investors don't demand a risk-premium for 
+        maturity strategies that differ from their investment horizon.
+\ee
+Local Expectations Theory
+\be
+    \item Main point: preserves risk-neutrality assumption only for short holding periods.
+    \item Not hold.
+\ee
+Liquidity Preference Theory
+\be
+    \item Main point: Forward rates reflect investors' expectations + a liquidity premium
+        to compensate investors for exposure to interest rate risk.
+    \item Implication:  Forward rates  are biased estimates of the market's expectation of
+        future rates.
+\ee
+Segmented Markets Theory
+\be
+    \item Main Point: The shape of yield curve is determined by the preferences of borrowers
+        and lenders -- supply and demand for loans of different maturities.
+\ee
+Preferred Habitat Theory
+\be
+    \item Main point: Forward rates represent expected future spot rates plus a premium. The
+        premiums are related to supply and demand for funds at various maturities, give incentives
+        to investors to shift from their preferred maturity.
+\ee
+\subsection{Describe modern term structure models and how they are used.}
+Equilibrium Term Structure Models: use fundamental economic variables
+\be
+    \item Cox-Ingersoll-Ross model: interest movements depends on whether people
+        choose consumption or investing today
+        \be
+            \item $ dr=a(b-r)dt+\sigma\sqrt{r}dz $
+                \\dr = change in the short-term interest rate
+                \\a = speed of mean reversion parameter.
+                \\b = long-run value of short-term interest rate
+                \\t = time
+                \\$\sigma$ = volatility
+                \\dz = a small random walk movement
+        \ee
+    \item The Vasicek Model
+        \\$dr = a(b-r)dt + \sigma dz$.
+\ee
+Arbitrage-free Models: assumes that bonds trading now are correctly priced.
+\be
+    \item Ho-Lee Model: $dr_t=\theta_t dt + \sigma dz_t$
+        \\-$\theta_t=a time-dependent drift term$
+        \\-Using market prices to find the drift term
+\ee
+\subsection{Explain how a bond's exposure to each of the factors driving the yield
+curve can be measured and how these exposures can be used to manage yield curve}
+Managing Yield Curve Risks: risk to the portfolio value to changes in the yield curve.
+\\Sensitivity measures:
+\be
+    \item Effective Duration: price sensitivity to a small parallel shifts in the yield curve.
+    \item Key Rate Duration: the sensitivity of the portfolio value to changes in a single
+        par rate. (percentage change in the value in respone to a 100 basis point change
+        in the correspoing key rate, all other rates are constant.)
+        \\  Example: a portfolio has 3 bond. 1-yr, 5-yr, 25-yr. Key rate durations: $D_1=0.7,
+        D_2=3.5,D_{25}=9.5$,
+        $\Delta_P/P \approx -D_1\Delta r_1-D_5\Delta r_5 - D_{25}\Delta r_{25}$
+    \item Sensitivity to Parallel, Steepness, and Curvature Movements
+        \be
+            \item Level$\Delta x_L$: parallel increase/decrease
+            \item Steepness $\Delta x_S$: Long-term interest rates increase while short-term rates decrease
+            \item Curvature $\Delta x_C$: short-term and long-term rates increase, while intermediate
+                rates do not change.
+        \ee
+\ee
+\subsection{Explain the maturity structure of yield volatilities and their effect on price
+volatility}
+Term structure of interest rate volatility: Yield volatility versus maturity.
+\\Long-maturity volatility $<$ Short-term volatility
+\\Long-maturity volatility\ra uncertainty regarding real economy and inflation. 
+\\Short-maturity volatility\ra risks regarding monetary policy.
 \end{document}
 
 
