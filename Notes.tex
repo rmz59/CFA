@@ -4664,6 +4664,60 @@ Path Dependency:
     \item Monte Carlo forward-rate simulation: good for path-dependent problems. Note, 
     rates should be calibrated to get a arbitrage-free valuation.
 \ee
+
+
+\section{Reading 37: Valuation and Analysis: Bonds with Embedded Options}
+\subsection{Describe fixed-income securities with embedded options}
+Simple Options
+\be
+    \item Callable bonds: give the issuer the option to call back the bond.
+        \\-European: option can only be exercised on maturity
+        \\-American: can be exercised at any time after the lock out period
+        \\-Bermudan-style: can be exercised at fixed dates after the lockout period
+    \item Putable bonds: investor can sell bond back to the issuers
+        \\-Extendible bond: allows the investor to extend the maturity of the bond.
+    \item Complex options:
+        \\-Estate put: allows the heirs of an investor to put the bond back to the issuer
+        upon the death of investor.
+        \\-Sinking fund bonds(sinkers): requires the issuer to set aside funds periodically
+        to retire the bond.
+\ee
+\subsection{Explain the relationships between the values of a callable or putable
+bond, the underlying option-free (straight) bond, and the embedded option.}
+\eq{
+    V_{call}&=V_{straight}-V_{callable}\\
+    V_{putable}&=V_{straight}+V_{put}
+}   
+\subsection{Describe how the arbitrage-free framework can be used to value a 
+bond with embedded options.}
+\subsection{Calculate the value of a callable or putable bond from an interest rate
+tree.}
+Rate used in binomial tree for option-embedded bonds: one-period forward rates instead
+of spot rates.
+\\ Call Rule: value at any node = min(issuer call the bond, issuer not call the bond.)
+\\ Put Rule: value at any node = max(investor put the bond, investor not put the bond.)
+\subsection{Explain how interest rate volatility affects the value of a callable 
+or putable bond.}
+\be
+    \item Option values positively related to the volatility of their underlying.
+    \item Value of straight bonds is affected by tchanges in the level of interest rate 
+    but unaffected by the volatility.
+    \item Volatilty of interest increases, value of callable cond decreases but value of putable bond
+    increases.
+\ee
+\subsection{Explain how changes in the level and shape of the yield curve affect the value 
+of a callable or putable bond.}
+\be
+    \item Level of Interest Rates: 
+        \\-Interest rate down\ra value of callable bonds rises slower than straight bond.
+        \\-Interest rate up\ra value of putable bonds falls slower than straight bond.
+        \\-Call option value is inversely related to the interest rate; put option value positively related to ir.
+    \item Shape of the Yield Curve
+        \\-Call option value will become lower along an upward sloping yield curve.
+        \\-Put option value: vice versa.
+\ee
+\subsection{Explain the calculation and use of option-adjusted spreads}
+
 \end{document}
 
 
