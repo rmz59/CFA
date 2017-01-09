@@ -4716,7 +4716,43 @@ of a callable or putable bond.}
         \\-Call option value will become lower along an upward sloping yield curve.
         \\-Put option value: vice versa.
 \ee
-\subsection{Explain the calculation and use of option-adjusted spreads}
+\subsection{Explain the calculation and use of option-adjusted spreads.}
+\be
+    \item Option Adjusted Spread: value added to the interest rate to show the credit risks. 
+    Otherwise, the calculated price will be lower.
+        \\-Note: OAS are added after the adjustment for the embbed options. (Call/Put rule)
+    \item Uses: similar bonds should have similar OAS. Higher OAS\ra undervalued, good to invest.
+\ee
+\subsection{Explain how interest rate volatility affects option adjusted spreads}
+\be
+    \item For callable bonds, interest rate volatility increases\ra calculated price of bonds
+    down\ra OSA will be smaller.
+    \item Putable bonds, interest rate volatility increase\ra calculated price of bonds 
+    up\ra OSA up.
+    \item Assumed level of volatility will affect OSAs. 
+\ee
+\subsection{Calculate and interpret effective duration of a callable or putable bond}
+Effective duratioin, effective convexity: good for bonds with embedded bonds.
+\be
+    \item Effective duration = ED = $ (BV_{-\Delta y}-BV_{+\Delta y})/(2BV_0\Delta y) $
+    \item Effective convexity = EC = $ (BV_{-\Delta y}+BV_{+\Delta y}-2BV_0)
+    /(BV_0\Delta y^2) $
+        \\-$\Delta y$ is the change in required yield.
+    \item Steps
+        \\1. Use assumped interest rates, volatility to calculate OAS.
+        \\2. Add a small shift in the benchmark yield curve, build a new bionomial
+        tree, add OAS from 1. Calculate new $BV$.
+\ee
+\subsection{Compare effective durations of callable, putable, and straight bonds}
+\be
+    \item ED$_{callable}$ $<$ ED$_{straight}$
+    \item ED$_{putable}$ $<$ ED$_{straight}$
+    \item ED$_{zero-coupon}$ $\approx$ maturity of the bond
+    \item ED$_{fixed rate}$ $<$ maturity of the bond
+    \item ED$_{floater}$ $\approx$ time (years) to next reset
+\ee
+\subsection{Describe the use of one-sided durations and key rate durations 
+to evaluate the interest rate sensitivity of bonds with embedded options.}
 
 \end{document}
 
