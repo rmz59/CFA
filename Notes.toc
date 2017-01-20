@@ -311,3 +311,22 @@
 \contentsline {subsection}{\numberline {28.5}Describe the process of calibrating a binomial interest rate tree to spcific term structure.}{100}{subsection.28.5}
 \contentsline {subsection}{\numberline {28.6}Compare pricing using the zero-coupon yield curve with pricing using an arbitrage-free binomial lattice.}{100}{subsection.28.6}
 \contentsline {subsection}{\numberline {28.7}Describe pathwise valuation in a binomial interest rate framework and calculate the value of a fixed-income instrument given its cash flows along each path.}{100}{subsection.28.7}
+\contentsline {subsection}{\numberline {28.8}Describe a Monte Carlo forward-rate simulation and its application.}{100}{subsection.28.8}
+\contentsline {section}{\numberline {29}Reading 37: Valuation and Analysis: Bonds with Embedded Options}{100}{section.29}
+\contentsline {subsection}{\numberline {29.1}Describe fixed-income securities with embedded options}{100}{subsection.29.1}
+\contentsline {subsection}{\numberline {29.2}Explain the relationships between the values of a callable or putable bond, the underlying option-free (straight) bond, and the embedded option.}{101}{subsection.29.2}
+\contentsline {subsection}{\numberline {29.3}Describe how the arbitrage-free framework can be used to value a bond with embedded options.}{101}{subsection.29.3}
+\contentsline {subsection}{\numberline {29.4}Calculate the value of a callable or putable bond from an interest rate tree.}{101}{subsection.29.4}
+\contentsline {subsection}{\numberline {29.5}Explain how interest rate volatility affects the value of a callable or putable bond.}{101}{subsection.29.5}
+\contentsline {subsection}{\numberline {29.6}Explain how changes in the level and shape of the yield curve affect the value of a callable or putable bond.}{101}{subsection.29.6}
+\contentsline {subsection}{\numberline {29.7}Explain the calculation and use of option-adjusted spreads.}{101}{subsection.29.7}
+\contentsline {subsection}{\numberline {29.8}Explain how interest rate volatility affects option adjusted spreads}{102}{subsection.29.8}
+\contentsline {subsection}{\numberline {29.9}Calculate and interpret effective duration of a callable or putable bond}{102}{subsection.29.9}
+\contentsline {subsection}{\numberline {29.10}Compare effective durations of callable, putable, and straight bonds}{102}{subsection.29.10}
+\contentsline {subsection}{\numberline {29.11}Describe the use of one-sided durations and key rate durations to evaluate the interest rate sensitivity of bonds with embedded options.}{102}{subsection.29.11}
+\contentsline {subsection}{\numberline {29.12}Compare effective convexities of callable, putable, and straight bonds}{102}{subsection.29.12}
+\contentsline {subsection}{\numberline {29.13}Describe defining features of a convertible bond.}{102}{subsection.29.13}
+\contentsline {subsection}{\numberline {29.14}Calculate and interpret the components of a convertible bond's value}{103}{subsection.29.14}
+\contentsline {subsection}{\numberline {29.15}Describe how a convertible bond is value in an arbitrage-free framework.}{103}{subsection.29.15}
+\contentsline {subsection}{\numberline {29.16}Compare the risk-return characteristics of a convertible bond with the risk-return characteristics of a straight bond and of the underlying common stock}{103}{subsection.29.16}
+\contentsline {section}{\numberline {30}Reading 38: Credit Analysis Models}{103}{section.30}

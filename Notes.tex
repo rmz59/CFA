@@ -4724,19 +4724,18 @@ of a callable or putable bond.}
     \item Uses: similar bonds should have similar OAS. Higher OAS\ra undervalued, good to invest.
 \ee
 \subsection{Explain how interest rate volatility affects option adjusted spreads}
-\be
-    \item For callable bonds, interest rate volatility increases\ra calculated price of bonds
-    down\ra OSA will be smaller.
-    \item Putable bonds, interest rate volatility increase\ra calculated price of bonds 
-    up\ra OSA up.
-    \item Assumed level of volatility will affect OSAs. 
-\ee
+ \be
+     \item For callable bonds, interest rate volatility increases\ra calculated price of bonds
+     down\ra OSA will be smaller.
+     \item Putable bonds, interest rate volatility increase\ra calculated price of bonds 
+     up\ra OSA up.
+     \item Assumed level of volatility will affect OSAs. 
+ \ee
 \subsection{Calculate and interpret effective duration of a callable or putable bond}
 Effective duratioin, effective convexity: good for bonds with embedded bonds.
 \be
     \item Effective duration = ED = $ (BV_{-\Delta y}-BV_{+\Delta y})/(2BV_0\Delta y) $
-    \item Effective convexity = EC = $ (BV_{-\Delta y}+BV_{+\Delta y}-2BV_0)
-    /(BV_0\Delta y^2) $
+    \item Effective convexity = EC = $ (BV_{-\Delta y}+BV_{+\Delta y}-2BV_0)/(BV_0\Delta y^2) $
         \\-$\Delta y$ is the change in required yield.
     \item Steps
         \\1. Use assumped interest rates, volatility to calculate OAS.
@@ -4751,9 +4750,69 @@ Effective duratioin, effective convexity: good for bonds with embedded bonds.
     \item ED$_{fixed rate}$ $<$ maturity of the bond
     \item ED$_{floater}$ $\approx$ time (years) to next reset
 \ee
-\subsection{Describe the use of one-sided durations and key rate durations 
-to evaluate the interest rate sensitivity of bonds with embedded options.}
+\subsection{Describe the use of one-sided durations and key rate durations to 
+evaluate the interest rate sensitivity of bonds with embedded options.}
+\be
+    \item One-sided Durations: when the bonds are at-the-money/near-the-money, changes in price
+will be different for interest changing up or down. -- Durations that apply only when interet rise/fall.
+    \item Key rate Duration/partial durations: capture the interest sensitivity of a bond
+    to changes in yields(par rate) of specific benchmark maturities. Only one par rate is moved.
+\ee
+\subsection{Compare effective convexities of callable, putable, and straight bonds}
+\be
+    \item Callable: High rates\ra postive convexity; near the money\ra negative effective convexity
+    \item Putable: Postivie effective convexity
+    \item Straight: Positive effective convexity
+\ee
+\subsection{Describe defining features of a convertible bond.}
+\be
+    \item Convertible bonds: investor has rights to convert the bond into a fixed number of common stocks.
+        \\-Conversion ratio = issue value / conversion price.
+    \item Offer documents often provide a contingent put option in the event of change-of-control.
+        \\-Hard option: redeem for cash; -Soft option: issuer decide to redeem for cash or stock.
+\ee
+\subsection{Calculate and interpret the components of a convertible bond's value}
+\be
+    \item Conversion value = market price of stock $\times$ conversion ratio
+    \item Straight value: Investment value. PV of the bond's cash flow
+    \item Minimum value of a convertible bond = max(conversion value, straight value)
+    \item Market conversion price = mkt price of convertible bond/conversion ratio.
+    \item Market conversion premium per share = mkt conversion price - stock's market price
+    \item Market conversion premium ratio = market conversion premium per share / market price of common stock
+    \item Premium over straight value = market price of convertible bond/straight value - 1
+\ee
+\subsection{Describe how a convertible bond is value in an arbitrage-free framework.}
+\be
+    \item Noncallable/nonputable convertible bond = an option-free bond + a call option on an
+    amount of the common stock equal to the conversion ratio.
+    \item Callable convertible bond value = straight value of bond + value of call option on stock - value
+    of call option on bond
+\ee
+\subsection{Compare the risk-return characteristics of a convertible bond with the 
+risk-return characteristics of a straight bond and of the underlying common stock}
+\be
+    \item Convertible bonds limits downside risk. Have to face: credit risk, call risk, 
+    interest rate risk, and liquidity risk.
+    \item Conparison
+        \be
+            \item Stock price fall, returns on convertible bonds high
+            \item Stock price rise, returns on convertible bonds low
+        \ee
+    \item Special case:
+        \be
+            \item Fixed-income equivalent/busted convertible: the price of common stock associated with
+    a convertible issue is so low.
+            \item Hybrid security: the price of the stock is high enough, and the price of 
+            the convertible is like an equity security.
+        \ee
+    \item Bond Analytics: Output of pricing systems should follow:
+        \be
+            \item Put-call parity: C-P = PV(Forward price of the bond on exercise date) - PV(Exercise price)
+            \item Option-free bond pricing: value of option-free bonds is independent of the volatility.
+        \ee
+\ee
 
+\section{Reading 38: Credit Analysis Models}
 \end{document}
 
 
