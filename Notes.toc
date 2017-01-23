@@ -330,3 +330,8 @@
 \contentsline {subsection}{\numberline {29.15}Describe how a convertible bond is value in an arbitrage-free framework.}{103}{subsection.29.15}
 \contentsline {subsection}{\numberline {29.16}Compare the risk-return characteristics of a convertible bond with the risk-return characteristics of a straight bond and of the underlying common stock}{103}{subsection.29.16}
 \contentsline {section}{\numberline {30}Reading 38: Credit Analysis Models}{103}{section.30}
+\contentsline {subsection}{\numberline {30.1}Explain probabilty of default, loss given default, expected loss, and present value of the expected loss and describe the relative importance of each across the credit spectrum}{103}{subsection.30.1}
+\contentsline {subsection}{\numberline {30.2}Explain credit scoring and credit ratins, including why they are called ordinal rankings}{104}{subsection.30.2}
+\contentsline {subsection}{\numberline {30.3}Explain strengths and weaknesses of credit ratings}{104}{subsection.30.3}
+\contentsline {subsection}{\numberline {30.4}Explain structural models of corporate credit risk, including why equity can be viewed as a call option on the company's assets}{105}{subsection.30.4}
+\contentsline {subsection}{\numberline {30.5}Explain reduced form models of corporate credit risk, including why debt can be valued as the sum of expected discounted cash flows after adjusting for risk}{105}{subsection.30.5}

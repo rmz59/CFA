@@ -4813,6 +4813,142 @@ risk-return characteristics of a straight bond and of the underlying common stoc
 \ee
 
 \section{Reading 38: Credit Analysis Models}
+\subsection{Explain probabilty of default, loss given default, expected loss, and present
+value of the expected loss and describe the relative importance of each across the credit spectrum}
+Measure of Credit Risk
+\be
+    \item Probability of default, default probability
+    \item Loss given default: the value a bond investor will lose if the issuer defaults.
+    \item Recovery rate: Loss given default(\%) = 100 - recovery rate
+    \item Expecte loss: = Default probabilty $\times$ the loss given default
+    \item Present value of expected loss: The highest price a hypothetical investor would
+    be willing to pay to an insurer to bear the credit risk of the investment.
+    \\Present value of expected loss = value of risk-free bond - value of credit-risky bond
+    \\Present value of expected loss = value of risk-free bond - value of credit-risky bond
+        \\-Adjustments on the expected loss:
+        \\--1. Time value adjustment: discount by interest rates
+        \\--2. Risk netural adjustment: Add risk priemium.
+    \item Credit spread: difference of YtoMat between  a risk-free zero coupon bond
+    and a risky zero coupon bond.
+\ee
+\subsection{Explain credit scoring and credit ratins, including why they are called
+ordinal rankings}
+\be
+    \item Ordinal ranking: Categorize borrowers into different ranks, but didn't provide the degree
+to which the credit risk differs in different groups.
+    \item Credit scoring: for small businees and individuals.
+        \be
+            \item Ordinal rankins, not percentile rankings.
+            \item Do not care current econo conditions
+            \item Scoring agency is under presurers from users of credit scores(lenders) - Stability in scores
+            over time.
+            \item Didn't take into accout differing probabilty of default for different loans.
+        \ee
+    \item Credit ratins: for corporate debt, asset-backed secrities, and 
+    government/quasi-government debt.
+\ee
+\subsection{Explain strengths and weaknesses of credit ratings}
+Strength
+\be
+    \item Simple to understand
+    \item Stable, reduce volatility in the debt market.
+\ee
+Weakness of Credit ratins
+\be
+    \item Stablility means the reduction of accurancy
+    \item Ratings do not adjust with the business cycle
+    \item Issuer-pays model comes with confilicts of interest
+\ee
+\subsection{Explain structural models of corporate credit risk, including why equity
+can be viewed as a call option on the company's assets}
+\be
+    \item Structural models: based on the balance sheet, and insights by option pricing theory
+    \item Option Analogy
+        \be
+            \item NOTE: Asset = Equity + Liability
+            \item At time T, maturity of debt:
+                \be
+                    \item Value of Stock$_T$ = Max(0,A$_T$ - Face value of debt)
+                    \item Value of debt$_T$ = Min(A$_T$,Face value of debt)
+                \ee
+            \item Value of risky debt = value of risk-free debt - value of put option on company's assets
+        \ee
+    \item Valuation
+        \eq{
+            D_t &= A_t N(-d_1) + Ke^{-r(T-t)}N(d_2)\\
+            N &= cum std normal dist.\\
+            d_1 &= \frac{ln(A_t/K)+r(T-t)+\frac{1}{2}\sigma^2(T-t)}{\sigma\sqrt{T-t}}\\
+            d_2 &= d_1 - \sigma\sqrt{T-t}
+        }   
+        \\r = continuously compounded risk-free rate
+        \\\sigma = std of asset returns.
+    \item Risk Measures
+       \\ Probability of default = 1 - N(e$_2$)
+       \\where
+            \eq{ e_1 &= \frac{ln(A_t/K)+\mu (T-t)+\frac{1}{2}\sigma^2(T-t)}{\sigma\sqrt{T-t}}\\
+                e_2 &= e_1 - \sigma\sqrt{T-t)}
+            }
+        \\ Expected loss = $KN(-e_2)-A_t e^{\mu(T-t)}N(-e_1)$
+        \\Present value of expected loss = $Ke^{-r(T-t)}N(-d_2)-A_t N(-d_1)$
+    \item Input Estimates: Using calibration/implicit estimation techniques if company's stock
+    is traded.
+
+\ee
+\subsection{Explain reduced form models of corporate credit risk, including why debt can be valued
+as the sum of expected discounted cash flows after adjusting for risk}
+Structual model: assume that the assets of the company are traded in the market.\ra Impractical
+\\ Reduced form models of corporate credit risk:impose assumptions on the output of a structural model
+\be
+    \item Value of debt
+        \eq{
+            D_t&=E\left(\frac{K}{\prod(1+r_i)} \right)
+        }   
+        where $r_i$ is the risk-free rate for year i. E is the expectation operation,
+        using risk-netural probabilities.
+    \item Input estimates: from historical data.
+\ee 
+\subsection{Explain assumtions, strengths, and weaknesses of both structural and
+reduced form models of corporate credit risk.}
+Structual Model
+\be
+    \item Assumptions:
+        \\- Asset are traded freely. $\sigma^2$ is constant.
+        \\- Risk-free interest rate(r) is constant over time. \ra no interest risk
+        \\- Simple balance sheet structure, only one class of zero-coupon debt
+    \item Strength
+        \\- Use option pricing theiry
+        \\- Use current mkt price to estimate the model
+    \item Weakeness
+        \\- Balance is not that so simple, especially for the single zero-coupon bond
+        \\- Assets are not traded.
+        \\- Do not consider the business cycle.
+\ee
+Reduced Form Model
+\be
+    \item Assumptions:
+    \\- Company has a zero-coupon bond liability that trades in fritionless and arbitrage-free
+    markets. No restriction for other liabilities of the company.
+    \\- rfr is stochastic.
+    \\- The state of the economy is stochastic and depends on nonconstant marcoeconomic variables.
+    \\- PD is not constant.
+    \\- A particular company defaults depend on company-specific considerations
+    \\- Recovery rate is stochastic. Depend on economy
+    \item Strength: 
+    \\- Use historical estimation, b/c inputs are observable.
+    \\- Consider the business cycle
+    \\- Do not require specific balance sheet structure.
+    \item Weakness
+    \\- Historical estimation(hazard rate estimation)may not be valid
+\ee
+\subsection{Explain the determinants of the term structure of credit spreads.}
+Definition: Time patterns of difference in spot rates for credit-risky bonds and risk-free bond
+\\NOTE: The credit spread INCLUDES a premium for liquidity risk.
+\subsection{Calculate and interpret the present value of the expected loss on a bond
+over a given time horizon.}
+Different in the value of a risk-free bond and a similar risky bond.
+\subsection{Compare the credit analysis required for asset-backed securities to analysis
+of corporate debt.}
+ABS is different. Needs to consider the distribution waterfall of the ABS.
 \end{document}
 
 
