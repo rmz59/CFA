@@ -4949,6 +4949,79 @@ Different in the value of a risk-free bond and a similar risky bond.
 \subsection{Compare the credit analysis required for asset-backed securities to analysis
 of corporate debt.}
 ABS is different. Needs to consider the distribution waterfall of the ABS.
+
+\section{Reading 39: Credit Default Swaps}
+Credit Default Swaps: insurance contract.
+\\CDS spread: has been standarized. 1\% for investment-grade, 5\% for high-yield bond.
+\subsection{Describe credit default swaps (CDS), single-name and index CDS, and
+the parameters that define a given CDS product.}
+Single-Name CDS:
+\be
+    \item Reference obligation: The fixed-income security
+    \item Reference entity: issuer of the reference obligation
+    \item Pay offs when the reference entity defaults, also when the reference entity
+    defaults on any other issue that ranked same rank or higher.
+    \item Payoff: based on the mkt value of the chapest-to-deliver bond that has the
+    same seniroity as the reference obligation, and deliver the difference between the
+    notational principal and the mkt value of the CTD.
+\ee
+Index CDS:
+\be
+    \item Covers multiple issuers.
+    \item Pricing depends on the correlation of default among index constituents.
+\ee
+\subsection{Describe credit events and settlement protocols with respect to CDS.}
+Credit events
+\be
+    \item Default
+    \item bankruptcy
+    \item Failure to pay: misses a scheduled coupon or principlal
+    \item Restructuring
+\ee
+\subsection{Explain the principles underlying, and factors that influence, the market's
+pricing of CDS.}
+Factors that influence the pricing of CDS
+\be
+    \item Probability of default
+        \\When defaults, CDS seller pays CDS buyer, and CDS ceased to exist.
+        \\Probabitly of default given that it has not already occurred preceding years. \ra Hazard rate
+    \item Loss given default and coupon rte of swap
+        \\(Expected loss)$_t$ = (Hazard rate)$_t\times$(Loss given default)$_t$
+        \\Premium leg: payments by the protection buyer to the seeller. Paid as a coupon.
+        \\Protection leg: payments by the protection seller to the buyer.
+        \\Upfront payment by protection buyer = PV(protection leg) - PV(premium leg)
+        \\Approximate the upfront premium $\approx$(CDS spread - CDS coupon)$\times$ duration
+\ee
+Valuation After Inception of CDS
+\be
+    \item Profit for protection buyer$\approx$change in spread$\times$duration$\times$notational principal
+    \item Profit for protection buyer\%$\approx$change in spread(\%)$\times$duration
+\ee
+\subsection{Describe the use of CDS to manage credit exposures and to express views
+regarding changes in shape and/or level ov the credit curve.}
+\be
+    \item Credit Curve: relationship between credit spreads for different bonds issued by an
+entity/maturities.
+\\-CDS: manage credit exposure of a bond porforlio: Decline credit spreads\ra credit improve
+\ra increase credit exposure by being a protection seller.
+    \item Naked CDS: just buy CDS. No underlying.
+    \item Long-short trade: buy one CDS, sell another.
+    \item Curve trade: long/short trade on the SAME reference entity, different maturities.
+\ee
+\subsection{Describe the use of CDS to take advantage of valuation disparities
+among separate markets, such as bonds, loans, equities, and equity-linked instruments.}
+Uses of CDs
+\be
+    \item Earning arbitrage profits
+        \\-basis trade: difference in credit spreads between bond mkt and CDS mkt
+        \\-Leverage buyout: investors who anticipates an LBO will buy stock,CDS protection.
+        \\-Credit risks of the index constituents is different priced than the index CDS
+        \\Collateralized Debt Obligations: Synthectic CDO vs Cash CDO, similar risk. If synthetic CDO
+        has lower costs than the equivalent Cash CDO, buy low sell high.
+\ee
+
+\section{Reading 40: Pricing and Valuation of Forward Commitments.}
+
 \end{document}
 
 
