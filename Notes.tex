@@ -5021,7 +5021,106 @@ Uses of CDs
 \ee
 
 \section{Reading 40: Pricing and Valuation of Forward Commitments.}
-
+\subsection*{Warm-up}
+Day count and compounding conventions
+\be
+    \item 360 days/yr, simple interest(multiply by days/360)\ra ALL LIBAR based contracts
+    \item 365 days/yr, compound interest \^(days/365)\ra Equities, bonds, currencies, and stock options
+    \item 365 days/yr, continuous compounding \ra Equity indexes
+\ee
+\subsection{Describe and compare how equity, interest rate, fixed-income, and
+currency forward and futures contracts.}
+\subsection{Calculate and interpret the no-arbitrage valueof equity, interest rate, fixed-income, and
+currency forward and futures contract.}
+Equity Forward Contracs With Discrete Dividends
+\be
+    \item The main equation of Forward Price:
+        $$
+            FP = (S_0 - PVD)\times(1+R_f)^T
+        $$
+    \item The value of a forward contract at time t:
+        $$
+            V_t = [S_t-PVD_t]-\frac{FP}{(1+R_f)^(T-t)}
+        $$
+\ee
+Equity Forward With Continuous Dividends
+\be
+    \item Good for an equity index forward contract
+    \item $$
+            P = S_0\times e^{(R_f^c-\delta^c)\times T}=(S_0\times e^{-\delta^c\times T})\times e^{R_f^c\times T}
+        $$
+        Where $\delta$ is the cotinous compounded dividend yield.
+    \item Value of the forward contract on an equity index
+        $$
+        V_t = \frac{S_t}{e^{\delta^c(T-t)}}-\frac{FP}{e^{R_f^c(T-t)}}
+        $$
+\ee
+Forwards and Futures on Fixed Income Securities
+\be
+    \item $$
+            FP = (S_0-PVC)\times(1+R_f)^T = S_0\times(1+R_f)^T-FVC
+        $$
+    \item Value of the forward contract
+        $$
+        V_t = (S_t-PVC_t) - \frac{FP}{(1+R_f)^(T-t)}
+        $$
+\ee
+Bond Futures
+\be
+    \item Define: Allow the short the option to deliver any of several bonds,
+        which satisfy the deliverty terms of the contract.
+    \item Clean price: Buyer pay = the clean price + accrued interest
+    \item Accured interest = (days since last coupon)/(days between coupon)$\times$coupon amount
+    \item Main equation: FP = (Full price)(1+$R_f$)$^T$-AI$_T$-FVC
+        \\$AI_T$ is the accured interest at the manturity.
+    \item Quoted futures price = FP/Conversion factor.
+\ee
+Warm-Up: LIBOR-Based Loans and Forward Rate Agreements
+\be
+    \item Eurodollar deposit: dollars deposit in banks outside US.\ra LIBOR: lending
+        rate on dollar loans between banks.\ra 360-day year, add-on rate
+    \item Euribor: interbank euro lending rate
+    \item Forward rate agreement(FRA): who borrow money will long the loan.
+        \\-Number of months until the contract expires
+        \\-number of months until the loan settled.
+        \\$2\times 3$loan. Check examples. Page 141 of 256,Book 4
+\ee
+Pricing FRAs
+\be
+    \item Notice
+        \\-LIBOR rates is add-on, 30/360 basis.
+        \\-long position in FRA\ra fixed the rate
+        \\-Payoff on the FRA occurs at the expiration of FRA, which is the begining of the loan
+        \ra should use PV of interest savings.
+    \item Price\ra The forward interest rate.
+\ee
+Valuing an FRA at Maturity: PV of interest savings at the FRA maturity.
+\\Valuting an FRA before Maturity: also the PV of interest savings. 
+\\Pricing Currency Forward Contracts: 
+\be
+    \item Based on interest parity.
+    \item Main equation
+        $$
+            F_T = S_0\times\frac{(1+R_{PC})^T}{(1+R_{BC})^T}
+        $$
+        Where $R_{PC}$ is the price currency interest rate, $R_{BC}$ is the base
+        currency interest rate.
+    \item 365-day basis
+    \item Valuing Currency Forwarding Contracts
+        $$
+            V_t = \frac{R_t}{(1+R_{BC})^{T-t}}-\frac{F_T}{(1+R_{PC})^{T-t}}
+        $$
+    \item Continuous compounding
+        \eq{
+            F_T&=S_0\times e^{(R_{PC}^c-R_{BC}^c)\times T}\\
+            V_t&=\frac{S_t}{e^{R_{BC}^c(T-t)}} - \frac{F_T}{e^{R_{PC}^c(T-t)}}
+        }
+\ee
+Future Contracts
+\be
+    \item Has clearing house, settled daily.
+    \item Value of futures contract = curent futures price - previous mark-tokmarket price
+\ee
 \end{document}
 
 

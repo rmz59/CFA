@@ -345,3 +345,6 @@
 \contentsline {subsection}{\numberline {31.3}Explain the principles underlying, and factors that influence, the market's pricing of CDS.}{108}{subsection.31.3}
 \contentsline {subsection}{\numberline {31.4}Describe the use of CDS to manage credit exposures and to express views regarding changes in shape and/or level ov the credit curve.}{109}{subsection.31.4}
 \contentsline {subsection}{\numberline {31.5}Describe the use of CDS to take advantage of valuation disparities among separate markets, such as bonds, loans, equities, and equity-linked instruments.}{109}{subsection.31.5}
+\contentsline {section}{\numberline {32}Reading 40: Pricing and Valuation of Forward Commitments.}{109}{section.32}
+\contentsline {subsection}{\numberline {32.1}Describe and compare how equity, interest rate, fixed-income, and currency forward and futures contracts.}{109}{subsection.32.1}
+\contentsline {subsection}{\numberline {32.2}Calculate and interpret the no-arbitrage valueof equity, interest rate, fixed-income, and currency forward and futures contract.}{109}{subsection.32.2}
