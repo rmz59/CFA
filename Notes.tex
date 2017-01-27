@@ -5121,6 +5121,47 @@ Future Contracts
     \item Has clearing house, settled daily.
     \item Value of futures contract = curent futures price - previous mark-tokmarket price
 \ee
+\subsection{Describe and compare how interest rate, currency, and equity swaps are
+priced and valued.}
+\subsection{Calculate and interpret the no-arbitrage value of interest rate, currency,
+and equity swaps.}
+Deriving the Formula for Determing the Swap Rate: Interest rate swap 
+can be seen as: buy a floating-rate bond and sell a fixed-rate bond
+\be
+    \item Swap rate: initial rate that makes the swap zero value.
+    \item How to define the swap rate? Using bonds priced at par.
+          $$
+            1 = \sum_i=1^n\frac{C}{1+R_i} + \frac{1}{1+R_n}
+          $$
+          $C$ will be the swap rate.
+\ee
+Calculating the Market Value of an Interest Rate Swap.       
+\be
+    \item Define: Swap value = Value of the float-rate bond - value of the fixed-rate bond
+    \item The floating rate bond reprices to par at each payment day. Why?
+    \\-Every settlement date, the coupon rate on the bond is equal to the 
+    market rat. If the coupon rate on a bond = market rate, the bond sells at par.
+\ee
+Currency Swaps
+\be
+    \item Determing the Fixed Rate and Foreign Notational Principal
+    \be
+        \item - Fixed-for-Fixed rate currency swap:
+            \\ Solve for the swap rates of each currency.
+        \item - Fixed-for-floating or floating-for-floating:
+            \\ Replace the fixed rate on either or both of the currencies with
+            the floating rate in the country corresponding to the currency of payment.
+    \ee
+    \item Value of a currency swap after initiation = PV expect to recive - PV exptect to pay.
+    \item Remember to Check examples.
+\ee
+Equity Swaps
+\be
+    \item Pay fixed, receive the return on index
+\ee
+
+\section{Reading 41: Valuation of Contingent Claims}
+
 \end{document}
 
 
