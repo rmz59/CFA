@@ -5161,7 +5161,68 @@ Equity Swaps
 \ee
 
 \section{Reading 41: Valuation of Contingent Claims}
-
+\subsection{Describe and interpret the binomial option valuation model
+and its component terms.}
+\subsection{Calculate the no-arbitrage values of European and American options
+using a two-period binomial model.}
+\subsection{Describe how the value of a European option can be analyzed as the 
+present value of the option's expected payoff at expiration.}
+Binomial Model: 
+\be
+    \item Def: over the next period, the value of an asset will change to one of
+    two possible values.
+    \item One-Period Binomial Model
+    \be
+        \item Some definitiona:
+            \\-$\pi_U,\pi_D$: prob of up-move and down-move
+            \\-$U,D$, size of up move, size of down move = $S^+/S$
+        \item $\pi_U = \frac{1+R_f-D}{U-D}$, $R_f$ is the periodically compounded
+        annual risk-free rate.
+    \ee
+    \item Put-Call Parity
+    \be
+        \item $S_0 + P_0 = C_0 + PV(X)$
+        \\$S_0$ = Stock price, $PV(X)$ = PV of the (strike-price)
+    \ee
+    \item Two-Period Binomial Model
+    \\-Similar. Calculate the stock values at the end of two periods, and then calculate 
+    the possible option payoffs.
+    \item American-Style Options
+\ee
+\subsection{Identify an arbitrage opportinunity invovling options and describe the
+related arbitrage.}
+Arbitrage with a One-Period Binomial Model
+\be
+    \item Mispricing in options and stocks.
+    \item Hedge ratio: $h=\frac{C^+-C^-}{S^+-S^-}$.
+        \\This ratio gives us how many shares of stocks needed for each option
+        to eliminate the risk, and obtain pure arbitrage interests.
+\ee
+\subsection{Describe how interest rate options are valued using a two-period binominal
+model}
+\subsection{Calculate and interpret the values of an interest rate option using a 
+two-period binomial model.}
+Interest rates here at each node is a one-period forward rate.
+\\Interest Rate Options
+\be
+    \item Define:
+        \\ Call Payoff = Notational principal$\times$ Max(0,Ref rate - Exercise rate) 
+        \\  Payoff = Notational principal$\times$ Max(0, Exercise rate - Ref rate)
+        \\ When calculating the value of each node, remember to discount to PV. 
+\ee
+\subsection{Identify assumptions of the Black-Scholes-Merton option valuation model.}
+Assumptions
+\be
+    \item Underlying price: geometric Brownian motion. Return: lognormal distribution.
+    \item Risk-free rate is constant and known. Borrowing, lending are at rfr.
+    \item Volatility of the returns is constant and known. Prices change smoothly.
+    \item Markets are frictionless. No taxes, no transaction fess, no restrictions on short
+    sales, continuous trading, no arbitrage opportunities.
+    \item Yield on the asset is constant.
+    \item Options are European options.
+\ee
+\subsection{Interpret the components of the Black-Scholes-Merton model as applied to
+call options in terms of leveraged position in the underlying.}
 \end{document}
 
 
