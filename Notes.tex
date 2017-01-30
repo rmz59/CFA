@@ -5223,6 +5223,144 @@ Assumptions
 \ee
 \subsection{Interpret the components of the Black-Scholes-Merton model as applied to
 call options in terms of leveraged position in the underlying.}
+\be
+    \item Call: $C_0=S_0N(d_1)-e^{-rT}XN(d_2)$
+    \item Put: $P_0=-S_0N(-d_1)+e^{-rT}XN(-d_2)$ 
+\ee
+Interpretion:
+\be
+    \item BSM \ra PV of the epected optoin payoff at expiration
+    \item Call can be seen as Leveraged stock investment \ra long $N(d_1)$ units of
+    stocks, short $e^(-rT)XN(-d_2)$
+    \item $N(d_2)$ \ra Risk-netrual probability that a call option will expire
+    in the mondy; $N(-d_2)$\ra put option will expire in the money. 
+\ee
+\subsection{Describe how the Black-Scholes-Merton model is used to value European
+options on equities and currencies.}
+Options on Dividend Paying Stocks
+\be
+    \item $C_0=S_0e^{-\delta T}N(d_1)-e^{-rT}XN(d_2)$ 
+    \item $P_0=-S_0N(-d_1)+e^{-rT}XN(-d_2)$  
+\ee
+Where $\delta$ = continuously compounded dividend yield.
+\be
+    \item Put-Call parity:$P_0+S_0e^{-\delta T}=C_0+e^{-rT}X$
+\ee
+Options on Currencies
+\be
+    \item $C_0=S_0e^{-r(B)T}N(d_1)-e^{-r(P)T}XN(d_2)$
+    \item $P_0=-S_0e^{-r(B)T}N(-d_1)+e^{-r(P)T}XN(-d_2)$  
+    \item $r(P)$ = continuously compounded price currency interest rate.
+        \\$r(B)$ = continuously compounded base currency interest rate. 
+\ee
+\subsection{Describe how the Black model is used to value European options of futures}
+The Black Model: Can price European options on forwards and futures
+\be
+    \item $C_0=e^{-R_f^c\times T}[F_T\times N(d_1)-X\times N(d_2)]$
+    \item $F_T$ is the futures price, and $\sigma$ is the standard deviation of 
+    returns on the futures contract.
+    \item Interpretion
+    \be
+        \item Call values: long futures position(multiplied by $N(d_1)$), short bond position
+        (multiplied by $N(d_1)$).
+    \ee
+\ee
+\subsection{Describe how the Black model is used to value European interest rate
+options and European swaptions}
+Interest Rate Options
+\be
+    \item Def: options on Forward rates or FRAs. Call options gains when rate rise, and put
+    options gains when rate fall. Use an actual/365 convention.
+    \item $C_0=(AP)e^{-r(N\times \frac{30/360})}[FRA_{(M\times N)} N(d_1) - XN(d_2)]\times NP$
+    \be
+        \item AP = Accrual Period = $\frac{(N-M)\times 30}{360}$
+        \item NP = notional principal on the FRA
+        \item This is for an $(M\times N)$ FRA expiring in M months that has a strike rate of X
+    \ee
+    \item Equivalencies in interest rate derivative contracts
+    \be
+        \item Long interest call + short interest rate put \ra Long FRA, Receive float and pay-fixed
+        \item A series of interest rate call options with different maturities and same
+        exercise price \ra Interest rate cap \ra Hedge a floating rate loan
+        \item A series of interest rate put options with different maturities and same
+        exercise price \ra Interest rate floor \ra Hedge a floating rate bond
+        \item Cap + Floor = Payer Swap
+    \ee
+\ee
+Swaptions
+\be
+    \item  Definition: gives the holder the right to enter into an interest rate swap.
+    \item Payer swaption: options to pays fixed, receive float; Receiver swaption: receives fixed, pays float.
+    \item 
+        $PAY = (AP)*PV[SFR N(d_1)-XN(d_2)]NP$
+        \\- AP=1/\# of settlement periods per year
+        \\- SFR=current market swap fixed rate
+        \\- X=exercise rate specified in the payer swaption
+        \\- NP=notational principal of the underlying swap.
+    \item $REC = (AP)*PV[-SFR N(-d_1)+XN(-d_2)]NP$
+\ee
+Equivalencies
+\subsection{Interpret each of the option Greeks.}
+\be
+    \item Inputs: Asset price, exercise price, asset price volatility, time to expiration, and
+    the risk free rate.
+\ee
+Delta
+\be
+    \item Delta: Changes in Asset prices and changes in option prices. 
+    \item $\Delta_C=e^{-\delta_T}N(d_1)$, $\Delta_P=-e^{-\delta T}N(-d_1)$
+    \item Interpreting Delta:
+    \be
+        \item Delta\ra The slope of the "prior-to-expiration" curve in the change in call
+        price per unit change in stock price.
+        \item Call option's delta\ra increase from 0 to $e^{-\delta T}$ as stock price increases
+        \item Put option's delta \ra $-e^{\delta T}$ to 0 as stk price up.
+    \ee
+\ee
+Gamma
+\be
+    \item Rate of change in delta as the underlying stock price changes.
+    \item Long call/put \ra Gamma>0; At-the-money options\ra Max Gamma
+    \item $\Delta_C\approx$ call delta $\times$S+1/2gamma$\delta S^2$;
+    $\Delta_P\approx$ put delta $\times$S+1/2gamma$\delta S^2$ 
+\ee
+Vega
+\be
+    \item d(the option price)/d(volatility of returns)
+    \item Vega > 0 for put and call. Large volatility\ra more valuable options
+\ee
+Rho
+\be
+    \item d(option price)/d(risk-free rate)
+    \item rho>0 for Call, <0 for put.
+    \item not a important value.
+\ee
+theta
+\be
+    \item d(option price)/d(time):w
+    \item Time-decay: as tim passes, option value decreases for all calls and
+    for most put options.
+\ee
+\subsection{Describe how a delta hedge is executed.}
+Dynamic Hedging
+\be
+    \item Delta-neutral portfolio: long stock, short call options; OR long stock, long puts.
+    \item \# of call options needed = \`# of shares hedged/delta of call option
+\ee
+Delta hedge is only good for a small range of stock prices.
+\subsection{Describe the role of gamma risk in options trading}
+Gamma: how a dynamic hedge performs when it's not reblanced.
+\\When the stock price changes abruptly, hedge will fail\ra Gamma risk.
+\subsection{Define implied volatility and explain how it is used in options trading}
+Implied volatility
+\be
+    \item Definition: Standard deviation of continuously compounded asset returns
+    that is implied by the market price of the option.\ra Solved from BSM model.
+\ee
+
+
+\section{Reading 42: Derivative Strategies}:w
+
 \end{document}
 
 
