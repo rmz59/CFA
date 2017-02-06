@@ -5345,7 +5345,7 @@ theta
 Dynamic Hedging
 \be
     \item Delta-neutral portfolio: long stock, short call options; OR long stock, long puts.
-    \item \# of call options needed = \`# of shares hedged/delta of call option
+    \item \# of call options needed = \# of shares hedged/delta of call option
 \ee
 Delta hedge is only good for a small range of stock prices.
 \subsection{Describe the role of gamma risk in options trading}
@@ -5359,8 +5359,142 @@ Implied volatility
 \ee
 
 
-\section{Reading 42: Derivative Strategies}:w
+\section{Reading 42: Derivative Strategies}
+\subsection{Describe how interest rate, currency, and equity swaps, futures, and
+forwards can be used to modify risk and return.}
+\be
+    \item Interest Rate Swaps: modify the duration of a fixed income portfolio
+        \\ Value of a payer swap = value of a floating rate note - value of a fixed rate bond
+        \\\ra Duration of a payer swap = Duration of floating rate note - duration of a fixed rate note
+        \\ Duration of a fixed rate bond > duration of a floating rate note
+    \item Interest Rate Futures
+        \\ = Bond futures.
+    \item Currency Swaps
+        \\ Currency swpas: borrowing in their own capital markets, and receive
+        money in which they want to actually borrow.\ra Decrease the currency risk
+    \item Currency Futures: Used to hege an asset or liability in a foreign currency that
+    is expected to be settled in the future
+    \item Equity Swaps: exchange returns of an equity index/single stock for returns
+    on another asset \ra Temporarily switch assets to cash/other assets, no transaction fees/costs
+    \item Stock Index Futures: Change the exposure of equities
+        \\ Money out of equity\ra short stock index futures
+\ee
+\subsection{Describe how to replicate an asset by using options an by using
+cash plus forwards or futures}
+\be
+    \item Synthectic Stock using options: long astock = long call + short put
+    \item Sythetic Puts and Calls: 
+        \\long call = long stock + long put
+        \\long put = long call + short stock
+    \item Sythetic Assets with Forwards/Futures
+        \\long stock = long futures + risk-free asset
+        \\long stock + short futures = risk-free asset
+    \item Foreign Currency Options: to hedge the downside, but didn't give up the 
+    upside.
+\ee
+\subsection{Describe the investment objectives, structure, payoff, and risk(s) of
+a covered call posisiton}
+A covered call = long stock + short call
+\be
+    \item earn the income via the premium on the call
+    \item Improving on the market: the premium on the option may be greater than
+    the intrinsic value.
+    \item Target price realization: short a call option at a specific price.
+    \item Profit: Covered call has the downside risk of long stock.
+\ee
+\subsection{Describe the investment options, structure, payoff, and risks of a
+protective put position.}
+Protective Put = long stock + long put\ra long put is similar to an insurance.
 
+\section{Calculate and interpret the value at expiration, profit, maximum profit,
+maximum loss, and break even underlying price at expiration for covered call and 
+protective puts.}
+See example.
+
+\section{Contrast protective put and covered call positions to being long an asset and short
+a forward on the asset}
+\be
+    \item 
+    Delta of a call: 0 to 1
+    \\Delta of a put: 0 to -1
+    \item Delta of a covered call position:
+    \\ Covered call = long stock + short call
+    \\ Covered call delta = delta of stock - delta of call option
+\ee
+Cash-secured puts: write a put option and deposit an amount equal to the put exercise price
+in a designated account.
+
+\section{Describe the investment objective()s, structure, payoffs, and risk of the following
+option strategies: bull spread, bear spread, collar, and straddle.}
+\section{Caculate and interpret the value at expiration, profit, maximum profit, maximum loss,
+and breakeven underlying price at expiration of the following option strategies: 
+bull spread, bear spread, collar, and straddle.}
+Bull Call Spread
+\be
+    \item = Buy low price call + sell high price call
+    \item Limited upside if underlying rises with limited downside.
+\ee
+Bear Call Spread
+\be
+    \item = Sell low price call + buy high price call
+\ee
+Bear Put Spread
+\be
+    \item = Buy high price put + sell low price puts
+\ee
+Risk of Spreads
+\be
+    \item Limit the downside risk and upside risk. ``Chopping off" the tails of return.
+\ee
+Collar
+\be
+    \item = Protective put and covered call = long stock + long put + short call
+    \item Objective: who wants to buy a protective put will sell a call to offset the put premium
+    \item Structure: 
+        \\-Usually, put strike ($X_L$) < call strick($X_L$)
+    \item Risk of a Collar: Give up the upside, chops the tails of return distributions
+\ee
+Straddle
+\be
+    \item = Long put + Long call
+    \item Only lose money if the stock price doesn't change much.
+\ee
+\subsection{Describe uses of calendar spreads.}
+Calendar Spread
+\be
+    \item Structure
+    \\ Long calendar spread = short near-dated call + long longer dated call
+    \\ Short calendar spread = short longer dated call + long near-dated call
+    \item Profit
+    \\ Long calendar spread: negative initial investment
+    \\ Short calendar spread: positive initial investment
+    \item Use
+    \\ Investor may believe stock price will be flat in near term, while change dramtically
+    in long term.
+\ee
+\subsection{Identify and evaluate appropriate derivatives straegies consistent with
+given investment objectives.}
+Investment Objective
+\be
+    \item Strong bull(bear) \ra Long call(put)
+    \item Average bull(bear) \ra Long call + short put (short call + long put)
+    \item Weak bull(bear) \ra Short put(short call)
+    \item High(low) volatility \ra Long (short) straddle
+    \\ High volatility \ra Fast market
+\ee
+Breakeven Price Analytics
+\be
+    \item Annual volatility can be decided by the breakeven price(trading days = 252)
+        $$
+            \sigma_{annual} = \%\Delta P\times\sqrt{\frac{252}{trading days until maturity}}
+        $$
+        $$
+            \%\Delta P=\frac{|break even price - current price|}{current price}
+        $$
+\ee
+
+
+\section{Reading 43: Private Real Estate Investments}
 \end{document}
 
 
