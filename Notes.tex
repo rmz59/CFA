@@ -6434,6 +6434,140 @@ Managers have more knowledge than clients.
 
 
 
+
+\section{Reading 48: An Introduction to Multifactor Models.}
+\subsection{Describe arbitrage pricing theory(APT), including its underlying assumptions 
+and its relation to multifactor models.}
+Assumptions
+\be
+    \item unsystematic risk can be diversed.
+    \item REturns are generated using a factor model.
+    \item No arbitrage opportunities exist.
+\ee
+The APT Equation
+\be
+    \item $$
+            E(R_p)=R_F+\beta_{P,1}\lambda_1+\beta_{P,2}\lambda_2+\beta_{P,3}\lambda_3+...
+            $$
+\ee
+\subsection{Define arbitrage opportunity and determine whether an arbitrage opportunity exists.}
+Notes
+\be
+    \item Portfolio beta = weighted average of individual asset betas
+    \item APT assumes no markt imperfections.
+\ee
+\subsection{Calculate the expected return on an asset given an asset's factor
+sensitivities and the factor risk premiums.}
+Just solve the APT equations.
+\subsection{Describe and compare macroeconomic factor models, fundamental factor models, and
+statistical factor models.}
+Classifications of models
+\be
+    \item Macroeconomic factor models: returns are due to the SURPRISE in macroeconomic models.
+    \item Fundamental factor models: Firm specific factors
+    \item Statistical factor models: 
+        \\ - Factor analysis: covariance
+        \\ - Principal component models: varianc
+\ee
+Macroeconomic Factor Models
+\be
+    \item Model
+    $$
+        R_i = E(R_i) + b_{i1}F_{GDP} + b_{i2}F_{QS} + \varepsilon_i
+    $$
+    where $E(R_i)$= Expected return of asset i, $F_{GDP}$ is the surprise in the GDP rate,
+    $F_{QS}$ = the surprise in the credit quality yield(BB-rated - Treasury bond yield).
+    \item Priced Risk Factors
+        \\ - unsystematic risks will be be rewarded.
+        \\ - GDP rate and credit quality risks are systematic risks.
+    \item Factor sensitivities
+        \\ - Can be estimated by regressing historical asset returns on the corresponding hisotrical
+        macroeconomic factors.
+\ee
+Fundamental Factor Models
+\be
+    \item Model
+     $$
+        R_i = a_i + b_{i1}F_{P/E}+b_{i2}F_{SIZE}+\varepsilon_i
+    $$   
+    Where
+    \be
+        \item $b_{i1}=\frac{(P/E)_i-\overline{P/E}}{\sigma_{P/E}}$
+    \ee
+    Average P/E is calcualted over all stocks, as well as the standard deviation.
+\ee
+The Macroeconomic Factor Model vs. the Fundamental Factor Model
+\be
+    \item Sensitivities. 
+        \\ - macroeconomic factor model:sensitivity cannot calculated
+        \\ - fundamental factor: can be calculated
+    \item Interpreation of factors:
+        \\ - macroeconomic: surprise in the macroeconomic variables
+        \\ - fundamental: rates associated with factor.
+    \item Intercept term
+        \\ - Macro: expected return
+        \\ - Fundamental: just the regression intercept, not the expected return.
+\ee
+\subsection{Explain sources of active risk and interpret tracking risk an the information
+ratio.}
+Active return and risk:
+\be
+    \item Avctive return = Portfolio Return - Bench mark return
+    \item Active risk = traking error = $\sigma(R_p-R_B)$
+\ee
+The Information Ratio
+\be
+    \item Defination: measure a manager's consistency in generating active return
+    \item $$
+        IR = \frac{\bar{R_P}-\bar{R_B}}{\sigma(R_p-R_B)}
+    $$
+\ee
+\subsection{Describe uses of multifactor models and interpret the output of analysis based on 
+multifactor models.}
+Multifactor models can be useful for
+\be
+    \item Return Attribution
+        \\ Active return = factor return + security selection return
+            \\ Factor return = $\sum_{i=1}^k (\beta_{pi}-\beta_{bi})\times\lambda_i$
+            \\ Security seleciton return = active return - factor return
+    \item Risk Attribution
+        \\ Active risk = tracking error = $\sigma(R_p-R_B)$
+        \\ Active risk squared = active factor risk + active specific risk
+        \be
+            \item Active factor risk: Difference of sensitivities between portfolio
+             factors and benchmark.
+                \\ Active factor risk = active risk squared - active specific risk
+            \item Active specific risk: Asset selection. Due to the weights of stocks
+             you use.
+                \\ Active specific risk = $\sum_i^n(W_{pi}-W_{b})^2\sigma_{\varepsilon i}^2$
+                where $W_pi$ are portfolio weights, and $\sigma_{\varepsilon i}^2$ = 
+                residual risk of the ith asset. 
+        \ee
+    \item Use of Multifactor Models
+        \be
+            \item For Passive Management: Construct a tracking portfolio, expose to
+            same factors as the benchmark.
+            \item Active management: make specific bets on desired factors while hedging/neutral on
+            other factors.
+            \item Rules-based/algorithmic active management: mechanically tilt factor exposures when constructing
+            portfolios.
+        \ee
+\ee
+Carhart Model
+\be
+    \item Model
+    $$
+        E(R) = R_F + \beta_1 RMRF + \beta_2 SMB + \beta_3 HML + beta_4 WML
+    $$
+    \\ $RMRF$ = return on value-weighted equity index - risk-free rate
+    \\ $SMB$ = average return on small cap stock - average return on large cap stocks
+    \\ $HML$ = average return on high book-to-market sotcks - average return on low-book-to-market stocks
+    \\ $WML$ = average returns on past winners - average returns on past losters
+\ee
+\subsection{Describe the potential benefits for investor in considering multiple risk dimensions when 
+modeling asset returns.}
+More risk factors can help the investor take advantage in bearing risks he can afford.
+
 \end{document}
 
 
