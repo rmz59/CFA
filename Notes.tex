@@ -6568,6 +6568,123 @@ Carhart Model
 modeling asset returns.}
 More risk factors can help the investor take advantage in bearing risks he can afford.
 
+
+
+\section{Reading 49: Measuring and Managing Market Risk}
+\subsection{Explain the use of value at risk (VaR) in measuring portfoio risk.}
+Three components
+\be
+    \item The probability
+    \item The loss size
+    \item a time frame
+\ee
+Expression
+\be
+    \item In value: The monthly 5\% VaR is \$25,000 \ra There is 5\% probability that the company will
+    lose at least \$25,000 in any given month
+    \item In percentage: The monthly 5\% Var is 3\% \ra There is 5\% probability that the portfolio
+    value will lose at least 3\%
+\ee
+\subsection{Compare the parametric (variance-covariance), historical simulation, and Monte Carlo simultion
+methods for estimating VaR.}
+\subsection{Esimate and interpret VaR under the parametric, historical simulation and Monte Carlo
+simulation methods.}
+Three methods
+\be
+    \item Paramteric Method(Variance-covariance method)
+    \be
+        \item Identify the risk factors related to the portfolio returns: market risk, interest
+        rate risk, or currency risk, etc.
+        \item Assumption:
+            \\ - Risk factors are distributed normally
+        \item $$
+            \sigma_{portfolio}^2=W_A^2\sigma_A^2+W_A^2\sigma_A^2+2W_A W_B Cov_{AB}
+        $$
+        \\ - Lookback period: time horizon to estimate the mean and standard deviation of returns.
+        \item 1\% \ra -2.33$\sigma$
+        5\% \ra \ra -1.645$\sigma$
+        16\% \ra -1$\sigma$
+    \ee
+    \item Historical simulation method
+    \be
+        \item Based on the actual periodic changes in risk factors over a lookback period.
+        \\ - Calculate a daily change, ordering the changes, we will have 5\% of losses. No adjustment needed.
+    \ee
+    \item Monte Carlo simulation
+    \be
+        \item Assum probability distribution for each risk factor. Assume the correlations between
+        risk factor.
+    \ee
+\ee
+\subsection{Describe advantages and limitations of VaR}
+Advantage of Var
+\be
+    \item Simple, easy to explain
+    \item Help compare risks of different portfolios, asset classes
+    \item Use for performance evaluation
+    \item Allocating assets, the risk managers can look at/optimize the allocation of VaR
+    \item Global banking regulators accept VaR as a measure of financial risk
+    \item VaR can be verified by backtesting
+\ee
+Disadvantage of Var
+\be
+    \item VaR estimation requires many choices
+    \item The assumption of normality \ra Underestimates of downside risk. Actual return have fatter
+    tails than normal risk.
+    \item Liquidity falls significantly when asset price fall. VaR dos not include this.
+    \item VaR didn't include that Correlations increase during periods of financial stress.
+    \item Ignore many risk
+    \item VaR didn't look at right-hand tail
+\ee
+\subsection{Describe extension of VaR}
+Extension of VaR
+\be
+    \item Conditional VaR (CVaR): Expected loss GIVEN the loss is equal or greater than VaR.
+    \item Incremental VaR (IVaR): Change in VaR from a change in the portfolio allocation weight of a seruity.
+    \item Marginal VaR (MVaR): The slope of VaR vs. a seurity's weight
+    \item Ex ante tracking error, aka Relative VaR: Measures the VaR of the difference between the return on a
+    portfolio and the return on its manager's benchmark portfolio.
+\ee
+\subsection{Describe sensitivity risk measures and scenario risk measures and compare
+these measures to VaR}
+We should use other risk measures that complement VaR.  
+\be
+    \item Sensitivity Analysis: Assess the effect on portfolio value given a small change in one risk factor.
+        \\ - Provides an estimate of the change in portfolio value due to a small change in a single risk factor.
+        \\ - It does not involve any prediction.    
+    \item Scenario analysis
+        \\ - Provides an estimate of the effect on portfolio value of a set of changes of
+        significant magnitude in multiple risk factors.
+        \\ Approaches
+        \be
+        \item  Historical scenario: use a set of changes in risk factors that HAVE occured.
+        \item Hypothetical scenario: any set of changes in risk factors can be used.
+        \item Stress test: examine the effect on value of a scenario of extreme risk-factor changes.
+        \ee
+\ee
+\subsection{Demonstrate how equity, fixed income, and optinos exposure measures may be 
+used in measuring and managing market risk and volatility risk.}
+Factors used in measurment
+\be
+    \item Equity: beta. $E(R_i) = Beta_i[E(R_{MKT})-R_f]$
+    \item Fixed income: Modified Duration \ra How market values are affected by changes in interest rate.
+        \\ Change in price = -Duration($\Delta_Y$)+1/2 Convexity($\Delta_Y$)^2
+        \be
+            \item Maculay Duration: Time weighted-average of PV of future cash flows.
+            \item Modified Duration: $\partial(Value)/\partial(y)$
+            \item 
+            \\  -  Continuous compounding: modified = Maculay
+            \\  -  Period compouding: Modified = Maculay/(1+Yield per period)
+        \ee
+    \item Options: 
+        \be
+            \item Delta: Sensitivity of option values to changes in the value of underlying asset. 
+            \item Gamma: Delta changes as the price of the underlying asset changes
+            \item Vega: Option values to changes in the expected volatility of the price of the underlying asset.
+        \ee
+\ee
+\subsection{Describe the use of sensitivity risk measures and scenario risk measures.}
+
 \end{document}
 
 
