@@ -6668,11 +6668,11 @@ Factors used in measurment
 \be
     \item Equity: beta. $E(R_i) = Beta_i[E(R_{MKT})-R_f]$
     \item Fixed income: Modified Duration \ra How market values are affected by changes in interest rate.
-        \\ Change in price = -Duration($\Delta_Y$)+1/2 Convexity($\Delta_Y$)^2
+        \\ Change in price = -Duration($\Delta_Y$)+1/2 Convexity($\Delta_Y)^2$
         \be
             \item Maculay Duration: Time weighted-average of PV of future cash flows.
             \item Modified Duration: $\partial(Value)/\partial(y)$
-            \item 
+            \item Compounding methods
             \\  -  Continuous compounding: modified = Maculay
             \\  -  Period compouding: Modified = Maculay/(1+Yield per period)
         \ee
@@ -6684,7 +6684,62 @@ Factors used in measurment
         \ee
 \ee
 \subsection{Describe the use of sensitivity risk measures and scenario risk measures.}
-
+Uses
+\be
+    \item Sensitivity risk measures: inform a portfolio manager about a portfolio's exposure to
+    various risk factors.
+    \item Scenario analysis: Often modeled as instant scenario changes. In some case, it's incremental
+    changes, and includes manager's reaction.
+    \item Reverse stress testing: Decide an unacceptable outcome, then find how likely the related scenario
+    would happen. 
+\ee
+\subsection{Describe advantages and limitations of sensitivity risk measures and scenario risk measures.}
+VaR, sensitivity analysis, and scenario analysis complement each other.\\
+Advantages
+\be
+    \item VaR provides a probability of loss
+    \item Sensitivity: relative exposures to different risk Factors
+    \item Scenario: information about exposure to instant changes
+\ee
+Limitations
+\subsection{Describe risk measures used by banks, asset managers, pension funds, and insurers.}
+\be
+    \item Banks: sensitivity(held-to-maturity and foreign exchange risk), scenario and stress testing(full balance sheet),
+     leverage risk measures, and VaR(trading securities)
+    \item Traditional(long-only) asset managers: relative risk measures, size of positions, sensitivity measures, scenario analysis.
+        \\- Active share: difference between the weight in portfolio and the weight in benchmark.
+        \\- Ex-post tracking error(backward looking), ex-ante tracking error(forward looking): ex-ante tracking error
+        can be used for risk estimation.
+    \item Hedge funds: Dependes. Sensitivity analysis, leverage measures, scenario analysis, and stress test.
+        \\- If the fund with significantly non-normal returns: Use ``Maximum Drawdown"\ra The largest
+        decrease in value over prior periods of a specific length.
+    \item Defined benefit pension funds: Use ``Surplus-at-risk" \ra VaR for (plan asset - liability)
+    \item Insurance companies
+        \\ - Property and casualty insurers: 
+        \be
+            \item Use sensitivties of exposures to market risk factors in investment portfolios for risk managements.
+            \item Use VaR and capital at risk, scenario analysis,  as measures
+        \ee
+         - Life insureers: 
+        \be
+            \item Risks more correlated with the market. Because life insurers invest more. Annuities
+            pay over long periods into the future.
+        \ee
+\ee
+\subsection{Explain constraints used in managing market risks, including risk budgeting, position limits, scenario
+limits, and stop-loss limits.}
+\be
+    \item Risk budgeting: Determine the acceptable total risk, then allocate them to different activities, strategies, assets.
+    \item Position limits: Ensure minimum level of diversification by limiting risk exposures.
+    \item Scenario limits: limits on expected loss for a given scenario
+    \item Stop-loss limits: require risk exposures be reduced if losses exceed a specified amount.
+\ee
+\subsection{Explain how risk measures may be used in capital allocation decisions.}
+Capital allocation: how the capital of a firm is used to fund its business.
+\be
+    \item No risk management: maximize the companies' expected return.
+    \item With risk exposures: One way is to limit the overall risk of all the activities.
+\ee
 \end{document}
 
 
