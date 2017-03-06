@@ -6899,6 +6899,228 @@ Commercial real estate investments
 Valuation
 \\Discount rate for equtiy = R + $\pi$ + $\theta$ + $\gamma$ + $\kappa$ + $\phi$, 
 where $\phi$ = risk premium for illiquidity.
+
+\section{Reading 51: Analysis of Active Portfolio Management}
+\subsection{Describe how value added by active management is measured.}
+Active Return
+\be
+    \item Define: valued added by active management.
+    \item Ex-ante active return: $E(R_A)=E(R_P)-E(R_B)$ = Expected return of actively managed portfolio - 
+    \item Active weights: Difference between a securities's weight in an actively managed
+    portfolio - its weight in the benchmark portfolio
+    \item For N securities
+        \\ -  $E(R_A)=\sum\Delta w_i E(R_i)$, where $\Delta w_i$ = active weight
+    \item For investments with multiple asset classes
+    $$
+        E(R_P) = \sum w_{p,j}E(R_{p,j}), E(R_B) = \sum w_{B,j}E(B,j)
+        E(R_A) = \sum w_{p,j}E(R_{p,j}) - \sum w_{B,j}E(B,j)
+    $$
+    \item Active return = Asset allocation return (from deviation of asset class weights) +
+    security selection return
+    $$
+        E(R_A) = \sum \Delta w_{j}E(R_{p,j}) + \sum w_{P,j}E(A,j)
+    $$
+\ee
+\subsection{Calculate and interpret the information ratio (ex post and ex ante) and contrast it
+to the Sharpe ratio.}
+Definations
+\be
+    \item Sharpe Ratio: $SR = \frac{R_p-R_F}{\sigma_P}$
+        \\ Its not affected by leverage.
+    \item Information Ratio $IR = \frac{R_P-R_B}{\sigma(R_p-R_B)}=\frac{R_A}{\sigma(R_A)}$
+    \item Important points
+    \\ - We are consider ex-ante information ratio
+    \\ - A closet index fund: closely tracks the underlying benchmark index. Low IR.
+    \\ - Fund with zero systematic risk: Use risk-free ratio as benchmark.
+    Has information ratio = Sharpe ratio. Active return = Total return - risk-free return.
+    Active risk = Total risk.
+    \\ - IR wii change with leverage.
+    \\ - IR will not change with ACTIVE weights \ra Triple active weights, active return and active risk
+    will triple \ra IR not change
+\ee
+Optimal amount of  risk
+\be
+    \item optimal active:$\sigma^*_A = \frac{IR}{SR_B}\sigma_B$
+    \item Corresponding SR: $SR_P = \sqrt{SR_B^2 + IR^2}$
+    \item Total risk of the portfolio $\sigma_P^2=\sigma_B^2+\sigma_A^2$
+\ee
+\subsection{State and interpret the fundamental law of active portfolio management including
+its component terms -- transfer coefficient, information coefficient, breadth, and acive
+ risk(aggressiveness).}
+ Three factors of the information ratio
+ \be
+    \item Information coefficient(IC): measure of a manager's skill.It's the ex-ante, risk-weighted correlation between
+    active returns and forecasted active returns. 
+    \item Transfer coefficient(TC): Correlation between actual active weights and optimal active weights.
+        \\- For unconstraint portfolio: Active weights = Optimal weights, TC=1
+        \\- For constrained portfolio: TC = CORR($\mu_i/\sigma_i, \Delta w_i\sigma_i$) = CORR($\Delta w_i^\ast\sigma_i,\Delta w_i\sigma_i$), Correlations between 
+        the forecaseted active returns and the actual weights adjusted for risk, $\mu_i=$the ex-ante active return for security $i$
+    \item Breadth: The number of independent active bets taken per year.
+ \ee
+ Grinold Rule
+ \be
+    \item $\mu_i = IC \sigma_i S_i$, where $S_i$ = a standarized score 
+    \item $E(R_A) = \sum\Delta w_i\mu_i$
+    \item For Unconstrained portfolio, TC=1, optimal values are
+        \\ - $IR^*=IC\sqrt{BR}$
+        \\ - $E(R_A)^\ast=IC\sqrt{BR}\sigma_A$
+    \item Constrainted portfolio
+        \\ - $IR=(TC)IC\sqrt{BR}$
+        \\ - $E(R_A)^\ast=(TC)IC\sqrt{BR}\sigma_A$   
+        \\ - $\sigma_{CA}^\ast=TC\frac{IR^\ast}{SR_B}\sigma_B$, $IR^*$ is the IR of an unconstrained portfolio.
+        \\ - $SR_P = \sqrt{SR_B^2 + TC^2 IR^{*2}}$
+ \ee
+ Ex-Post Performance Measurement
+ \be
+    \item $E(R_A|IC_R) = (TC)IC_R\sqrt{BR}\sigma_A$, where $IC_R$ is the ex-post information coefficient.
+ \ee
+ \subsection{Explain how the information ratio may be useful in investment manager selection and choosing
+ the level of active portfolio risk.}
+ Investors should choose managers with highest IR
+ \\ The expected active return is $E(R_A)=IR\times\sigma_A$
+\subsection{Compare active management strategies (including market timeing and security selection)
+and evaluate strategy changes in terms of the fundamental law of active management.}
+Some definitions
+\be
+    \item Market timing: bet on the direction of the mkt.
+        \\ - $IC = 2*(\% correct) - 1$
+    \item Sector Rotation: Select best sectors based on market timing.
+        \\ - Examples.
+\ee
+\subsection{Describe the practical strengths and limitations of the fundamental law
+of active management.}
+Good
+\be
+    \item Good for security selection, market timing, sector rotation
+\ee
+Limitations
+\be
+    \item Garbage in, garbage out: poor input leads to wrong results.
+        \\ - Ex-ante measurement of skill
+        \\ - Independence:
+        The bets are not independent.
+        \be
+            \item BR = $\frac{N}{1+(N-1)r}$, where $r$ is correlation betwenn bets.
+        \ee
+    \item Intependence can be compromised by
+        \\ - Cross-section dependency: stocks have correlations in same sectors.
+        \\ - Time-series dependency: sequencial operations may dependent.
+\ee
+
+\section{Reading 52: Algorithmic Trading and High-Frequency Trading}
+\subsection{Define algorithmic trading}
+Algorithmic Trading: Use a set of rules, and a computer to make decisions and trades thousands
+of timers.
+\subsection{Distinguish between execution algorithms and high-frequency trading algorithms.}
+Trading algorithms can be broken down into
+\be
+    \item Execution algorithms: 
+        \\-Objective: execute large orders with minimal price impact
+    \item High-frequency Trading Algorithms
+        \\-Ojective: analyze real-time market data in search of patterns that can be profitably traded. Securities held for 
+        a short time.
+\ee
+\subsection{Describe types of execution algorithms and high-frequency trading algorithms.}
+Types of Execution Algorithms
+\be
+    \item Volume-Weighted Average Price ALgorithms (VWAP)
+        \\ - Based on Historical trading patterns over a typical day, split a large order into pieces
+        proportional to historical distribution.
+    \item Implementation Shortfall Algorithms
+        \\ - Try to obtain a balance to minimize the potential market drift that could happen
+        if the order takes a long time to execute.
+    \item Market Participation Algorithms
+        \\ - Cut larger order into slices that vary proportionally with actual trading volume.
+\ee 
+Types of High-frequency Trading Algorithms
+\be
+    \item One class: statistical arbitrage: Find securities that historically moved together but
+    diverged recently.
+        \be
+            \item Pairs trading: When prices of two secuities diverge, short the outperformed while long
+            the underperformed ones.
+            \item Index arbitrage: Find the temp difference in price between securities and their belonged sector.
+            \item Basket trading: apply statistical arbitrage strategies to groups of securities.
+                \\ - Trading one baseket vs. another basket
+            \item Spread trading: Take long/short positions in two correlated securities.
+                \\ - Intra-market spread: Long in one contract and short in the same futures in another contract 
+                month in the same exchange.
+                \\ - Inter-market spread: Buy one contract in one market and sell the same contract on the same 
+                delievery month in a different market.
+                \\ - Inter-exchange spread: BUy a commodity future on one exchange and sell a similar future
+                on a different exchange.
+                \\ - Multilegged inter-exchange spread:
+                    \\ -- Crack spread: crude oil vs. petroleum products
+                    \\ -- Spark spread: price of electricity from a gas-fired power plants vs. fuel prices
+                    \\ -- Crush spread: soybean futures vs. soybean oil futures
+            \item Mean reversion: when the price of a security drifts away from its recent historical mean,
+            its price will move back
+            \item Delta-netural strategies: produce a small profit by combining stocks and options. TOTAL Delta
+            of portfolios is zero, thus it will gain when volitility changes.
+        \ee
+    \item Other algorithms besides Stat arbitrage
+        \be
+            \item Liquidity aggregation and smart order routing: based on market fragmentation and a liquidity 
+            aggregation algorithm.
+            \item Real-time pricing of securities: using algorithmic trading to price in
+            real time based on instantaneous market information.
+            \item Trading on news
+            \item Genetic tuning: using a self-evovling system to test the performance of many different strategies.
+        \ee
+\ee
+\subsection{Describe market fragmentation and its effects on how trades are placed.}
+\be
+    \item Market Fragmentation: same security traded in multiple financial markets \ra different price/liquidity
+    \item Liquidity aggregators: Sum liquidity for an individual instruments across multiple markets
+    \item Smart order routing: direct orders to the market with the best combinations of liquidity and price.
+    \item Low Latency are necessary: latency refers to time lag between market data being released and a corresponding
+    trade being placed.
+\ee
+\subsection{Describe the use of technology in risk management and regulatory oversight.}
+The Use of Technology in Risk Management
+\be
+    \item Real-time pre-trade firewall: i)continuously calculate risk exposures, block those trades that
+    would exceed the limits, block erroneous trades.
+    \item Back testing and market simulation: test algorithms under various offline scenarios.
+\ee
+The use of Technology in Regulation oversight
+\be
+    \item Regulatory Oversight: Real-Time Market Monitoring and Surveillance. Use the same tool to monitor the market.
+    \\ - Insider trading
+    \\ - Front running: trader has knowledge of large orders. Obtain profit from the price movement.
+    \\ - Painting the tape: buy a small quantities of securities to drive up the price, and then sell.
+    \\ - Fictious orders:
+        \\ -- Quote stuffing: injects many orders and cancel them immediately.
+        \\ -- Layering: place genuine orders on one side of the market but also put false orders 
+        \\ -- Spoofing: place orders between the bid and ask price and cancel them before they execute. 
+        They are intended to create false pessimism/optimism about the security and move the market price.
+    \\ - Wash trading: buy/sell same securities repeatedly to create false trading volume.
+    \\ - Trader collusion: Multiple traders sway markets togethers.
+\ee
+\subsection{Describe issues and concerns related to the impact of algorithmic and high-frequency
+trading on securities markets.}
+Postive Impacts of Algorithmic and High-Frequency Trading
+\be
+    \item Facilitates large trades
+    \item Increased liquidity
+    \item Lower costs
+    \item Tigher bid-ask spreads
+    \item Improved pricing efficiency
+    \item Promotes open and competitive markets
+    \item Increased competition between trading venues
+\ee
+Concerns Regarding the Impacts of Algorithmic and High-Frequency Trading
+\be
+    \item Unfair speed advantanges
+    \item Magnification of market movements
+    \item Market manipulation
+    \item Risk of trading errors
+    \item Out-of-control algorithms
+    \item Denial-of-service
+    \item Slowed markets due to excessive orders
+    \item Increased difficulty of policing the market
+    \item Unequal access to information
+\ee
 \end{document}
 
 
